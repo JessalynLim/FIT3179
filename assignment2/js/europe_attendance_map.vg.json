@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 500,
+    "title": "Leg 1: Europe",
+    "view": {
+        "stroke": "transparent"
+    },
+    "layer": [
+        {
+            "data": {
+            "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/europe_countries.json",
+            "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+            },
+            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"}
+        },
+        {
+            "data": {
+            "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/europe_cities.json",
+            "format": {"type": "topojson", "feature": "ne_110m_populated_places"}
+            },
+            "mark": {"type": "circle", "color": "black"}
+        },
+        {
+            "data": {
+              "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/europe_graticules.json",
+              "format": {"type": "topojson", "feature": "ne_110m_graticules_15"}
+            },
+            "mark": {"type": "geoshape", "fill": null, "stroke": "lightgrey"}
+          },
+        {
+            "data": {
+            "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/data/tour_data.csv"
+            },
+            "transform": [{
+                "filter":{
+                    "field": "Leg",
+                        "equal": "Europe"
+                    }
+                },{
+                    "calculate": "datum.Revenue/datum['Number of shows']", "as": "Revenue_per_show"
+                }
+            ],
+            "mark": {
+                "type": "circle", 
+                "color": "red"
+            },
+            "encoding": {
+            "longitude": {"field": "Longitude", "type": "quantitative"},
+            "latitude": {"field": "Latitude", "type": "quantitative"},
+            "size": {
+                "field": "Revenue_per_show",
+                "type": "quantitative",
+                "title": "Revenue per show"
+            }, 
+            "tooltip": [
+                {"field": "City", "type": "nominal"},
+                {"field": "Country", "type": "nominal"},
+                {"field": "Venue", "type": "nominal"},
+                {"field": "Revenue_per_show", "type": "quantitative", "format": "$,", "title": "Revenue per show"},
+                {"field": "Revenue", "type": "quantitative", "format": "$,"},
+                {"field": "Number of shows", "type": "quantitative"}
+            ]
+            }
+        }
+    ]
+  }
