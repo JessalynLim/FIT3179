@@ -36,19 +36,19 @@
             "data": {
             "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/homework3/data/tour_data.csv"
             },
-            "transform": [
-                {
-                    "filter":
-                    {
-                        "field": "Leg",
+            "transform": [{
+                "filter":{
+                    "field": "Leg",
                         "equal": "Oceania"
                     }
-                },
-                {
+                },{
                     "calculate": "datum.Revenue/datum['Number of shows']", "as": "Revenue_per_show"
                 }
             ],
-            "mark": {"type": "circle", "color": "red", "tooltip": {"content": "data"}},
+            "mark": {
+                "type": "circle", 
+                "color": "red"
+            },
             "encoding": {
             "longitude": {"field": "Longitude", "type": "quantitative"},
             "latitude": {"field": "Latitude", "type": "quantitative"},
@@ -56,7 +56,15 @@
                 "field": "Revenue_per_show",
                 "type": "quantitative",
                 "title": "Revenue per show"
-            }
+            }, 
+            "tooltip": [
+                {"field": "City", "type": "nominal"},
+                {"field": "Country", "type": "nominal"},
+                {"field": "Venue", "type": "nominal"},
+                {"field": "Revenue_per_show", "type": "quantitative", "format": "$,", "title": "Revenue per show"},
+                {"field": "Revenue", "type": "quantitative", "format": "$,"},
+                {"field": "Number of shows", "type": "quantitative"}
+            ]
             }
         }
     ]
