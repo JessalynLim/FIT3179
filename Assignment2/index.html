@@ -13,12 +13,12 @@
 </head>
 <body>
   
-<div id="symbol_map"></div>
+<div id="oceania_map"></div>
 
 <script type="text/javascript">
 
-  var spec2 = "js/oceania_attendace_map.vg.json";
-  vegaEmbed('#symbol_map', spec2).then(function(result) {
+  var spec2 = "js/oceania_attendance_map.vg.json";
+  vegaEmbed('#oceania_map', spec2, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
