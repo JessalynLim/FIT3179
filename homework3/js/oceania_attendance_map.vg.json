@@ -63,7 +63,7 @@
                     "field": "Revenue_per_show",
                     "type": "quantitative",
                     "title": "Revenue per show",
-                    "legend": {"orient": "left"}
+                    "legend": {"orient": "right"}
                 }, 
                 "tooltip": 
                 [
