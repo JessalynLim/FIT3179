@@ -16,13 +16,6 @@
         },
         {
             "data": {
-            "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/europe_cities.json",
-            "format": {"type": "topojson", "feature": "ne_110m_populated_places"}
-            },
-            "mark": {"type": "circle", "color": "black"}
-        },
-        {
-            "data": {
               "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/europe_graticules.json",
               "format": {"type": "topojson", "feature": "ne_110m_graticules_15"}
             },
@@ -51,13 +44,16 @@
             "size": {
                 "field": "Revenue_per_show",
                 "type": "quantitative",
-                "title": "Revenue per show"
+                "title": "Revenue per show",
+                "legend": {
+                    "orient": "left"
+                }
             }, 
             "tooltip": [
                 {"field": "City", "type": "nominal"},
                 {"field": "Country", "type": "nominal"},
                 {"field": "Venue", "type": "nominal"},
-                {"field": "Revenue_per_show", "type": "quantitative", "format": "$,", "title": "Revenue per show"},
+                {"field": "Revenue_per_show", "type": "quantitative", "format": "$,.0f", "title": "Revenue per show"},
                 {"field": "Revenue", "type": "quantitative", "format": "$,"},
                 {"field": "Number of shows", "type": "quantitative"}
             ]

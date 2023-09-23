@@ -51,13 +51,14 @@
             "size": {
                 "field": "Revenue_per_show",
                 "type": "quantitative",
-                "title": "Revenue per show"
+                "title": "Revenue per show",
+                "legend": null
             }, 
             "tooltip": [
                 {"field": "City", "type": "nominal"},
                 {"field": "Country", "type": "nominal"},
                 {"field": "Venue", "type": "nominal"},
-                {"field": "Revenue_per_show", "type": "quantitative", "format": "$,", "title": "Revenue per show"},
+                {"field": "Revenue_per_show", "type": "quantitative", "format": "$,.0f", "title": "Revenue per show"},
                 {"field": "Revenue", "type": "quantitative", "format": "$,"},
                 {"field": "Number of shows", "type": "quantitative"}
             ]
