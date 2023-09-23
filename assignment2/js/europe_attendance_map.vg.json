@@ -12,7 +12,8 @@
                 "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/europe_countries.json",
                 "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
             },
-            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"}
+            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"},
+            "projection": {"type": "conicEqualArea", "center": [-7, 4], "rotate": [-23, -46, 12]}
         },
         {
             "data": 

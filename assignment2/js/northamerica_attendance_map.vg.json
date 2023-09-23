@@ -3,7 +3,7 @@
     "width": 800,
     "height": 500,
     "title": "Leg 3: North America",
-    "view": {"stroke": "transparent"    },
+    "view": {"stroke": "transparent"},
     "layer": [
         {
             "data": 
@@ -11,7 +11,8 @@
                 "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/northamerica_countries.json",
                 "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
             },
-            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"}
+            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"},
+            "projection": {"type": "albersUsa"}
         },
         {
             "data": 

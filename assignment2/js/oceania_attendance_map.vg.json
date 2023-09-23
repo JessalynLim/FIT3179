@@ -12,7 +12,8 @@
                 "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/oceania_countries.json",
                 "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
             },
-            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"}
+            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"},
+            "projection": {"type": "conicEqualArea", "center": [-6, 4], "rotate": [-155, 33, 0]}
         },
         {
             "data": 
