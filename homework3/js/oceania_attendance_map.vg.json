@@ -67,7 +67,8 @@
                     "scale": 
                     {
                         "type": "threshold",
-                        "domain": [7500000, 25000000]
+                        "domain": [7500000, 25000000],
+                        "range": [100, 300, 500]
                     }
                 }, 
                 "tooltip": 
