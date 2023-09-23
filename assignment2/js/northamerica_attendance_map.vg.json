@@ -8,7 +8,7 @@
         {
             "data": 
             {
-                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/northamerica_countries.json",
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/northamerica_countries.json",
                 "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
             },
             "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"}
@@ -16,7 +16,7 @@
         {
             "data": 
             {
-                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/northamerica_states.json",
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/northamerica_states.json",
                 "format": {"type": "topojson", "feature": "ne_110m_admin_1_states_provinces"}
             },
             "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"}
@@ -24,7 +24,7 @@
         {
             "data": 
             {
-              "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/Assignment2/js/northamerica_graticules.json",
+              "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/northamerica_graticules.json",
               "format": {"type": "topojson", "feature": "ne_110m_graticules_15"}
             },
             "mark": {"type": "geoshape", "fill": null, "stroke": "lightgrey"}
@@ -32,7 +32,7 @@
         {
             "data": 
             {
-                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/homework3/data/tour_data.csv"
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data.csv"
             },
             "transform": 
             [
