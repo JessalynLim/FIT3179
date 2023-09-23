@@ -63,7 +63,12 @@
                     "field": "Revenue_per_show",
                     "type": "quantitative",
                     "title": "Revenue per show",
-                    "legend": {"orient": "right"}
+                    "legend": {"orient": "right"},
+                    "scale": 
+                    {
+                        "type": "threshold",
+                        "domain": [7500000, 25000000]
+                    }
                 }, 
                 "tooltip": 
                 [
