@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Body Mass of Penguin Species (g)",
+    "data": {
+      "values": [
+        {
+          "Species": "Adelie",
+  
+          "outliers": []
+        },
+        {
+          "Species": "Chinstrap",
+          "outliers": [2700, 4800]
+        },
+        {
+          "Species": "Gentoo",
+          "outliers": []
+        }
+      ]
+    },
+    "encoding": {"y": {"field": "Species", "type": "nominal", "title": null}},
+    "layer": [
+  
+      {
+        "transform": [{"flatten": ["outliers"]}],
+        "mark": {"type": "point", "shape": "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z"},
+        "encoding": {
+          "x": {"field": "outliers", "type": "quantitative"}}
+      }
+    ]
+  }
