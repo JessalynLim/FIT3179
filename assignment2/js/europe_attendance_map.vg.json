@@ -26,7 +26,7 @@
         {
             "data": 
             {
-                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data.csv"
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_location.csv"
             },
             "transform": 
             [
