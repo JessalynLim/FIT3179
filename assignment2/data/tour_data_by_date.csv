@@ -1,86 +1,86 @@
-Date,City,Country,Venue,Opening_Act_1,Opening_Act_2,Opening_Act_3,Attendance,Capacity, Revenue 
-23 April 2022,Dublin,Ireland,Croke Park,Maisie Peters,Denise Chaila,,140487.00,151045.00,12417796
-24 April 2022,Dublin,Ireland,Croke Park,Maisie Peters,Denise Chaila,,140487.00,151045.00,12417796
-28 April 2022,Cork,Ireland,Páirc Uí Chaoimh,Maisie Peters,Denise Chaila,,68697.00,78645.00,5846380
-29 April 2022,Cork,Ireland,Páirc Uí Chaoimh,Maisie Peters,Denise Chaila,,68697.00,78645.00,5846380
-5 May 2022,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780.00,63234.00,5199401
-6 May 2022,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780.00,63234.00,5199401
-12 May 2022,Belfast,Ireland,Boucher Road Playing Fields,Maisie Peters,Denise Chaila,,73519.00,80604.00,6335895
-13 May 2022,Belfast,Ireland,Boucher Road Playing Fields,Maisie Peters,Denise Chaila,,73519.00,80604.00,6335895
-26 May 2022,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490.00,236082.00,14955621
-27 May 2022,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490.00,236082.00,14955621
-28 May 2022,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490.00,236082.00,14955621
-3 June 2022,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641.00,114311.00,8892176
-4 June 2022,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641.00,114311.00,8892176
-9 June 2022,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639.00,218639.00,18049095
-10 June 2022,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639.00,218639.00,18049095
-11 June 2022,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639.00,218639.00,18049095
-12 June 2022,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639.00,218639.00,18049095
-16 June 2022,Glasgow,Scotland,Hampden Park,Maisie Peters,Dylan,,93344.00,109713.00,7486863
-17 June 2022,Glasgow,Scotland,Hampden Park,Maisie Peters,Dylan,,93344.00,109713.00,7486863
-24 June 2022,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269.00,460165.00,37325883
-25 June 2022,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269.00,460165.00,37325883
-29 June 2022,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269.00,460165.00,37325883
-30 June 2022,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269.00,460165.00,37325883
-1 July 2022,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269.00,460165.00,37325883
-7 July 2022,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476.00,193055.00,13726449
-8 July 2022,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476.00,193055.00,13726449
-9 July 2022,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476.00,193055.00,13726449
-14 July 2022,Amsterdam,Netherlands,Johan Cruyff Arena,Maisie Peters,Cat Burns,,134119.00,134119.00,8638213
-15 July 2022,Amsterdam,Netherlands,Johan Cruyff Arena,Maisie Peters,Cat Burns,,134119.00,134119.00,8638213
-22 July 2022,Brussels,Belgium,King Baudouin Stadium,Maisie Peters,Cat Burns,Dylan,104473.00,127999.00,8273105
-23 July 2022,Brussels,Belgium,King Baudouin Stadium,Maisie Peters,Cat Burns,Dylan,104473.00,127999.00,8273105
-29 July 2022,Saint-Denis,France,Stade de France,Maisie Peters,Cat Burns,,166764.00,166764.00,10767404
-30 July 2022,Saint-Denis,France,Stade de France,Maisie Peters,Cat Burns,,166764.00,166764.00,10767404
-3 August 2022,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818.00,158819.00,14192005
-4 August 2022,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818.00,158819.00,14192005
-5 August 2022,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818.00,158819.00,14192005
-6 August 2022,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Dylan,,156818.00,158819.00,14192005
-10 August 2022,Gothenburg,Sweden,Ullevi,Maisie Peters,Cat Burns,,120283.00,129350.00,9513270
-11 August 2022,Gothenburg,Sweden,Ullevi,Maisie Peters,Cat Burns,,120283.00,129350.00,9513270
-20 August 2022,Helsinki,Finland,Helsinki Olympic Stadium,Maisie Peters,Cat Burns,,46667.00,46667.00,4229589
-25 August 2022,Warsaw,Poland,PGE Narodowy,Maisie Peters,Cat Burns,,146340.00,146340.00,9056295
-26 August 2022,Warsaw,Poland,PGE Narodowy,Maisie Peters,Cat Burns,,146340.00,146340.00,9056295
-1 September 2022,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800.00,130598.00,9412514
-2 September 2022,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800.00,130598.00,9412514
-10 September 2022,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184.00,215031.00,15689903
-11 September 2022,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184.00,215031.00,15689903
-12 September 2022,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184.00,215031.00,15689903
-16 September 2022,Zürich,Switzerland,Letzigrund,Griff,Cat Burns,,95840.00,96739.00,12200837
-17 September 2022,Zürich,Switzerland,Letzigrund,Griff,Cat Burns,,95840.00,96739.00,12200837
-23 September 2022,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856.00,184201.00,13452253
-24 September 2022,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856.00,184201.00,13452253
-25 September 2022,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856.00,184201.00,13452253
-2 February 2023,Wellington,New Zealand,Sky Stadium,Maisie Peters,Kaylee Bell,,47260.00,47260.00,5024421
-10 February 2023,Auckland,New Zealand,Eden Park,Maisie Peters,Kaylee Bell,,83574.00,83574.00,7461871
-11 February 2023,Auckland,New Zealand,Eden Park,Maisie Peters,Kaylee Bell,,83574.00,83574.00,7461871
-17 February 2023,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894.00,172894.00,19213071
-18 February 2023,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894.00,172894.00,19213071
-19 February 2023,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894.00,172894.00,19213071
-24 February 2023,Sydney,Australia,Accor Stadium,Maisie Peters,Budjerah,,171699.00,171699.00,18936619
-25 February 2023,Sydney,Australia,Accor Stadium,Maisie Peters,Budjerah,,171699.00,171699.00,18936619
-2 March 2023,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857.00,210857.00,20871850
-3 March 2023,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857.00,210857.00,20871850
-7 March 2023,Adelaide,Australia,Adelaide Oval,Maisie Peters,Budjerah,,59708.00,59708.00,6665766
-12 March 2023,Perth,Australia,Optus Stadium,Maisie Peters,Budjerah,,59980.00,59980.00,7051018
-6 May 2023,Arlington,United States,AT&T Stadium,Khalid,Dylan,,59265.00,59265.00,5733414
-13 May 2023,Houston,United States,NRG Stadium,Khalid,Dylan,,58183.00,58183.00,5321684
-20 May 2023,Tampa,United States,Raymond James Stadium,Khalid,Dylan,,77891.00,77891.00,7759215
-27 May 2023,Atlanta,United States,Mercedes-Benz Stadium,Khalid,Dylan,,76335.00,76335.00,7100499
-3 June 2023,Philadelphia,United States,Lincoln Financial Field,Khalid,Dylan,,77900.00,77900.00,7767923
-10 June 2023,East Rutherford,United States,MetLife Stadium,Khalid,Dylan,,173390.00,173390.00,18007052
-11 June 2023,East Rutherford,United States,MetLife Stadium,Khalid,Dylan,,173390.00,173390.00,18007052
-17 June 2023,Toronto,Canada,Rogers Centre,Khalid,Rosa Linn,,93683.00,93683.00,9906436
-18 June 2023,Toronto,Canada,Rogers Centre,Khalid,Rosa Linn,,93683.00,93683.00,9906436
-24 June 2023,Landover,United States,FedExField,Ed Sheeran,Rosa Linn,,62270.00,62270.00,6002528
-30 June 2023,Foxborough,United States,Gillette Stadium,Rosa Linn,John Mayer,,143442.00,143442.00,13551095
-1 July 2023,Foxborough,United States,Gillette Stadium,Rosa Linn,John Mayer,,143442.00,143442.00,13551095
-8 July 2023,Pittsburgh,United States,Acrisure Stadium,Rosa Linn,Khalid,,67829.00,67829.00,5823055
-15 July 2023,Detroit,United States,Ford Field,Rosa Linn,Khalid,,70372.00,70372.00,7126417
-22 July 2023,Nashville,United States,Nissan Stadium,Khalid,Cat Burns,,73874.00,73874.00,6227586
-29 July 2023,Chicago,United States,Soldier Field,Khalid,Cat Burns,,73015.00,73015.00,8054888
-5 August 2023,Kansas City,United States,GEHA Field at Arrowhead Stadium,Khalid,Cat Burns,,70352.00,70352.00,5122007
-12 August 2023,Minneapolis,United States,U.S. Bank Stadium,Khalid,Cat Burns,,72102.00,72102.00,6714462
-19 August 2023,Denver,United States,Empower Field at Mile High,Khalid,Cat Burns,,79680.00,79680.00,8560475
-26 August 2023,Seattle,United States,Lumen Field,Khalid,Maisie Peters,,77286.00,77286.00,7942459
-2 September 2023,Vancouver,Canada,BC Place,Khalid,Maisie Peters,,65061.00,65061.00,6597928
+Date,City,Country,Venue,Opening_Act_1,Opening_Act_2,Opening_Act_3,Attendance,Capacity,Revenue 
+23-Apr-22,Dublin,Ireland,Croke Park,Maisie Peters,Denise Chaila,,140487,151045,12417796
+24-Apr-22,Dublin,Ireland,Croke Park,Maisie Peters,Denise Chaila,,140487,151045,12417796
+28-Apr-22,Cork,Ireland,Páirc Uí Chaoimh,Maisie Peters,Denise Chaila,,68697,78645,5846380
+29-Apr-22,Cork,Ireland,Páirc Uí Chaoimh,Maisie Peters,Denise Chaila,,68697,78645,5846380
+5-May-22,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780,63234,5199401
+6-May-22,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780,63234,5199401
+12-May-22,Belfast,Ireland,Boucher Road Playing Fields,Maisie Peters,Denise Chaila,,73519,80604,6335895
+13-May-22,Belfast,Ireland,Boucher Road Playing Fields,Maisie Peters,Denise Chaila,,73519,80604,6335895
+26-May-22,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490,236082,14955621
+27-May-22,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490,236082,14955621
+28-May-22,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490,236082,14955621
+3-Jun-22,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641,114311,8892176
+4-Jun-22,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641,114311,8892176
+9-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095
+10-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095
+11-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095
+12-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095
+16-Jun-22,Glasgow,Scotland,Hampden Park,Maisie Peters,Dylan,,93344,109713,7486863
+17-Jun-22,Glasgow,Scotland,Hampden Park,Maisie Peters,Dylan,,93344,109713,7486863
+24-Jun-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883
+25-Jun-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883
+29-Jun-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883
+30-Jun-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883
+1-Jul-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883
+7-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449
+8-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449
+9-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449
+14-Jul-22,Amsterdam,Netherlands,Johan Cruyff Arena,Maisie Peters,Cat Burns,,134119,134119,8638213
+15-Jul-22,Amsterdam,Netherlands,Johan Cruyff Arena,Maisie Peters,Cat Burns,,134119,134119,8638213
+22-Jul-22,Brussels,Belgium,King Baudouin Stadium,Maisie Peters,Cat Burns,Dylan,104473,127999,8273105
+23-Jul-22,Brussels,Belgium,King Baudouin Stadium,Maisie Peters,Cat Burns,Dylan,104473,127999,8273105
+29-Jul-22,Saint-Denis,France,Stade de France,Maisie Peters,Cat Burns,,166764,166764,10767404
+30-Jul-22,Saint-Denis,France,Stade de France,Maisie Peters,Cat Burns,,166764,166764,10767404
+3-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005
+4-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005
+5-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005
+6-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Dylan,,156818,158819,14192005
+10-Aug-22,Gothenburg,Sweden,Ullevi,Maisie Peters,Cat Burns,,120283,129350,9513270
+11-Aug-22,Gothenburg,Sweden,Ullevi,Maisie Peters,Cat Burns,,120283,129350,9513270
+20-Aug-22,Helsinki,Finland,Helsinki Olympic Stadium,Maisie Peters,Cat Burns,,46667,46667,4229589
+25-Aug-22,Warsaw,Poland,PGE Narodowy,Maisie Peters,Cat Burns,,146340,146340,9056295
+26-Aug-22,Warsaw,Poland,PGE Narodowy,Maisie Peters,Cat Burns,,146340,146340,9056295
+1-Sep-22,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800,130598,9412514
+2-Sep-22,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800,130598,9412514
+10-Sep-22,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184,215031,15689903
+11-Sep-22,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184,215031,15689903
+12-Sep-22,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184,215031,15689903
+16-Sep-22,Zürich,Switzerland,Letzigrund,Griff,Cat Burns,,95840,96739,12200837
+17-Sep-22,Zürich,Switzerland,Letzigrund,Griff,Cat Burns,,95840,96739,12200837
+23-Sep-22,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856,184201,13452253
+24-Sep-22,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856,184201,13452253
+25-Sep-22,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856,184201,13452253
+2-Feb-23,Wellington,New Zealand,Sky Stadium,Maisie Peters,Kaylee Bell,,47260,47260,5024421
+10-Feb-23,Auckland,New Zealand,Eden Park,Maisie Peters,Kaylee Bell,,83574,83574,7461871
+11-Feb-23,Auckland,New Zealand,Eden Park,Maisie Peters,Kaylee Bell,,83574,83574,7461871
+17-Feb-23,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894,172894,19213071
+18-Feb-23,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894,172894,19213071
+19-Feb-23,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894,172894,19213071
+24-Feb-23,Sydney,Australia,Accor Stadium,Maisie Peters,Budjerah,,171699,171699,18936619
+25-Feb-23,Sydney,Australia,Accor Stadium,Maisie Peters,Budjerah,,171699,171699,18936619
+2-Mar-23,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857,210857,20871850
+3-Mar-23,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857,210857,20871850
+7-Mar-23,Adelaide,Australia,Adelaide Oval,Maisie Peters,Budjerah,,59708,59708,6665766
+12-Mar-23,Perth,Australia,Optus Stadium,Maisie Peters,Budjerah,,59980,59980,7051018
+6-May-23,Arlington,United States,AT&T Stadium,Khalid,Dylan,,59265,59265,5733414
+13-May-23,Houston,United States,NRG Stadium,Khalid,Dylan,,58183,58183,5321684
+20-May-23,Tampa,United States,Raymond James Stadium,Khalid,Dylan,,77891,77891,7759215
+27-May-23,Atlanta,United States,Mercedes-Benz Stadium,Khalid,Dylan,,76335,76335,7100499
+3-Jun-23,Philadelphia,United States,Lincoln Financial Field,Khalid,Dylan,,77900,77900,7767923
+10-Jun-23,East Rutherford,United States,MetLife Stadium,Khalid,Dylan,,173390,173390,18007052
+11-Jun-23,East Rutherford,United States,MetLife Stadium,Khalid,Dylan,,173390,173390,18007052
+17-Jun-23,Toronto,Canada,Rogers Centre,Khalid,Rosa Linn,,93683,93683,9906436
+18-Jun-23,Toronto,Canada,Rogers Centre,Khalid,Rosa Linn,,93683,93683,9906436
+24-Jun-23,Landover,United States,FedExField,Ed Sheeran,Rosa Linn,,62270,62270,6002528
+30-Jun-23,Foxborough,United States,Gillette Stadium,Rosa Linn,John Mayer,,143442,143442,13551095
+1-Jul-23,Foxborough,United States,Gillette Stadium,Rosa Linn,John Mayer,,143442,143442,13551095
+8-Jul-23,Pittsburgh,United States,Acrisure Stadium,Rosa Linn,Khalid,,67829,67829,5823055
+15-Jul-23,Detroit,United States,Ford Field,Rosa Linn,Khalid,,70372,70372,7126417
+22-Jul-23,Nashville,United States,Nissan Stadium,Khalid,Cat Burns,,73874,73874,6227586
+29-Jul-23,Chicago,United States,Soldier Field,Khalid,Cat Burns,,73015,73015,8054888
+5-Aug-23,Kansas City,United States,GEHA Field at Arrowhead Stadium,Khalid,Cat Burns,,70352,70352,5122007
+12-Aug-23,Minneapolis,United States,U.S. Bank Stadium,Khalid,Cat Burns,,72102,72102,6714462
+19-Aug-23,Denver,United States,Empower Field at Mile High,Khalid,Cat Burns,,79680,79680,8560475
+26-Aug-23,Seattle,United States,Lumen Field,Khalid,Maisie Peters,,77286,77286,7942459
+2-Sep-23,Vancouver,Canada,BC Place,Khalid,Maisie Peters,,65061,65061,6597928
