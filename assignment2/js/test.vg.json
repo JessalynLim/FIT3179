@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-      "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_date.csv"
+      "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/6_advanced_examples/data/earthquake_lite.csv"
     },
     "vconcat": [
       {
@@ -89,6 +89,30 @@
       },
       {
         "width": "container",
+        "height": 60,
+        "mark": "line",
+        "title": "Use this line chart to filter out the data based on time",
+        "params": [
+          {
+            "name": "time_brush",
+            "select": {"type": "interval", "encodings": ["x"]}
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "time",
+            "timeUnit": "yearmonth",
+            "axis": {"title": "", "format": "%Y"}
+          },
+          "y": {
+            "aggregate": "count",
+            "axis": {"tickCount": 3, "grid": false},
+            "title": "Count"
+          }
+        }
+      },
+      {
+        "width": "container",
         "transform": [
           {
             "bin": {"step": 0.5, "extent": [5, 7]},
@@ -111,30 +135,6 @@
               "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#bd0026", "#7f0000"]
             },
             "legend": null
-          }
-        }
-      },
-      {
-        "width": "container",
-        "height": 60,
-        "mark": "line",
-        "title": "Use this line chart to filter out the data based on time",
-        "params": [
-          {
-            "name": "time_brush",
-            "select": {"type": "interval", "encodings": ["x"]}
-          }
-        ],
-        "encoding": {
-          "x": {
-            "field": "time",
-            "timeUnit": "yearmonth",
-            "axis": {"title": "", "format": "%Y"}
-          },
-          "y": {
-            "aggregate": "count",
-            "axis": {"tickCount": 3, "grid": false},
-            "title": "Count"
           }
         }
       }
