@@ -24,7 +24,7 @@ library("berryFunctions")
 tour_link <- bow("https://en.wikipedia.org/wiki/%2B%E2%80%93%3D%C3%B7%C3%97_Tour") %>% scrape()
 
 tour_data <- tour_link %>% 
-  html_nodes(xpath = '//*[@id="mw-content-text"]/div[1]/table[2]') %>% 
+  html_nodes(xpath = '//*[@id="mw-content-text"]/div[1]/table[3]') %>% 
   html_table() %>% 
   as.data.frame()
 
