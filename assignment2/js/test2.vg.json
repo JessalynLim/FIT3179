@@ -10,8 +10,36 @@
         "title": "Revenue over time",
         "mark": "line",
         "encoding": {
-            "x": {"field": "Date", "type": "temporal"},
-            "y": {"field": "Attendance", "type": "quantitative"}
+            "x": {"field": "Date", 
+            "type": "temporal", 
+            "timeUnit": "yearmonthdate",
+            "title": "Date",
+            "scale": {"domain": {"param": "time_brush"}}},
+            "y": {"field": "Revenue", "type": "quantitative"}
+        }
+      },
+      {
+        "width": "container",
+        "height": 60,
+        "mark": "line",
+        "title": "Use this line chart to filter out the data based on time",
+        "params": [
+          {
+            "name": "time_brush",
+            "select": {"type": "interval", "encodings": ["x"]}
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "Date",
+            "type": "temporal", 
+            "timeUnit": "yearmonthdate",
+            "title": "Date"
+        },
+          "y": {
+            "field": "Revenue",
+            "type": "quantitative"
+          }
         }
       }
     ],

@@ -6,16 +6,6 @@
     "vconcat": [
       {
         "width": "container",
-        "height": 400,
-        "title": "Revenue over time",
-        "mark": "line",
-        "encoding": {
-            "x": {"field": "Date", "type": "temporal"},
-            "y": {"field": "Revenue", "type": "quantitative"}
-        }
-      },
-      {
-        "width": "container",
         "height": 60,
         "mark": "line",
         "title": "Use this line chart to filter out the data based on time",
@@ -27,14 +17,41 @@
         ],
         "encoding": {
           "x": {
-            "field": "Date",
-            "timeUnit": "date",
+            "field": "time",
+            "timeUnit": "yearmonth",
             "axis": {"title": "", "format": "%Y"}
           },
           "y": {
             "aggregate": "count",
             "axis": {"tickCount": 3, "grid": false},
             "title": "Count"
+          }
+        }
+      },
+      {
+        "width": "container",
+        "transform": [
+          {
+            "bin": {"step": 0.5, "extent": [5, 7]},
+            "field": "mag",
+            "as": "magnitude"
+          }
+        ],
+        "mark": "area",
+        "encoding": {
+          "x": {
+            "field": "time",
+            "timeUnit": "yearmonth",
+            "scale": {"domain": {"param": "time_brush"}},
+            "axis": {"title": "", "tickCount": 5, "grid": false}
+          },
+          "y": {"aggregate": "count", "title": "Count of Earthquakes"},
+          "color": {
+            "field": "magnitude",
+            "scale": {
+              "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#bd0026", "#7f0000"]
+            },
+            "legend": null
           }
         }
       }
