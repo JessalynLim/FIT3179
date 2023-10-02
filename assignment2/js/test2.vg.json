@@ -1,19 +1,19 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_location.csv"
-    },
-    "vconcat": [
-      {
-        "width": "container",
-        "height": 400,
-        "title": "Revenue over time",
-        "mark": "line",
-        "encoding": {
-            "x": {"field": "Date", "type": "temporal"},
-            "y": {"field": "Attendance", "type": "quantitative"}
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_date.csv"
+  },
+  "vconcat": [
+    {
+      "width": "container",
+      "height": 400,
+      "title": "Revenue over time",
+      "mark": "line",
+      "encoding": {
+          "x": {"field": "Date", "type": "temporal"},
+          "y": {"field": "Revenue", "type": "quantitative"}
       }
-    ],
-    "config": {"title": {"font": "sans-serif", "fontSize": 14}}
-  }
+    }
+  ],
+  "config": {"title": {"font": "sans-serif", "fontSize": 14}}
+}
