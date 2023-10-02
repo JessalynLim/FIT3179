@@ -29,6 +29,7 @@
             "select": {"type": "interval", "encodings": ["x"]}
           }
         ],
+        
         "encoding": {
           "x": {
             "field": "Date",
@@ -45,3 +46,4 @@
   ],
   "config": {"title": {"font": "sans-serif", "fontSize": 14}}
 }
+
