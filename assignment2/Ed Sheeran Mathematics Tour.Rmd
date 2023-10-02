@@ -23,12 +23,22 @@ library("berryFunctions")
 ```{r}
 tour_link <- bow("https://en.wikipedia.org/wiki/%2B%E2%80%93%3D%C3%B7%C3%97_Tour") %>% scrape()
 
-tour_data <- tour_link %>% 
+tour_data_2022 <- tour_link %>% 
+  html_nodes(xpath = '//*[@id="mw-content-text"]/div[1]/table[2]') %>% 
+  html_table() %>% 
+  as.data.frame()
+
+colnames(tour_data_2022)[1] <- "Date"
+
+tour_data_2023 <- tour_link %>% 
   html_nodes(xpath = '//*[@id="mw-content-text"]/div[1]/table[3]') %>% 
   html_table() %>% 
   as.data.frame()
 
-tour_data <- tour_data %>% 
+colnames(tour_data_2023)[1] <- "Date"
+
+tour_data <- tour_data_2022 %>% 
+  bind_rows(tour_data_2023) %>% 
   separate(Attendance, c("Attendance", "Capacity"), " / ")
 
 write.csv(tour_data, "tour_data.csv", row.names = FALSE)
