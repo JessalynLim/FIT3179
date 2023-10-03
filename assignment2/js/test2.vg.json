@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-      "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_location.csv"
+      "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_date.csv"
     },
     "vconcat": [
       {
