@@ -1,0 +1,12 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 250,
+    "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_date.csv"},
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "Opening_Act_1"},
+      "y": {"aggregate": "count", "title": "Number of Concerts"}
+    }
+  }
+  

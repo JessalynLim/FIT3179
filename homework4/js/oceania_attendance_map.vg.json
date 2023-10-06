@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 500,
+    "title": "Leg 2: Oceania",
+    "view": {"stroke": "transparent"    },
+    "layer": 
+    [
+        {
+            "data": 
+            {
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/oceania_countries.json",
+                "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+            },
+            "mark": {"type": "geoshape", "fill": "darkgrey", "stroke": "white"},
+            "projection": {"type": "conicEqualArea", "center": [-6, 4], "rotate": [-155, 33, 0]}
+        },
+        {
+            "data": 
+            {
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/oceania_states.json",
+                "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+            },
+            "mark": {"type": "geoshape", "fill": null, "stroke": "white"}
+        },
+        {
+            "data": 
+            {
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/js/oceania_graticules.json",
+                "format": {"type": "topojson", "feature": "ne_110m_graticules_15"}
+            },
+            "mark": {"type": "geoshape", "fill": null, "stroke": "lightgrey"}
+        },
+        {
+            "data": 
+            {
+                "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_location.csv"
+            },
+            "transform": 
+            [
+                {
+                    "filter":
+                    {
+                        "field": "Leg",
+                        "equal": "Oceania"
+                    }
+                },
+                {
+                    "calculate": "datum.Revenue/datum['Number of shows']", "as": "Revenue_per_show"
+                }
+            ],
+            "mark": 
+            {
+                "type": "circle", 
+                "color": "red"
+            },
+            "encoding": 
+            {
+                "longitude": {"field": "Longitude", "type": "quantitative"},
+                "latitude": {"field": "Latitude", "type": "quantitative"},
+                "size": 
+                {
+                    "field": "Revenue_per_show",
+                    "type": "quantitative",
+                    "title": "Revenue per show",
+                    "legend": {"orient": "left"},
+                    "scale": 
+                    {
+                        "type": "threshold",
+                        "domain": [7000000, 10000000, 20000000, 25000000],
+                        "range": [50, 150, 300, 450, 600]
+                    }
+                }, 
+                "tooltip": 
+                [
+                    {"field": "City", "type": "nominal"},
+                    {"field": "Country", "type": "nominal"},
+                    {"field": "Venue", "type": "nominal"},
+                    {"field": "Revenue_per_show", "type": "quantitative", "format": "$,.0f", "title": "Revenue per show"},
+                    {"field": "Revenue", "type": "quantitative", "format": "$,"},
+                    {"field": "Number of shows", "type": "quantitative"}
+                ]
+            }
+        }
+    ]
+}
