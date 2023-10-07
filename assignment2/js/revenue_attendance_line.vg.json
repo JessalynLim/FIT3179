@@ -7,96 +7,99 @@
     {
       "hconcat": [
         {
-          "width": 300,
-          "height": 300,
-          "title": "Revenue over time",
-          "mark": "line",
-          "encoding": {
-            "x": {"field": "Date",
-            "type": "temporal",
-            "timeUnit": "yearmonthdate",
-            "title": "Date",
-            "scale": {"domain": {"param": "time_brush"}}},
-            "y": {"field": "Revenue", "type": "quantitative"}
-          }
-        },
-        {
-"transform": [
-          {
-            "fold": ["Attendance", "Capacity"], 
-            "as": ["Audience", "Amount"]
-          }
-        ],
-        "width": 300,
-        "height": 300,
-        "title": "Attendance & Capacity over time",
-        "mark": {"type": "line", "point": true},
-        "encoding": {
-            "x": {"field": "Date",
-            "type": "temporal",
-            "timeUnit": "yearmonthdate",
-            "title": "Date",
-            "scale": {"domain": {"param": "time_brush"}}},
-            "y": {"field": "Amount", "type": "quantitative", "title": "Number of People"},
-            "strokeDash": {"field": "Audience"},
-            "color": {"field": "Audience"}
+          "vconcat": [
+            {
+              "width": 300,
+              "height": 150,
+              "title": "Revenue",
+              "mark": {"type": "line", "point": true},
+              "encoding": {
+                "x": {"field": "Date",
+                "type": "temporal",
+                "timeUnit": "yearmonthdate",
+                "title": "Date",
+                "scale": {"domain": {"param": "time_brush"}}},
+                "y": {"field": "Revenue", "type": "quantitative"}
+              }
+            },
+                  {
+                "transform": [{
+                  "sort": [{"field": "Date"}],
+                  "window": [{"op": "sum", "field": "Revenue", "as": "Cumulative_Revenue"}],
+                  "frame": [null, 0]
+                }],
+              "width": 300,
+              "height": 150,
+              "title": "Cumulative Revenue",
+              "mark": {"type": "line", "point": true},
+              "encoding": {
+                  "x": {"field": "Date",
+                  "type": "temporal",
+                  "timeUnit": "yearmonthdate",
+                  "title": "Date",
+                  "scale": {"domain": {"param": "time_brush"}}},
+                  "y": {"field": "Cumulative_Revenue", "type": "quantitative", "title": "Cumulative Revenue"}
+              }
+            } 
+          ]
         }
-        }
-      ]
-    }
-    ,
-    {
-      "hconcat": [
+        ,
         {
-            "transform": [{
-              "sort": [{"field": "Date"}],
-              "window": [{"op": "sum", "field": "Revenue", "as": "Cumulative_Revenue"}],
-              "frame": [null, 0]
-            }],
-          "width": 300,
-          "height": 300,
-          "title": "Cumulative revenue over time",
-          "mark": "line",
-          "encoding": {
-              "x": {"field": "Date",
-              "type": "temporal",
-              "timeUnit": "yearmonthdate",
-              "title": "Date",
-              "scale": {"domain": {"param": "time_brush"}}},
-              "y": {"field": "Cumulative_Revenue", "type": "quantitative", "title": "Cumulative Revenue"}
-          }
-        },
-        {
-        "transform": [
-          {
-            "sort": [{"field": "Date"}],
-            "window": [{"op": "sum", "field": "Attendance", "as": "Cumulative Attendance"}],
-            "frame": [null, 0]
-          },
-          {
-            "sort": [{"field": "Date"}],
-            "window": [{"op": "sum", "field": "Capacity", "as": "Cumulative Capacity"}],
-            "frame": [null, 0]
-          },
-          {
-            "fold": ["Cumulative Attendance", "Cumulative Capacity"], 
-            "as": ["Audience", "Amount"]
-          }
-        ],
-        "width": 300,
-        "height": 300,
-        "title": "CumultativeAttendance & Capacity over time",
-        "mark": {"type": "line", "point": true},
-        "encoding": {
-            "x": {"field": "Date",
-            "type": "temporal",
-            "timeUnit": "yearmonthdate",
-            "title": "Date",
-            "scale": {"domain": {"param": "time_brush"}}},
-            "y": {"field": "Amount", "type": "quantitative", "title": "Number of People"},
-            "strokeDash": {"field": "Audience"},
-            "color": {"field": "Audience"}
-        }
+          "vconcat": [
+            {
+    "transform": [
+              {
+                "fold": ["Attendance", "Capacity"], 
+                "as": ["Audience", "Amount"]
+              }
+            ],
+            "width": 300,
+            "height": 150,
+            "title": "Attendance & Capacity",
+            "mark": {"type": "line", "point": true},
+            "encoding": {
+                "x": {"field": "Date",
+                "type": "temporal",
+                "timeUnit": "yearmonthdate",
+                "title": "Date",
+                "scale": {"domain": {"param": "time_brush"}}},
+                "y": {"field": "Amount", "type": "quantitative", "title": "Number of People"},
+                "color": {"field": "Audience"}
+            }
+            },
+            {
+            "transform": [
+              {
+                "sort": [{"field": "Date"}],
+                "window": [{"op": "sum", "field": "Attendance", "as": "Cumulative Attendance"}],
+                "frame": [null, 0]
+              },
+              {
+                "sort": [{"field": "Date"}],
+                "window": [{"op": "sum", "field": "Capacity", "as": "Cumulative Capacity"}],
+                "frame": [null, 0]
+              },
+              {
+                "fold": ["Cumulative Attendance", "Cumulative Capacity"], 
+                "as": ["Audience", "Amount"]
+              }
+            ],
+            "width": 300,
+            "height": 150,
+            "title": "Cumultative Attendance & Capacity",
+            "mark": {"type": "line", "point": true},
+            "encoding": {
+                "x": {"field": "Date",
+                "type": "temporal",
+                "timeUnit": "yearmonthdate",
+                "title": "Date",
+                "scale": {"domain": {"param": "time_brush"}}},
+                "y": {"field": "Amount", "type": "quantitative", "title": "Number of People"},
+                "color": {"field": "Audience"}
+            }
+            }
+          ],
+          "resolve": {"scale": {"color": "independent"}}
         }
       ]
     }
@@ -104,29 +107,23 @@
     {
       "width": 700,
       "height": 60,
-      "mark": "line",
-      "title": "Use this line chart to filter out the data based on time",
+      "mark": "bar",
+      "title": "Use this chart to filter the concerts based on time.",
       "params": [
         {
           "name": "time_brush",
           "select": {"type": "interval", "encodings": ["x"]}
         }
       ],
-
       "encoding": {
         "x": {
           "field": "Date",
           "type": "temporal",
           "timeUnit": "yearmonthdate",
           "title": "Date"
-      },
-        "y": {
-          "field": "Revenue",
-          "type": "quantitative"
-        }
+      }
       }
     }
   ],
-  "config": {"title": {"font": "sans-serif", "fontSize": 14}},
-  "resolve": {"scale": {"color": "independent"}}
+  "config": {"title": {"font": "sans-serif", "fontSize": 14}}
 }
