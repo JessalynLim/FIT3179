@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_location.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [{
+       "op": "sum",
+       "field": "Capacity",
+       "as": "Total_Capacity"
+      },
+      {
+        "op": "sum",
+        "field": "Attendance",
+        "as": "Total_Attendance"
+       }],
+      "groupby": ["Leg"]
+    },
+    {"calculate": "datum.Total_Capacity - datum.Total_Attendance", "as": "Difference"},
+    {"fold": ["Total_Capacity", "Difference"]},
+    {"calculate": "datum.Total_Attendance / datum.Total_Capacity", "as": "Proportion"},
+    {"filter": {"field": "Leg", "equal": "North America"}}
+  ],
+      "width": 245,
+      "height": 250,
+      "title": "North America",
+      "layer": [{
+        "mark": {"type": "arc", "innerRadius": 50},
+        "encoding": {
+          "theta": {"field": "value", "type": "quantitative"},
+          "color": {"field": "key", "type": "nominal", "legend": null},
+          "order": {"field": "value", "type": "quantitative", "sort": "descending"}
+        }
+      },
+      {
+        "mark": {"type": "text"},
+        "encoding": {
+          "text": {"field": "Proportion", "type": "quantitative", "format": ".0%"}
+        }
+      }]
+}
