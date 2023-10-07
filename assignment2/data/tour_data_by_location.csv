@@ -1,6 +1,6 @@
-Date,City,Country,Venue,Opening act 1,Opening act 2,Opening act 3,Attendance,Capacity,Revenue,Number of shows,Leg,Latitude,Longitude
+Date,City,Country,Venue,Opening act 1,Opening act 2,Opening act 3,Attendance,Capacity,Revenue,Number_of_shows,Leg,Latitude,Longitude
 23-Apr-22,Dublin,Ireland,Croke Park,Maisie Peters,Denise Chaila,,320000,320000,24796308,2,Europe,53.3498,-6.2603
-28-Apr-22,Cork,Ireland,Páirc Uí Chaoimh,Maisie Peters,Denise Chaila,,160000,160000,11607966,2,Europe,51.8985,-8.4756
+28-Apr-22,Cork,Ireland,PÃ¡irc UÃ­ Chaoimh,Maisie Peters,Denise Chaila,,160000,160000,11607966,2,Europe,51.8985,-8.4756
 5-May-22,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,123560,126468,10420096,2,Europe,52.6638,-8.6267
 12-May-22,Belfast,Northern Ireland,Boucher Road Playing Fields,Maisie Peters,Denise Chaila,,147038,161208,12562702,2,Europe,54.5973,-5.9301
 26-May-22,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,556470,556470,45179265,3,Europe,51.4837,-3.1681
@@ -12,13 +12,13 @@ Date,City,Country,Venue,Opening act 1,Opening act 2,Opening act 3,Attendance,Cap
 14-Jul-22,Amsterdam,Netherlands,Johan Cruyff Arena,Maisie Peters,Cat Burns,,268238,268238,17222952,2,Europe,52.3676,4.9041
 22-Jul-22,Brussels,Belgium,King Baudouin Stadium,Maisie Peters,Cat Burns,Dylan,208946,255998,16546210,2,Europe,50.8476,4.3572
 29-Jul-22,Saint-Denis,France,Stade de France,Maisie Peters,Cat Burns,,333528,333528,21590648,2,Europe,48.9362,2.3574
-3-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,313636,317638,28351548,4,Europe,55.6761,12.5683
+3-Aug-22,Copenhagen,Denmark,Ã˜resundsparken,Maisie Peters,Cat Burns,,313636,317638,28351548,4,Europe,55.6761,12.5683
 10-Aug-22,Gothenburg,Sweden,Ullevi,Maisie Peters,Cat Burns,,240566,258700,19117804,2,Europe,57.7089,11.9746
 20-Aug-22,Helsinki,Finland,Helsinki Olympic Stadium,Maisie Peters,Cat Burns,,46667,46667,4229589,1,Europe,60.1699,24.9384
 25-Aug-22,Warsaw,Poland,PGE Narodowy,Maisie Peters,Cat Burns,,292680,292680,18112590,2,Europe,52.2297,21.0122
 1-Sep-22,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,249600,261198,18825028,2,Europe,48.2082,16.3738
 10-Sep-22,Munich,Germany,Olympiastadion,Griff,Cat Burns,,600552,645093,47069709,3,Europe,48.1351,11.582
-16-Sep-22,Zürich,Switzerland,Letzigrund,Griff,Cat Burns,,191680,193478,24401674,2,Europe,47.3769,8.5417
+16-Sep-22,ZÃ¼rich,Switzerland,Letzigrund,Griff,Cat Burns,,191680,193478,24401674,2,Europe,47.3769,8.5417
 23-Sep-22,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,548568,552603,40356759,3,Europe,50.1109,8.6821
 2-Feb-23,Wellington,New Zealand,Sky Stadium,Maisie Peters,Kaylee Bell,,47260,47260,5024421,1,Oceania,-41.2924,174.7787
 10-Feb-23,Auckland,New Zealand,Eden Park,Maisie Peters,Kaylee Bell,,167148,167148,14923742,2,Oceania,-36.4711,174.3488
