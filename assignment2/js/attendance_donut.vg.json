@@ -23,7 +23,7 @@
   ],
   "hconcat": [
     {
-      "width": 200,
+      "width": 225,
       "height": 250,
       "transform": [
         {"filter": {"field": "Leg", "equal": "Europe"}}
@@ -45,7 +45,7 @@
       }]
     },
     {
-      "width": 200,
+      "width": 225,
       "height": 250,
       "transform": [
         {"filter": {"field": "Leg", "equal": "Oceania"}}
@@ -67,7 +67,7 @@
       }]
     },
     {
-      "width": 200,
+      "width": 225,
       "height": 250,
       "transform": [
         {"filter": {"field": "Leg", "equal": "North America"}}

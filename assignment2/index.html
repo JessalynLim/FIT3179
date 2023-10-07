@@ -31,11 +31,21 @@
 
         <h1>Ed Sheeran +-÷=x (Mathematics) Tour</h1>
 
+        <h2>Overall Attendance</h2>
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="donut" class="vis-container"></div>
+            </div>
+        </div>
+        <!-- end pure grid group -->
+        <br>
+
         <h2>Time Series</h2>
         <!-- pure grid group -->
         <div class="pure-g">
             <div class="pure-u-1-1">
-                <div id="vis2" class="vis-container"></div>
+                <div id="line" class="vis-container"></div>
             </div>
         </div>
         <!-- end pure grid group -->
@@ -45,7 +55,7 @@
         <!-- pure grid group -->
         <div class="pure-g">
             <div class="pure-u-1-1">
-                <div id="vis3" class="vis-container"></div>
+                <div id="bar" class="vis-container"></div>
             </div>
         </div>
         <!-- end pure grid group -->
@@ -57,10 +67,13 @@
     <script type="text/javascript">
 
         var specVis2 = "js/revenue_attendance_line.vg.json";
-        vegaEmbed('#vis2', specVis2, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#line', specVis2, {"actions": false}).then(function(result) {}).catch(console.error);
 
         var specVis3 = "js/opening_acts_bar.vg.json";
-        vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#bar', specVis3, {"actions": false}).then(function(result) {}).catch(console.error);
+
+        var specVis4 = "js/attendance_donut.vg.json";
+        vegaEmbed('#donut', specVis4, {"actions": false}).then(function(result) {}).catch(console.error);
     </script>
 </body>
 
