@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "calculate": "datum.Revenue / datum.Number_of_shows", "as": "Revenue_per_show"
+                    "calculate": "datum.Revenue / datum.Number_of_shows", "as": "Revenue_per_concert"
                 }
             ],
             "mark": 
@@ -52,9 +52,9 @@
                 "latitude": {"field": "Latitude", "type": "quantitative"},
                 "size": 
                 {
-                    "field": "Revenue_per_show",
+                    "field": "Revenue_per_concert",
                     "type": "quantitative",
-                    "title": "Revenue per show",
+                    "title": "Revenue per concert",
                     "legend": {"orient": "left"},
                     "scale": 
                     {
@@ -68,9 +68,9 @@
                     {"field": "City", "type": "nominal"},
                     {"field": "Country", "type": "nominal"},
                     {"field": "Venue", "type": "nominal"},
-                    {"field": "Revenue_per_show", "type": "quantitative", "format": "$,.0f", "title": "Revenue per show"},
+                    {"field": "Revenue_per_concert", "type": "quantitative", "format": "$,.0f", "title": "Revenue per concert"},
                     {"field": "Revenue", "type": "quantitative", "format": "$,"},
-                    {"field": "Number of shows", "type": "quantitative"}
+                    {"field": "Number_of_shows", "type": "quantitative", "title": "Number of concerts"}
                 ]
             }
         }
