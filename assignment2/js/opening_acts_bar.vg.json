@@ -20,5 +20,6 @@
     "y": {"field": "Opening_Act", "title": "Artist"},
     "x": {"aggregate": "count", "title": "Number of Concerts"},
     "color": {"field": "Opening_Act_Num", "title": "Opener Order"}
-  }
+  },
+  "config": {"title": {"font": "sans-serif", "fontSize": 14}}
 }
