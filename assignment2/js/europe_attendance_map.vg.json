@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "calculate": "datum.Revenue/datum['Number of shows']", "as": "Revenue_per_show"
+                    "calculate": "datum.Revenue / datum.Number_of_shows", "as": "Revenue_per_show"
                 }
             ],
             "mark": 

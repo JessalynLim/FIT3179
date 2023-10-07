@@ -46,7 +46,7 @@
                     }
                 },
                 {
-                    "calculate": "datum.Revenue/datum['Number of shows']", "as": "Revenue_per_show"
+                    "calculate": "datum.Revenue / datum.Number_of_shows", "as": "Revenue_per_show"
                 }
             ],
             "mark": 
@@ -62,7 +62,7 @@
                 {
                     "field": "Revenue_per_show",
                     "type": "quantitative",
-                    "title": "Revenue per show",
+                    "title": "Revenue per concert",
                     "legend": {"orient": "left"},
                     "scale": 
                     {
