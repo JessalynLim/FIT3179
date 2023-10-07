@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 250,
+  "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_date.csv"},
+  "transform": [
+    {"calculate": "datum.Opening_Act_1", "as": "1"},
+    {"calculate": "datum.Opening_Act_2", "as": "2"},
+    {"calculate": "datum.Opening_Act_3", "as": "3"},
+    {
+      "fold": ["1", "2", "3"], 
+      "as": ["Opening_Act_Num", "Opening_Act"]
+    },
+    {
+      "filter": {"not": {"field": "Opening_Act", "equal": ""}}
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {"field": "Opening_Act", "title": "Artist"},
+    "x": {"aggregate": "count", "title": "Number of Concerts"},
+    "color": {"field": "Opening_Act_Num", "title": "Opener Order"}
+  }
+}
