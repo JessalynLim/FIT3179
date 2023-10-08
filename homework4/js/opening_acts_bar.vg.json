@@ -22,13 +22,8 @@
       "mark": "bar",
       "encoding": {
         "y": {"field": "Opening_Act", "title": "Artist", "type": "nominal"},
-        "x": {"aggregate": "count", "title": "Number of Concerts", "scale": {"padding": 20}, "type": "quantitative"},
-        "color": {"field": "Opening_Act_Num", "title": "Opener Order"},
-        "tooltip": [
-          {"field": "Opening_Act", "type": "nominal", "title": "Artist"},
-          {"field": "Opening_Act", "aggregate": "count", "title": "Number of Concerts"},
-          {"field": "Opening_Act_Num", "title": "Opening Act"}
-        ]
+        "x": {"aggregate": "count", "title": "Number of Concerts", "scale": {"domain": [0, 70]}, "type": "quantitative"},
+        "color": {"field": "Opening_Act_Num", "title": "Opener Order"}
       }
     },
     {
@@ -38,17 +33,31 @@
             {"op": "count", "field": "Opening_Act_1", "as": "Number of Concerts"}
           ],
           "groupby": ["Opening_Act_1"]
+        },
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Number of Concerts", "order": "descending"}]
+        },
+        {"filter": "datum.ranking == 1"},
+        {
+          "calculate": "'Most number of;concerts as 1st;opening act: ' + datum['Number of Concerts']",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw, ';')",
+          "as": "text_annotation"
         }
       ],
       "mark": {
         "type": "text",
-        "align": "right",
-        "dx": 60
+        "align": "left",
+        "dx": 55,
+        "dy": -10
       },
       "encoding": {
-        "x": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"},
-        "y": {"aggregate": {"argmax": "Number of Concerts"}, "field": "Opening_Act_1", "type": "nominal"},
-        "text": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"}
+        "x": {"field": "Number of Concerts", "type": "quantitative"},
+        "y": {"field": "Opening_Act_1", "type": "nominal"},
+        "text": {"field": "text_annotation"}
       }
     },
     {
@@ -58,17 +67,67 @@
             {"op": "count", "field": "Opening_Act_2", "as": "Number of Concerts"}
           ],
           "groupby": ["Opening_Act_2"]
+        },
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Number of Concerts", "order": "descending"}]
+        },
+        {"filter": "datum.ranking == 1"},
+        {
+          "calculate": "'Most number of;concerts as 2nd;opening act: ' + datum['Number of Concerts']",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw, ';')",
+          "as": "text_annotation"
         }
       ],
       "mark": {
         "type": "text",
-        "align": "right",
-        "dx": 20
+        "align": "left",
+        "dx": 15,
+        "dy": -10
       },
       "encoding": {
-        "x": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"},
-        "y": {"aggregate": {"argmax": "Number of Concerts"}, "field": "Opening_Act_2", "type": "nominal"},
-        "text": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"}
+        "x": {"field": "Number of Concerts", "type": "quantitative"},
+        "y": {"field": "Opening_Act_2", "type": "nominal"},
+        "text": {"field": "text_annotation"}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.Opening_Act_3 != ''"},
+        {
+          "aggregate": [
+            {"op": "count", "field": "Opening_Act_3", "as": "Number of Concerts"}
+          ],
+          "groupby": ["Opening_Act_3"]
+        },
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "Number of Concerts", "order": "descending"}]
+        },
+        
+        {"filter": "datum.ranking == 1"},
+        {
+          "calculate": "'Most number of;concerts as 3rd;opening act: ' + datum['Number of Concerts']",
+          "as": "text_annotation_raw"
+        },
+        {
+          "calculate": "split(datum.text_annotation_raw, ';')",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 255,
+        "dy": -10
+      },
+      "encoding": {
+        "x": {"field": "Number of Concerts", "type": "quantitative"},
+        "y": {"field": "Opening_Act_3", "type": "nominal"},
+        "text": {"field": "text_annotation"}
       }
     }
   ]   
