@@ -47,7 +47,16 @@
       "encoding": {
         "y": {"field": "Opening_Act", "title": "Artist", "type": "nominal"},
         "x": {"aggregate": "count", "title": "Number of Concerts", "scale": {"domain": [0, 70]}, "type": "quantitative"},
-        "color": {"field": "Opening_Act_Num", "title": "Opener Order"}
+        "color": {
+          "field": "Opening_Act_Num", 
+          "title": "Opener Order", 
+          "type": "ordinal", 
+          "scale": {"range": ["#03254c", "#187bcd", "#8fd3fe"]}},
+        "tooltip": [
+          {"field": "Opening_Act", "title": "Artist", "type": "nominal"},
+          {"field": "Opening_Act", "aggregate": "count", "title": "Number of Concerts per Opener Order"},
+          {"field": "Opening_Act_Num", "title": "Opener Order", "type": "ordinal"}
+        ]
       }
     },
     {
@@ -106,7 +115,7 @@
         },
         {"filter": "datum.ranking == 1"},
         {
-          "calculate": "'Most number of;concerts as 1st;opening act: ' + datum['Number of Concerts']",
+          "calculate": "'Most number of;concerts as 2nd;opening act: ' + datum['Number of Concerts']",
           "as": "text_annotation_raw"
         },
         {
@@ -144,7 +153,7 @@
         },
         {"filter": "datum.ranking == 1"},
         {
-          "calculate": "'Most number of;concerts as 1st;opening act: ' + datum['Number of Concerts']",
+          "calculate": "'Most number of;concerts as 3rd;opening act: ' + datum['Number of Concerts']",
           "as": "text_annotation_raw"
         },
         {
