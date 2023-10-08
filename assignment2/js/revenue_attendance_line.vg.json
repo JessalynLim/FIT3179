@@ -139,49 +139,25 @@
     {
       "width": 700,
       "height": 60,
-      "layer": [
-        {  
-          "mark": "bar",
-          "title": "Use this chart to filter the concerts based on time.",
-          "params": [
-            {
-              "name": "time_brush",
-              "select": {"type": "interval", "encodings": ["x"]}
-            }
-          ],
-          "encoding": {
-            "x": {
-              "field": "Date",
-              "type": "temporal",
-              "timeUnit": "yearmonthdate",
-              "title": "Date"
-            }
-          }
-        },
+      "mark": {"type": "bar", "color": "black"},
+      "title": "Use this chart to filter the concerts based on time.",
+      "params": [
         {
-          "transform": [
-            {"filter": "datum.Leg == 1"},
-            {
-              "window": [{"op": "rank", "as": "ranking"}],
-              "sort": [{"field": "Date", "order": "descending"}]
-            },
-            {"filter": "datum.ranking == 1"}
-          ],
-          "mark": {"type": "text",
-                     "dy": -10,
-                     "dx": 120},
-            "encoding": {
-                "text":{ "value": "Leg"},
-                "x": {
-                    "field": "Date",
-                    "type": "temporal",
-                    "timeUnit": "yearmonthdate"
-                },
-                "color": {"value": "black"},
-                "size": {"value": 20}
-            }
+          "name": "time_brush",
+          "select": {"type": "interval", "encodings": ["x"]}
         }
-      ]
+      ],
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "timeUnit": "yearmonthdate",
+          "title": "Date"
+        },
+        "tooltip": [
+          {"field": "Date", "timeUnit": "yearmonthdate", "title": "Date"}
+        ]
+      }
     }
   ],
   "config": {"title": {"font": "sans-serif", "fontSize": 14}}
