@@ -20,7 +20,7 @@
     {"calculate": "datum.Total_Capacity - datum.Total_Attendance", "as": "Difference"},
     {"fold": ["Total_Capacity", "Difference"]},
     {"calculate": "datum.Total_Attendance / datum.Total_Capacity", "as": "Proportion"},
-    {"filter": {"field": "Leg", "equal": "Europe"}}
+    {"filter": "datum.Leg == 'Europe'"}
   ],
       "width": 245,
       "height": 250,

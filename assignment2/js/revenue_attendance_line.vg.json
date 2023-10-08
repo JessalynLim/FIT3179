@@ -19,13 +19,20 @@
                 "timeUnit": "yearmonthdate",
                 "title": "Date",
                 "scale": {"domain": {"param": "time_brush"}}},
-                "y": {"field": "Revenue", "type": "quantitative"}
+                "y": {"field": "Revenue", "type": "quantitative"},
+                "tooltip": [
+                  {"field": "Date", "type": "temporal"},
+                  {"field": "Revenue", "type": "quantitative", "format": "$,"},
+                  {"field": "City", "type": "nominal"},
+                  {"field": "Country", "type": "nominal"},
+                  {"field": "Venue", "type": "nominal"}
+                ]
               }
             },
                   {
                 "transform": [{
                   "sort": [{"field": "Date"}],
-                  "window": [{"op": "sum", "field": "Revenue", "as": "Cumulative_Revenue"}],
+                  "window": [{"op": "sum", "field": "Revenue", "as": "Cumulative Revenue"}],
                   "frame": [null, 0]
                 }],
               "width": 300,
@@ -38,7 +45,15 @@
                   "timeUnit": "yearmonthdate",
                   "title": "Date",
                   "scale": {"domain": {"param": "time_brush"}}},
-                  "y": {"field": "Cumulative_Revenue", "type": "quantitative", "title": "Cumulative Revenue"}
+                  "y": {"field": "Cumulative Revenue", "type": "quantitative"},
+                  "tooltip": [
+                    {"field": "Date", "type": "temporal"},
+                    {"field": "Cumulative Revenue", "type": "quantitative", "format": "$,"},
+                    {"field": "Revenue", "type": "quantitative", "format": "$,"},
+                    {"field": "City", "type": "nominal"},
+                    {"field": "Country", "type": "nominal"},
+                    {"field": "Venue", "type": "nominal"}
+                  ]
               }
             } 
           ]
@@ -64,7 +79,15 @@
                 "title": "Date",
                 "scale": {"domain": {"param": "time_brush"}}},
                 "y": {"field": "Amount", "type": "quantitative", "title": "Number of People"},
-                "color": {"field": "Audience"}
+                "color": {"field": "Audience"},
+                "tooltip": [
+                  {"field": "Date", "type": "temporal"},
+                  {"field": "Attendance", "type": "quantitative", "format": ","},
+                  {"field": "Capacity", "type": "quantitative", "format": ","},
+                  {"field": "City", "type": "nominal"},
+                  {"field": "Country", "type": "nominal"},
+                  {"field": "Venue", "type": "nominal"}
+                ]
             }
             },
             {
@@ -95,34 +118,70 @@
                 "title": "Date",
                 "scale": {"domain": {"param": "time_brush"}}},
                 "y": {"field": "Amount", "type": "quantitative", "title": "Number of People"},
-                "color": {"field": "Audience"}
+                "color": {"field": "Audience"},
+                "tooltip": [
+                  {"field": "Date", "type": "temporal"},
+                  {"field": "Cumulative Attendance", "type": "quantitative", "format": ","},
+                  {"field": "Cumulative Capacity", "type": "quantitative", "format": ","},
+                  {"field": "Attendance", "type": "quantitative", "format": ","},
+                  {"field": "Capacity", "type": "quantitative", "format": ","},
+                  {"field": "City", "type": "nominal"},
+                  {"field": "Country", "type": "nominal"},
+                  {"field": "Venue", "type": "nominal"}
+                ]
             }
             }
           ],
           "resolve": {"scale": {"color": "independent"}}
         }
       ]
-    }
-    ,
+    },
     {
       "width": 700,
       "height": 60,
-      "mark": "bar",
-      "title": "Use this chart to filter the concerts based on time.",
-      "params": [
+      "layer": [
+        {  
+          "mark": "bar",
+          "title": "Use this chart to filter the concerts based on time.",
+          "params": [
+            {
+              "name": "time_brush",
+              "select": {"type": "interval", "encodings": ["x"]}
+            }
+          ],
+          "encoding": {
+            "x": {
+              "field": "Date",
+              "type": "temporal",
+              "timeUnit": "yearmonthdate",
+              "title": "Date"
+            }
+          }
+        },
         {
-          "name": "time_brush",
-          "select": {"type": "interval", "encodings": ["x"]}
+          "transform": [
+            {"filter": "datum.Leg == 1"},
+            {
+              "window": [{"op": "rank", "as": "ranking"}],
+              "sort": [{"field": "Date", "order": "descending"}]
+            },
+            {"filter": "datum.ranking == 1"}
+          ],
+          "mark": {"type": "text",
+                     "dy": -10,
+                     "dx": 120},
+            "encoding": {
+                "text":{ "value": "Leg"},
+                "x": {
+                    "field": "Date",
+                    "type": "temporal",
+                    "timeUnit": "yearmonthdate"
+                },
+                "color": {"value": "black"},
+                "size": {"value": 20}
+            }
         }
-      ],
-      "encoding": {
-        "x": {
-          "field": "Date",
-          "type": "temporal",
-          "timeUnit": "yearmonthdate",
-          "title": "Date"
-      }
-      }
+      ]
     }
   ],
   "config": {"title": {"font": "sans-serif", "fontSize": 14}}

@@ -6,19 +6,70 @@
   "transform": [
     {"calculate": "datum.Opening_Act_1", "as": "1"},
     {"calculate": "datum.Opening_Act_2", "as": "2"},
-    {"calculate": "datum.Opening_Act_3", "as": "3"},
+    {"calculate": "datum.Opening_Act_3", "as": "3"}
+  ],
+  "layer": [
     {
-      "fold": ["1", "2", "3"], 
-      "as": ["Opening_Act_Num", "Opening_Act"]
+      "transform": [
+        {
+          "fold": ["1", "2", "3"], 
+          "as": ["Opening_Act_Num", "Opening_Act"]
+        },
+        {
+          "filter": {"not": {"field": "Opening_Act", "equal": ""}}
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Opening_Act", "title": "Artist", "type": "nominal"},
+        "x": {"aggregate": "count", "title": "Number of Concerts", "scale": {"padding": 20}, "type": "quantitative"},
+        "color": {"field": "Opening_Act_Num", "title": "Opener Order"},
+        "tooltip": [
+          {"field": "Opening_Act", "type": "nominal", "title": "Artist"},
+          {"field": "Opening_Act", "aggregate": "count", "title": "Number of Concerts"},
+          {"field": "Opening_Act_Num", "title": "Opening Act"}
+        ]
+      }
     },
     {
-      "filter": {"not": {"field": "Opening_Act", "equal": ""}}
+      "transform": [
+        {
+          "aggregate": [
+            {"op": "count", "field": "Opening_Act_1", "as": "Number of Concerts"}
+          ],
+          "groupby": ["Opening_Act_1"]
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": 60
+      },
+      "encoding": {
+        "x": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"},
+        "y": {"aggregate": {"argmax": "Number of Concerts"}, "field": "Opening_Act_1", "type": "nominal"},
+        "text": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {"op": "count", "field": "Opening_Act_2", "as": "Number of Concerts"}
+          ],
+          "groupby": ["Opening_Act_2"]
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": 20
+      },
+      "encoding": {
+        "x": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"},
+        "y": {"aggregate": {"argmax": "Number of Concerts"}, "field": "Opening_Act_2", "type": "nominal"},
+        "text": {"aggregate": "max", "field": "Number of Concerts", "type": "quantitative"}
+      }
     }
-  ],
-  "mark": "bar",
-  "encoding": {
-    "y": {"field": "Opening_Act", "title": "Artist"},
-    "x": {"aggregate": "count", "title": "Number of Concerts"},
-    "color": {"field": "Opening_Act_Num", "title": "Opener Order"}
-  }
+  ]   
 }
