@@ -32,10 +32,25 @@
         <h1>Ed Sheeran +-÷=x (Mathematics) Tour</h1>
 
         <h2>Overall Attendance</h2>
-        <!-- pure grid group -->
         <div class="pure-g">
             <div class="pure-u-1-1">
                 <div id="donut" class="vis-container"></div>
+            </div>
+        </div>
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="donut_eu" class="vis-container"></div>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="donut_na" class="vis-container"></div>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="donut_oc" class="vis-container"></div>
             </div>
         </div>
         <!-- end pure grid group -->
@@ -72,8 +87,17 @@
         var specVis3 = "js/opening_acts_bar.vg.json";
         vegaEmbed('#bar', specVis3, {"actions": false}).then(function(result) {}).catch(console.error);
 
-        var specVis4 = "js/attendance_donut.vg.json";
-        vegaEmbed('#donut', specVis4, {"actions": false}).then(function(result) {}).catch(console.error);
+        var specVis4 = "js/attendance_donut_northamerica.vg.json";
+        vegaEmbed('#donut_na', specVis4, {"actions": false}).then(function(result) {}).catch(console.error);
+
+        var specVis5 = "js/attendance_donut_europe.vg.json";
+        vegaEmbed('#donut_eu', specVis5, {"actions": false}).then(function(result) {}).catch(console.error);
+
+        var specVis6 = "js/attendance_donut_oceania.vg.json";
+        vegaEmbed('#donut_oc', specVis6, {"actions": false}).then(function(result) {}).catch(console.error);
+
+        var specVis7 = "js/attendance_donut.vg.json";
+        vegaEmbed('#donut', specVis7, {"actions": false}).then(function(result) {}).catch(console.error);
     </script>
 </body>
 
