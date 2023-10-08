@@ -6,17 +6,41 @@
   "transform": [
     {"calculate": "datum.Opening_Act_1", "as": "1"},
     {"calculate": "datum.Opening_Act_2", "as": "2"},
-    {"calculate": "datum.Opening_Act_3", "as": "3"}
+    {"calculate": "datum.Opening_Act_3", "as": "3"},
+    {
+      "fold": ["1", "2", "3"], 
+      "as": ["Opening_Act_Num", "Opening_Act"]
+    },
+    {
+      "filter": {"not": {"field": "Opening_Act", "equal": ""}}
+    }
+  ],
+  "params": [
+    {
+      "name": "Opening_Order_Selection",
+      "bind": {
+        "input": "radio",
+        "options": [
+          null,
+          "1",
+          "2",
+          "3"
+        ],
+        "labels": [
+          "Show All",
+          "1st",
+          "2nd",
+          "3rd"
+        ],
+        "name": "Order Selection: "
+      }
+    }
   ],
   "layer": [
     {
       "transform": [
         {
-          "fold": ["1", "2", "3"], 
-          "as": ["Opening_Act_Num", "Opening_Act"]
-        },
-        {
-          "filter": {"not": {"field": "Opening_Act", "equal": ""}}
+          "filter": "Opening_Order_Selection == null || datum.Opening_Act_Num == Opening_Order_Selection"
         }
       ],
       "mark": "bar",
@@ -28,11 +52,15 @@
     },
     {
       "transform": [
+        {"filter": "datum.Opening_Act_Num == 1"},
+        {
+          "filter": "Opening_Order_Selection == null || datum.Opening_Act_Num == Opening_Order_Selection"
+        },
         {
           "aggregate": [
-            {"op": "count", "field": "Opening_Act_1", "as": "Number of Concerts"}
+            {"op": "count", "field": "Opening_Act", "as": "Number of Concerts"}
           ],
-          "groupby": ["Opening_Act_1"]
+          "groupby": ["Opening_Act"]
         },
         {
           "window": [{"op": "rank", "as": "ranking"}],
@@ -56,17 +84,21 @@
       },
       "encoding": {
         "x": {"field": "Number of Concerts", "type": "quantitative"},
-        "y": {"field": "Opening_Act_1", "type": "nominal"},
+        "y": {"field": "Opening_Act", "type": "nominal"},
         "text": {"field": "text_annotation"}
       }
     },
     {
       "transform": [
+        {"filter": "datum.Opening_Act_Num == 2"},
+        {
+          "filter": "Opening_Order_Selection == null || datum.Opening_Act_Num == Opening_Order_Selection"
+        },
         {
           "aggregate": [
-            {"op": "count", "field": "Opening_Act_2", "as": "Number of Concerts"}
+            {"op": "count", "field": "Opening_Act", "as": "Number of Concerts"}
           ],
-          "groupby": ["Opening_Act_2"]
+          "groupby": ["Opening_Act"]
         },
         {
           "window": [{"op": "rank", "as": "ranking"}],
@@ -74,7 +106,7 @@
         },
         {"filter": "datum.ranking == 1"},
         {
-          "calculate": "'Most number of;concerts as 2nd;opening act: ' + datum['Number of Concerts']",
+          "calculate": "'Most number of;concerts as 1st;opening act: ' + datum['Number of Concerts']",
           "as": "text_annotation_raw"
         },
         {
@@ -90,27 +122,29 @@
       },
       "encoding": {
         "x": {"field": "Number of Concerts", "type": "quantitative"},
-        "y": {"field": "Opening_Act_2", "type": "nominal"},
+        "y": {"field": "Opening_Act", "type": "nominal"},
         "text": {"field": "text_annotation"}
       }
     },
     {
       "transform": [
-        {"filter": "datum.Opening_Act_3 != ''"},
+        {"filter": "datum.Opening_Act_Num == 3"},
+        {
+          "filter": "Opening_Order_Selection == null || datum.Opening_Act_Num == Opening_Order_Selection"
+        },
         {
           "aggregate": [
-            {"op": "count", "field": "Opening_Act_3", "as": "Number of Concerts"}
+            {"op": "count", "field": "Opening_Act", "as": "Number of Concerts"}
           ],
-          "groupby": ["Opening_Act_3"]
+          "groupby": ["Opening_Act"]
         },
         {
           "window": [{"op": "rank", "as": "ranking"}],
           "sort": [{"field": "Number of Concerts", "order": "descending"}]
         },
-        
         {"filter": "datum.ranking == 1"},
         {
-          "calculate": "'Most number of;concerts as 3rd;opening act: ' + datum['Number of Concerts']",
+          "calculate": "'Most number of;concerts as 1st;opening act: ' + datum['Number of Concerts']",
           "as": "text_annotation_raw"
         },
         {
@@ -126,7 +160,7 @@
       },
       "encoding": {
         "x": {"field": "Number of Concerts", "type": "quantitative"},
-        "y": {"field": "Opening_Act_3", "type": "nominal"},
+        "y": {"field": "Opening_Act", "type": "nominal"},
         "text": {"field": "text_annotation"}
       }
     }
