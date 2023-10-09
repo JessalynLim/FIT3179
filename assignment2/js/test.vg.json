@@ -1,92 +1,67 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {
-    "url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_location.csv"
-  },
+  "width": 900,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
   "transform": [
     {
-      "aggregate": [{
-       "op": "sum",
-       "field": "Capacity",
-       "as": "Total_Capacity"
-      },
-      {
-        "op": "sum",
-        "field": "Attendance",
-        "as": "Total_Attendance"
-       }],
-      "groupby": ["Leg"]
-    },
-    {"calculate": "datum.Total_Capacity - datum.Total_Attendance", "as": "Difference"},
-    {"fold": ["Total_Capacity", "Difference"]},
-    {"calculate": "datum.Total_Attendance / datum.Total_Capacity", "as": "Proportion"}
+      "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
+      "as": "album_name"
+    }
   ],
-  "hconcat": [
+  "encoding": {
+    "y": {
+      "field": "album_name",
+      "title": "Album",
+      "type": "ordinal",
+      "sort": ["+", "×", "÷", "No. 6 Collaborations Album", "="], 
+      "axis": {
+        "labelFontSize": 13,
+        "titleFontSize": 16
+      }
+    }
+  },
+  "layer": [
     {
-      "width": 200,
-      "height": 250,
+      "mark": {"type": "boxplot", "extent": "min-max", "size": 50},
+      "encoding": {
+        "x": {
+          "field": "popularity", 
+          "title": "Popularity",
+          "type": "quantitative",
+          "scale": {"zero": false}, 
+          "axis": {
+            "labelFontSize": 13,
+            "titleFontSize": 16
+          }
+        }
+      }
+    },{
+      "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/setlist_data.csv"},
       "transform": [
-        {"filter": {"field": "Leg", "equal": "Europe"}}
+        {
+          "lookup": "Song",
+          "from": {
+            "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
+            "key": "name",
+            "fields": ["album", "popularity", "release_date"]
+          }
+        },{
+          "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
+          "as": "album_name"
+        }
       ],
-      "title": "Europe",
-      "layer": [{
-        "mark": {"type": "arc", "innerRadius": 50},
-        "encoding": {
-          "theta": {"field": "value", "type": "quantitative"},
-          "color": {"field": "key", "type": "nominal", "legend": null},
-          "order": {"field": "value", "type": "quantitative", "sort": "descending"}
-        }
-      },
-      {
-        "mark": {"type": "text"},
-        "encoding": {
-          "text": {"field": "Proportion", "type": "quantitative", "format": ".2%"}
-        }
-      }]
-    },
-    {
-      "width": 200,
-      "height": 250,
-      "transform": [
-        {"filter": {"field": "Leg", "equal": "Oceania"}}
-      ],
-      "title": "Oceania",
-      "layer": [{
-        "mark": {"type": "arc", "innerRadius": 50},
-        "encoding": {
-          "theta": {"field": "value", "type": "quantitative"},
-          "color": {"field": "key", "type": "nominal", "legend": null},
-          "order": {"field": "value", "type": "quantitative", "sort": "descending"}
-        }
-      },
-      {
-        "mark": {"type": "text"},
-        "encoding": {
-          "text": {"field": "Proportion", "type": "quantitative", "format": ".0%"}
-        }
-      }]
-    },
-    {
-      "width": 200,
-      "height": 250,
-      "transform": [
-        {"filter": {"field": "Leg", "equal": "North America"}}
-      ],
-      "title": "North America",
-      "layer": [{
-        "mark": {"type": "arc", "innerRadius": 50},
-        "encoding": {
-          "theta": {"field": "value", "type": "quantitative"},
-          "color": {"field": "key", "type": "nominal", "legend": null},
-          "order": {"field": "value", "type": "quantitative", "sort": "descending"}
-        }
-      },
-      {
-        "mark": {"type": "text"},
-        "encoding": {
-          "text": {"field": "Proportion", "type": "quantitative", "format": ".0%"}
-        }
-      }]
+      "mark": {"type": "point", "shape": "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z", "color": "black"},
+      "encoding": {
+        "x": {"field": "popularity", "type": "quantitative"},
+        "tooltip": [
+          {"field": "album_name", "title": "Album", "type": "ordinal"},
+          {"field": "Song", "type": "ordinal"},
+          {"field": "popularity", "title": "Popularity", "type": "quantitative"},
+          {"field": "release_date", "title": "Release Date"}
+        ]
+      }
     }
   ]
+    
 }
