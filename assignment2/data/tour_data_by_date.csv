@@ -3,16 +3,16 @@ Date,City,Country,Venue,Opening_Act_1,Opening_Act_2,Opening_Act_3,Attendance,Cap
 24-Apr-22,Dublin,Ireland,Croke Park,Maisie Peters,Denise Chaila,,140487,151045,12417796,Europe
 28-Apr-22,Cork,Ireland,Páirc Uí Chaoimh,Maisie Peters,Denise Chaila,,68697,78645,5846380,Europe
 29-Apr-22,Cork,Ireland,Páirc Uí Chaoimh,Maisie Peters,Denise Chaila,,68697,78645,5846380,Europe
-5-May-22,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780,63234,5199401,Europe
-6-May-22,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780,63234,5199401,Europe
+05-May-22,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780,63234,5199401,Europe
+06-May-22,Limerick,Ireland,Thomond Park,Maisie Peters,Denise Chaila,,61780,63234,5199401,Europe
 12-May-22,Belfast,Ireland,Boucher Road Playing Fields,Maisie Peters,Denise Chaila,,73519,80604,6335895,Europe
 13-May-22,Belfast,Ireland,Boucher Road Playing Fields,Maisie Peters,Denise Chaila,,73519,80604,6335895,Europe
 26-May-22,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490,236082,14955621,Europe
 27-May-22,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490,236082,14955621,Europe
 28-May-22,Cardiff,Wales,Principality Stadium,Maisie Peters,Dylan,,185490,236082,14955621,Europe
-3-Jun-22,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641,114311,8892176,Europe
-4-Jun-22,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641,114311,8892176,Europe
-9-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095,Europe
+03-Jun-22,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641,114311,8892176,Europe
+04-Jun-22,Sunderland,England,Stadium of Light,Maisie Peters,Dylan,,106641,114311,8892176,Europe
+09-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095,Europe
 10-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095,Europe
 11-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095,Europe
 12-Jun-22,Manchester,England,Etihad Stadium,Maisie Peters,Dylan,,218639,218639,18049095,Europe
@@ -22,27 +22,27 @@ Date,City,Country,Venue,Opening_Act_1,Opening_Act_2,Opening_Act_3,Attendance,Cap
 25-Jun-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883,Europe
 29-Jun-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883,Europe
 30-Jun-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883,Europe
-1-Jul-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883,Europe
-7-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449,Europe
-8-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449,Europe
-9-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449,Europe
+01-Jul-22,London,England,Wembley Stadium,Maisie Peters,Dylan,,420269,460165,37325883,Europe
+07-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449,Europe
+08-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449,Europe
+09-Jul-22,Gelsenkirchen,Germany,Veltins-Arena,Maisie Peters,Cat Burns,,182476,193055,13726449,Europe
 14-Jul-22,Amsterdam,Netherlands,Johan Cruyff Arena,Maisie Peters,Cat Burns,,134119,134119,8638213,Europe
 15-Jul-22,Amsterdam,Netherlands,Johan Cruyff Arena,Maisie Peters,Cat Burns,,134119,134119,8638213,Europe
 22-Jul-22,Brussels,Belgium,King Baudouin Stadium,Maisie Peters,Cat Burns,Dylan,104473,127999,8273105,Europe
 23-Jul-22,Brussels,Belgium,King Baudouin Stadium,Maisie Peters,Cat Burns,Dylan,104473,127999,8273105,Europe
 29-Jul-22,Saint-Denis,France,Stade de France,Maisie Peters,Cat Burns,,166764,166764,10767404,Europe
 30-Jul-22,Saint-Denis,France,Stade de France,Maisie Peters,Cat Burns,,166764,166764,10767404,Europe
-3-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005,Europe
-4-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005,Europe
-5-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005,Europe
-6-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Dylan,,156818,158819,14192005,Europe
+03-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005,Europe
+04-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005,Europe
+05-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Cat Burns,,156818,158819,14192005,Europe
+06-Aug-22,Copenhagen,Denmark,Øresundsparken,Maisie Peters,Dylan,,156818,158819,14192005,Europe
 10-Aug-22,Gothenburg,Sweden,Ullevi,Maisie Peters,Cat Burns,,120283,129350,9513270,Europe
 11-Aug-22,Gothenburg,Sweden,Ullevi,Maisie Peters,Cat Burns,,120283,129350,9513270,Europe
 20-Aug-22,Helsinki,Finland,Helsinki Olympic Stadium,Maisie Peters,Cat Burns,,46667,46667,4229589,Europe
 25-Aug-22,Warsaw,Poland,PGE Narodowy,Maisie Peters,Cat Burns,,146340,146340,9056295,Europe
 26-Aug-22,Warsaw,Poland,PGE Narodowy,Maisie Peters,Cat Burns,,146340,146340,9056295,Europe
-1-Sep-22,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800,130598,9412514,Europe
-2-Sep-22,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800,130598,9412514,Europe
+01-Sep-22,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800,130598,9412514,Europe
+02-Sep-22,Vienna,Austria,Ernst-Happel-Stadion,Maisie Peters,Cat Burns,,124800,130598,9412514,Europe
 10-Sep-22,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184,215031,15689903,Europe
 11-Sep-22,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184,215031,15689903,Europe
 12-Sep-22,Munich,Germany,Olympiastadion,Griff,Cat Burns,,200184,215031,15689903,Europe
@@ -51,7 +51,7 @@ Date,City,Country,Venue,Opening_Act_1,Opening_Act_2,Opening_Act_3,Attendance,Cap
 23-Sep-22,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856,184201,13452253,Europe
 24-Sep-22,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856,184201,13452253,Europe
 25-Sep-22,Frankfurt,Germany,Deutsche Bank Park,Griff,Cat Burns,,182856,184201,13452253,Europe
-2-Feb-23,Wellington,New Zealand,Sky Stadium,Maisie Peters,Kaylee Bell,,47260,47260,5024421,Oceania
+02-Feb-23,Wellington,New Zealand,Sky Stadium,Maisie Peters,Kaylee Bell,,47260,47260,5024421,Oceania
 10-Feb-23,Auckland,New Zealand,Eden Park,Maisie Peters,Kaylee Bell,,83574,83574,7461871,Oceania
 11-Feb-23,Auckland,New Zealand,Eden Park,Maisie Peters,Kaylee Bell,,83574,83574,7461871,Oceania
 17-Feb-23,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894,172894,19213071,Oceania
@@ -59,30 +59,30 @@ Date,City,Country,Venue,Opening_Act_1,Opening_Act_2,Opening_Act_3,Attendance,Cap
 19-Feb-23,Brisbane,Australia,Suncorp Stadium,Maisie Peters,Budjerah,,172894,172894,19213071,Oceania
 24-Feb-23,Sydney,Australia,Accor Stadium,Maisie Peters,Budjerah,,171699,171699,18936619,Oceania
 25-Feb-23,Sydney,Australia,Accor Stadium,Maisie Peters,Budjerah,,171699,171699,18936619,Oceania
-2-Mar-23,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857,210857,20871850,Oceania
-3-Mar-23,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857,210857,20871850,Oceania
-7-Mar-23,Adelaide,Australia,Adelaide Oval,Maisie Peters,Budjerah,,59708,59708,6665766,Oceania
+02-Mar-23,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857,210857,20871850,Oceania
+03-Mar-23,Melbourne,Australia,Melbourne Cricket Ground,Maisie Peters,Budjerah,,210857,210857,20871850,Oceania
+07-Mar-23,Adelaide,Australia,Adelaide Oval,Maisie Peters,Budjerah,,59708,59708,6665766,Oceania
 12-Mar-23,Perth,Australia,Optus Stadium,Maisie Peters,Budjerah,,59980,59980,7051018,Oceania
-6-May-23,Arlington,United States,AT&T Stadium,Khalid,Dylan,,59265,59265,5733414,North America
+06-May-23,Arlington,United States,AT&T Stadium,Khalid,Dylan,,59265,59265,5733414,North America
 13-May-23,Houston,United States,NRG Stadium,Khalid,Dylan,,58183,58183,5321684,North America
 20-May-23,Tampa,United States,Raymond James Stadium,Khalid,Dylan,,77891,77891,7759215,North America
 27-May-23,Atlanta,United States,Mercedes-Benz Stadium,Khalid,Dylan,,76335,76335,7100499,North America
-3-Jun-23,Philadelphia,United States,Lincoln Financial Field,Khalid,Dylan,,77900,77900,7767923,North America
+03-Jun-23,Philadelphia,United States,Lincoln Financial Field,Khalid,Dylan,,77900,77900,7767923,North America
 10-Jun-23,East Rutherford,United States,MetLife Stadium,Khalid,Dylan,,173390,173390,18007052,North America
 11-Jun-23,East Rutherford,United States,MetLife Stadium,Khalid,Dylan,,173390,173390,18007052,North America
 17-Jun-23,Toronto,Canada,Rogers Centre,Khalid,Rosa Linn,,93683,93683,9906436,North America
 18-Jun-23,Toronto,Canada,Rogers Centre,Khalid,Rosa Linn,,93683,93683,9906436,North America
 24-Jun-23,Landover,United States,FedExField,Ed Sheeran,Rosa Linn,,62270,62270,6002528,North America
 30-Jun-23,Foxborough,United States,Gillette Stadium,Rosa Linn,John Mayer,,143442,143442,13551095,North America
-1-Jul-23,Foxborough,United States,Gillette Stadium,Rosa Linn,John Mayer,,143442,143442,13551095,North America
-8-Jul-23,Pittsburgh,United States,Acrisure Stadium,Rosa Linn,Khalid,,67829,67829,5823055,North America
+01-Jul-23,Foxborough,United States,Gillette Stadium,Rosa Linn,John Mayer,,143442,143442,13551095,North America
+08-Jul-23,Pittsburgh,United States,Acrisure Stadium,Rosa Linn,Khalid,,67829,67829,5823055,North America
 15-Jul-23,Detroit,United States,Ford Field,Rosa Linn,Khalid,,70372,70372,7126417,North America
 22-Jul-23,Nashville,United States,Nissan Stadium,Khalid,Cat Burns,,73874,73874,6227586,North America
 29-Jul-23,Chicago,United States,Soldier Field,Khalid,Cat Burns,,73015,73015,8054888,North America
-5-Aug-23,Kansas City,United States,GEHA Field at Arrowhead Stadium,Khalid,Cat Burns,,70352,70352,5122007,North America
+05-Aug-23,Kansas City,United States,GEHA Field at Arrowhead Stadium,Khalid,Cat Burns,,70352,70352,5122007,North America
 12-Aug-23,Minneapolis,United States,U.S. Bank Stadium,Khalid,Cat Burns,,72102,72102,6714462,North America
 19-Aug-23,Denver,United States,Empower Field at Mile High,Khalid,Cat Burns,,79680,79680,8560475,North America
 26-Aug-23,Seattle,United States,Lumen Field,Khalid,Maisie Peters,,77286,77286,7942459,North America
-2-Sep-23,Vancouver,Canada,BC Place,Khalid,Maisie Peters,,65061,65061,6597928,North America
+02-Sep-23,Vancouver,Canada,BC Place,Khalid,Maisie Peters,,65061,65061,6597928,North America
 16-Sep-23,Santa Clara,United States,Levi's Stadium,Russ,Maisie Peters,,80058,80058,9851417,North America
 23-Sep-23,Inglewood,United States,SoFi Stadium,Russ,Maisie Peters,,81384,81384,9225764,North America
