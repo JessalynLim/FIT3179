@@ -1,211 +1,210 @@
-,name,album,release_date,track_number,id,uri,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,valence,popularity,duration_ms
-0,Boat,- (Deluxe),2023-05-05,1,6jemILri7l5LuPhKs2nuXr,spotify:track:6jemILri7l5LuPhKs2nuXr,0.758,0.47,0.203,2.41e-06,0.312,-8.676,0.0371,153.578,0.325,72,185675
-1,Salt Water,- (Deluxe),2023-05-05,2,6UIcjH0BzH2MKvToeEYIOZ,spotify:track:6UIcjH0BzH2MKvToeEYIOZ,0.617,0.584,0.374,2.86e-06,0.0694,-9.224,0.0337,147.084,0.279,68,239770
-2,Eyes Closed,- (Deluxe),2023-05-05,3,3p7XQpdt8Dr6oMXSvRZ9bg,spotify:track:3p7XQpdt8Dr6oMXSvRZ9bg,0.246,0.793,0.52,0.0,0.0878,-7.457,0.0696,107.014,0.309,86,194848
-3,Life Goes On,- (Deluxe),2023-05-05,4,74eJR4gwG1ZmG4BFkbrOlA,spotify:track:74eJR4gwG1ZmG4BFkbrOlA,0.813,0.629,0.312,0.0,0.169,-7.609,0.0318,77.044,0.456,70,210208
-4,Dusty,- (Deluxe),2023-05-05,5,4u4A4lPpiw54evLxTaLeRJ,spotify:track:4u4A4lPpiw54evLxTaLeRJ,0.226,0.711,0.55,0.00928,0.12,-9.682,0.0332,146.928,0.616,66,222957
-5,End Of Youth,- (Deluxe),2023-05-05,6,0vber253Le8WWt7gKorVe9,spotify:track:0vber253Le8WWt7gKorVe9,0.488,0.663,0.436,0.0,0.116,-7.81,0.0359,143.197,0.316,70,231040
-6,Colourblind,- (Deluxe),2023-05-05,7,290x9rCh2EWcJ9YKpfiI9z,spotify:track:290x9rCh2EWcJ9YKpfiI9z,0.85,0.428,0.296,3.63e-06,0.0767,-8.731,0.0396,169.744,0.156,67,209267
-7,Curtains,- (Deluxe),2023-05-05,8,6ZZf5a8oiInHDkBe9zXfLP,spotify:track:6ZZf5a8oiInHDkBe9zXfLP,0.0989,0.5,0.757,2.5e-06,0.324,-6.542,0.0522,175.944,0.443,76,224803
-8,Borderline,- (Deluxe),2023-05-05,9,0bCnvkP7PYCJV64sQLl5mm,spotify:track:0bCnvkP7PYCJV64sQLl5mm,0.941,0.51,0.316,2.5e-05,0.0936,-10.001,0.0289,139.917,0.226,65,237756
-9,Spark,- (Deluxe),2023-05-05,10,26J3f0d3ZuN7g66xBdey8o,spotify:track:26J3f0d3ZuN7g66xBdey8o,0.776,0.56,0.616,0.000334,0.0901,-7.523,0.032,172.031,0.399,65,214846
-10,Vega,- (Deluxe),2023-05-05,11,1DSwFkEe28GSFmdIK92OFX,spotify:track:1DSwFkEe28GSFmdIK92OFX,0.803,0.743,0.405,0.0,0.134,-7.901,0.0416,124.041,0.353,67,178114
-11,Sycamore,- (Deluxe),2023-05-05,12,3qwxZ8ygOYSWE790KcfgU1,spotify:track:3qwxZ8ygOYSWE790KcfgU1,0.727,0.592,0.32,0.0,0.259,-8.069,0.0331,134.085,0.35,65,170075
-12,No Strings,- (Deluxe),2023-05-05,13,09UTOp33EhOSWzvGL0YOws,spotify:track:09UTOp33EhOSWzvGL0YOws,0.829,0.644,0.345,0.0,0.12,-6.433,0.0268,80.957,0.252,64,174087
-13,The Hills of Aberfeldy,- (Deluxe),2023-05-05,14,1eYafSv4c2aFNf98hSFHX0,spotify:track:1eYafSv4c2aFNf98hSFHX0,0.872,0.436,0.19,0.0,0.0971,-7.693,0.0303,79.571,0.326,67,195083
-14,Wildflowers - Bonus Track,- (Deluxe),2023-05-05,15,75To9uF11PYY0vAkXnDWvW,spotify:track:75To9uF11PYY0vAkXnDWvW,0.86,0.764,0.233,0.00185,0.0939,-9.099,0.0302,131.982,0.155,63,178206
-15,Stoned - Bonus Track,- (Deluxe),2023-05-05,16,5M12X6gQDoMMqqlRDg5Bfo,spotify:track:5M12X6gQDoMMqqlRDg5Bfo,0.76,0.695,0.322,0.0,0.0895,-7.145,0.03,119.937,0.4,62,197098
-16,Toughest - Bonus Track,- (Deluxe),2023-05-05,17,0C1dOJr5ae2tJSUGxMXTcC,spotify:track:0C1dOJr5ae2tJSUGxMXTcC,0.562,0.623,0.547,0.0,0.129,-7.077,0.0342,133.297,0.484,61,213768
-17,Moving - Bonus Track,- (Deluxe),2023-05-05,18,0Himk13I9FPFVwSyPhU3WD,spotify:track:0Himk13I9FPFVwSyPhU3WD,0.763,0.611,0.394,0.0,0.153,-6.786,0.0306,74.998,0.728,61,215247
-18,Tides,= (Tour Edition),2022-05-27,1,650PApG2YcEgoU7pO4u0Wu,spotify:track:650PApG2YcEgoU7pO4u0Wu,0.0167,0.631,0.825,0.0,0.122,-3.971,0.0433,129.942,0.427,18,195760
-19,Shivers,= (Tour Edition),2022-05-27,2,2gT59yH6Tzlsj7CNKkwrCZ,spotify:track:2gT59yH6Tzlsj7CNKkwrCZ,0.281,0.788,0.859,0.0,0.0424,-2.724,0.0856,141.02,0.822,20,207853
-20,First Times,= (Tour Edition),2022-05-27,3,3tNCcHNB8D9YnUqOLmvI7t,spotify:track:3tNCcHNB8D9YnUqOLmvI7t,0.84,0.587,0.267,0.0,0.121,-9.206,0.0349,98.845,0.352,17,185853
-21,Bad Habits,= (Tour Edition),2022-05-27,4,1Pa75iYnneKHYvDsIIhQ6q,spotify:track:1Pa75iYnneKHYvDsIIhQ6q,0.0451,0.807,0.893,2.79e-05,0.366,-3.745,0.0347,126.011,0.537,18,230746
-22,Overpass Graffiti,= (Tour Edition),2022-05-27,5,63sg6Dw4AitekQoMwDbNMh,spotify:track:63sg6Dw4AitekQoMwDbNMh,0.00253,0.52,0.849,0.0,0.119,-3.794,0.186,175.908,0.774,19,236906
-23,The Joker And The Queen,= (Tour Edition),2022-05-27,6,4wurmsNeLCN2oZfaULo5lQ,spotify:track:4wurmsNeLCN2oZfaULo5lQ,0.952,0.567,0.211,5.24e-05,0.275,-9.975,0.0315,134.019,0.289,16,185586
-24,Leave Your Life,= (Tour Edition),2022-05-27,7,67L4gUAQwMstid0eqKZZl3,spotify:track:67L4gUAQwMstid0eqKZZl3,0.236,0.578,0.558,0.0,0.143,-5.438,0.0872,75.087,0.54,15,223866
-25,Collide,= (Tour Edition),2022-05-27,8,6YJ1nkywJM4gbR6ZBFPRHw,spotify:track:6YJ1nkywJM4gbR6ZBFPRHw,0.113,0.672,0.73,0.0,0.0612,-4.77,0.0372,123.969,0.559,17,210213
-26,2step,= (Tour Edition),2022-05-27,9,1XWSfcOq25pnWNDkxK6KRK,spotify:track:1XWSfcOq25pnWNDkxK6KRK,0.169,0.763,0.661,0.0,0.117,-5.592,0.056,95.002,0.632,19,153626
-27,Stop The Rain,= (Tour Edition),2022-05-27,10,7gu26lYxdKXtrX1Hty3hFM,spotify:track:7gu26lYxdKXtrX1Hty3hFM,0.0122,0.686,0.765,0.0,0.127,-4.778,0.118,99.998,0.743,16,203493
-28,Love In Slow Motion,= (Tour Edition),2022-05-27,11,6xeOcZLOFiPA1PUvldp94x,spotify:track:6xeOcZLOFiPA1PUvldp94x,0.668,0.485,0.54,0.0,0.0849,-5.4,0.0253,62.631,0.426,15,190933
-29,Visiting Hours,= (Tour Edition),2022-05-27,12,4aWl7w8flTeLDLR0uaOZFi,spotify:track:4aWl7w8flTeLDLR0uaOZFi,0.77,0.471,0.396,0.0,0.0729,-6.654,0.0336,149.609,0.263,16,215506
-30,Sandman,= (Tour Edition),2022-05-27,13,2bEAcfWY8Fs90xyOgDoeZV,spotify:track:2bEAcfWY8Fs90xyOgDoeZV,0.882,0.822,0.3,9.15e-05,0.0665,-8.034,0.0673,125.951,0.734,14,259333
-31,Be Right Now,= (Tour Edition),2022-05-27,14,4hsoq5mayPou3YNoE5Sgh8,spotify:track:4hsoq5mayPou3YNoE5Sgh8,0.00494,0.501,0.684,0.000478,0.0524,-6.706,0.0566,131.952,0.442,14,211080
-32,Afterglow,= (Tour Edition),2022-05-27,15,6njJ4ksycB4y35rh8T03Kb,spotify:track:6njJ4ksycB4y35rh8T03Kb,0.698,0.641,0.324,0.0,0.328,-5.851,0.0299,110.184,0.273,42,185486
-33,One Life,= (Tour Edition),2022-05-27,16,4RSXGzmHGPsKncVonX7NlX,spotify:track:4RSXGzmHGPsKncVonX7NlX,0.114,0.573,0.593,2.65e-06,0.122,-7.225,0.0299,159.978,0.425,42,231546
-34,Penguins,= (Tour Edition),2022-05-27,17,5fmXV5ft9Xj3yVdSVbv8Mu,spotify:track:5fmXV5ft9Xj3yVdSVbv8Mu,0.79,0.709,0.324,0.0,0.1,-10.975,0.0444,99.906,0.47,22,248866
-35,I Will Remember You,= (Tour Edition),2022-05-27,18,3mlFWcdPrsNmymO94D2TxI,spotify:track:3mlFWcdPrsNmymO94D2TxI,0.404,0.743,0.807,5.49e-06,0.0723,-5.917,0.0538,145.01,0.721,27,214493
-36,Welcome To The World,= (Tour Edition),2022-05-27,19,2hRSG4zE2iHtYmPqtxmbNv,spotify:track:2hRSG4zE2iHtYmPqtxmbNv,0.818,0.334,0.307,5.55e-05,0.362,-8.522,0.033,169.53,0.426,21,176813
-37,The Joker And The Queen (feat. Taylor Swift),= (Tour Edition),2022-05-27,20,3uKJrBPOLOb9oYcuqADzu0,spotify:track:3uKJrBPOLOb9oYcuqADzu0,0.924,0.528,0.309,2.1e-06,0.282,-7.398,0.0329,133.83,0.307,37,185422
-38,2step (feat. Lil Baby),= (Tour Edition),2022-05-27,21,4uMC2yWq68zqFwp3yd29fu,spotify:track:4uMC2yWq68zqFwp3yd29fu,0.138,0.693,0.643,0.0,0.108,-5.867,0.0828,95.055,0.477,15,163449
-39,Bad Habits (feat. Bring Me The Horizon),= (Tour Edition),2022-05-27,22,3dw5lPI963l80EzaBoHUkh,spotify:track:3dw5lPI963l80EzaBoHUkh,0.0305,0.59,0.849,0.0,0.11,-4.691,0.0792,131.018,0.178,33,250763
-40,Peru,= (Tour Edition),2022-05-27,23,4ZF7ug5UnMKQJrEpS1pItU,spotify:track:4ZF7ug5UnMKQJrEpS1pItU,0.572,0.956,0.417,0.00071,0.0782,-7.892,0.0926,108.015,0.714,16,187111
-41,2step (feat. Leto),= (Tour Edition),2022-05-27,24,1OHr4J5rZIfkqCzMdDGAAO,spotify:track:1OHr4J5rZIfkqCzMdDGAAO,0.273,0.73,0.701,0.0,0.0657,-5.318,0.0447,94.97,0.522,14,154453
-42,Tides,=,2021-10-29,1,2JiHR4gCDjXwYVRDmwdk95,spotify:track:2JiHR4gCDjXwYVRDmwdk95,0.0167,0.631,0.825,0.0,0.122,-3.971,0.0433,129.942,0.427,64,195760
-43,Shivers,=,2021-10-29,2,50nfwKoDiSYg8zOCREWAm5,spotify:track:50nfwKoDiSYg8zOCREWAm5,0.281,0.788,0.859,0.0,0.0424,-2.724,0.0856,141.02,0.822,87,207853
-44,First Times,=,2021-10-29,3,5QYnNhTKsN3kE7OaqILA1U,spotify:track:5QYnNhTKsN3kE7OaqILA1U,0.84,0.587,0.267,0.0,0.121,-9.206,0.0349,98.845,0.352,68,185853
-45,Bad Habits,=,2021-10-29,4,3rmo8F54jFF8OgYsqTxm5d,spotify:track:3rmo8F54jFF8OgYsqTxm5d,0.0451,0.807,0.893,2.79e-05,0.366,-3.745,0.0347,126.011,0.537,86,230746
-46,Overpass Graffiti,=,2021-10-29,5,4btFHqumCO31GksfuBLLv3,spotify:track:4btFHqumCO31GksfuBLLv3,0.00253,0.52,0.849,0.0,0.119,-3.794,0.186,175.908,0.774,75,236906
-47,The Joker And The Queen,=,2021-10-29,6,3NuLxTXowTRcguTh9RsPmM,spotify:track:3NuLxTXowTRcguTh9RsPmM,0.952,0.567,0.211,5.24e-05,0.275,-9.975,0.0315,134.019,0.289,59,185586
-48,Leave Your Life,=,2021-10-29,7,0YbI9lWxUBsCJLb6EBydkr,spotify:track:0YbI9lWxUBsCJLb6EBydkr,0.236,0.578,0.558,0.0,0.143,-5.438,0.0872,75.087,0.54,60,223866
-49,Collide,=,2021-10-29,8,5sv0WnUs74Orn6GoPmC5im,spotify:track:5sv0WnUs74Orn6GoPmC5im,0.113,0.672,0.73,0.0,0.0612,-4.77,0.0372,123.969,0.559,62,210213
-50,2step,=,2021-10-29,9,2SUxn2O9NHL6GHGQFgwCY0,spotify:track:2SUxn2O9NHL6GHGQFgwCY0,0.169,0.763,0.661,0.0,0.117,-5.592,0.056,95.002,0.632,72,153626
-51,Stop The Rain,=,2021-10-29,10,0VuDtcT7H4CAljLZEH021x,spotify:track:0VuDtcT7H4CAljLZEH021x,0.0122,0.686,0.765,0.0,0.127,-4.778,0.118,99.998,0.743,60,203493
-52,Love In Slow Motion,=,2021-10-29,11,1i4F583d9v9RabcfOlKKVL,spotify:track:1i4F583d9v9RabcfOlKKVL,0.668,0.485,0.54,0.0,0.0849,-5.4,0.0253,62.631,0.426,62,190933
-53,Visiting Hours,=,2021-10-29,12,0rt63HYAAIzUZo5O2D0uA6,spotify:track:0rt63HYAAIzUZo5O2D0uA6,0.77,0.471,0.396,0.0,0.0729,-6.654,0.0336,149.609,0.263,71,215506
-54,Sandman,=,2021-10-29,13,2Ldb2ytuC9AxhpAkVEJBI6,spotify:track:2Ldb2ytuC9AxhpAkVEJBI6,0.882,0.822,0.3,9.15e-05,0.0665,-8.034,0.0673,125.951,0.734,58,259333
-55,Be Right Now,=,2021-10-29,14,3BiiSLo0wyHAY7lpCEO6ge,spotify:track:3BiiSLo0wyHAY7lpCEO6ge,0.00494,0.501,0.684,0.000478,0.0524,-6.706,0.0566,131.952,0.442,57,211080
-56,2step (feat. Lil Baby),2step (The Remixes),2021-10-29,1,1qqSQhDwPXl8WY0Fxx9kIt,spotify:track:1qqSQhDwPXl8WY0Fxx9kIt,0.138,0.693,0.643,0.0,0.108,-5.867,0.0828,95.055,0.477,60,163449
-57,2step (feat. Ultimo),2step (The Remixes),2021-10-29,2,4EDm3svAC8LREh5b6fHZzt,spotify:track:4EDm3svAC8LREh5b6fHZzt,0.16,0.727,0.69,0.0,0.137,-5.063,0.0721,94.935,0.685,52,154160
-58,2step (feat. Potter Payper),2step (The Remixes),2021-10-29,3,0uW73walIcF9UfA2G5ZfpF,spotify:track:0uW73walIcF9UfA2G5ZfpF,0.14,0.726,0.671,0.0,0.139,-5.402,0.161,95.053,0.552,37,153446
-59,2step (feat. Antytila),2step (The Remixes),2021-10-29,4,0EgNmGWjnYm3FMyaOW5xsM,spotify:track:0EgNmGWjnYm3FMyaOW5xsM,0.235,0.506,0.695,0.0,0.151,-5.185,0.105,93.75,0.599,45,153213
-60,2step (feat. Leto),2step (The Remixes),2021-10-29,5,0Ooo1Wnehm31UPovrjLRWW,spotify:track:0Ooo1Wnehm31UPovrjLRWW,0.273,0.73,0.701,0.0,0.0657,-5.318,0.0447,94.97,0.522,43,154453
-61,2step (feat. Ellinoora),2step (The Remixes),2021-10-29,6,7nPp9jinMqAmiAnNfYzY7c,spotify:track:7nPp9jinMqAmiAnNfYzY7c,0.167,0.705,0.741,0.0,0.216,-4.33,0.0683,94.962,0.615,40,153373
-62,2step (feat. 1.Cuz),2step (The Remixes),2021-10-29,7,3Clcn0JjqakucsAAAMV646,spotify:track:3Clcn0JjqakucsAAAMV646,0.157,0.674,0.663,0.0,0.13,-5.084,0.084,94.818,0.617,48,153226
-63,2step (feat. Budjerah),2step (The Remixes),2021-10-29,8,3dvDgPBAxqetLJvDmRDtwC,spotify:track:3dvDgPBAxqetLJvDmRDtwC,0.212,0.727,0.621,0.0,0.114,-4.784,0.0555,94.958,0.565,45,153426
-64,2step (Star.One Remix),2step (The Remixes),2021-10-29,9,5DKhoaXr9zqKis4SY5BiSm,spotify:track:5DKhoaXr9zqKis4SY5BiSm,0.254,0.669,0.916,0.00117,0.356,-4.961,0.038,129.956,0.54,36,205186
-65,2step (feat. Chefin),2step (The Remixes),2021-10-29,10,2t0iRmBWsSwPIv7OY8ypiZ,spotify:track:2t0iRmBWsSwPIv7OY8ypiZ,0.209,0.731,0.642,0.0,0.242,-5.106,0.0695,94.961,0.504,44,164560
-66,2step (feat. reezy),2step (The Remixes),2021-10-29,11,6Md7OetCK5pP3HzcX0ermc,spotify:track:6Md7OetCK5pP3HzcX0ermc,0.179,0.734,0.68,0.0,0.169,-5.096,0.058,95.06,0.499,36,153334
-67,2step (feat. Quevedo),2step (The Remixes),2021-10-29,12,0YbUKWAVjJvfOvRpnvNEOz,spotify:track:0YbUKWAVjJvfOvRpnvNEOz,0.171,0.72,0.709,0.0,0.141,-5.308,0.0827,94.99,0.537,45,153254
-68,2step (feat. Denise Chaila),2step (The Remixes),2021-10-29,13,5nlCMeGjtjeHkUqI43dV93,spotify:track:5nlCMeGjtjeHkUqI43dV93,0.21,0.728,0.69,0.0,0.113,-4.788,0.084,94.986,0.492,33,153227
-69,2step (feat. Armaan Malik),2step (The Remixes),2021-10-29,14,3Gxo1itE2q8dTrhX7atqCE,spotify:track:3Gxo1itE2q8dTrhX7atqCE,0.18,0.747,0.667,0.0,0.146,-5.181,0.0566,95.0,0.508,45,153124
-70,Beautiful People (feat. Khalid),No.6 Collaborations Project,2019-07-12,1,70eFcWOvlMObDhURTqT4Fv,spotify:track:70eFcWOvlMObDhURTqT4Fv,0.124,0.64,0.647,0.0,0.0801,-8.114,0.186,92.979,0.546,76,197866
-71,South of the Border (feat. Camila Cabello & Cardi B),No.6 Collaborations Project,2019-07-12,2,4vUmTMuQqjdnvlZmAH61Qk,spotify:track:4vUmTMuQqjdnvlZmAH61Qk,0.148,0.857,0.621,0.0,0.0865,-6.376,0.0825,97.989,0.668,76,204466
-72,Cross Me (feat. Chance the Rapper & PnB Rock),No.6 Collaborations Project,2019-07-12,3,4wuCQX7JvAZLlrcmH4AeZF,spotify:track:4wuCQX7JvAZLlrcmH4AeZF,0.212,0.746,0.787,0.0,0.0669,-6.373,0.12,95.005,0.607,62,206186
-73,Take Me Back to London (feat. Stormzy),No.6 Collaborations Project,2019-07-12,4,1AI7UPw3fgwAFkvAlZWhE0,spotify:track:1AI7UPw3fgwAFkvAlZWhE0,0.219,0.885,0.762,0.0,0.162,-5.513,0.216,138.058,0.605,66,189733
-74,Best Part of Me (feat. YEBBA),No.6 Collaborations Project,2019-07-12,5,0VsGaRXR5WAzpu51unJTis,spotify:track:0VsGaRXR5WAzpu51unJTis,0.758,0.565,0.243,8.82e-06,0.285,-8.367,0.0317,81.655,0.239,65,243266
-75,I Don't Care (with Justin Bieber),No.6 Collaborations Project,2019-07-12,6,0hVXuCcriWRGvwMV1r5Yn9,spotify:track:0hVXuCcriWRGvwMV1r5Yn9,0.0902,0.798,0.676,0.0,0.0894,-5.041,0.0442,101.956,0.843,71,219946
-76,Antisocial (with Travis Scott),No.6 Collaborations Project,2019-07-12,7,1DhRbox3xkceP64k3JeYfW,spotify:track:1DhRbox3xkceP64k3JeYfW,0.132,0.716,0.823,0.0,0.361,-5.313,0.0495,151.957,0.91,65,161746
-77,Remember The Name (feat. Eminem & 50 Cent),No.6 Collaborations Project,2019-07-12,8,0AtP8EkGPn6SwxKDaUuXec,spotify:track:0AtP8EkGPn6SwxKDaUuXec,0.135,0.852,0.666,0.0,0.798,-6.923,0.184,91.046,0.726,69,207760
-78,Feels (feat. Young Thug & J Hus),No.6 Collaborations Project,2019-07-12,9,1Bdptrvb7nQkq8kCw3siE9,spotify:track:1Bdptrvb7nQkq8kCw3siE9,0.112,0.665,0.68,0.0,0.096,-4.898,0.291,91.667,0.69,53,150786
-79,Put It All on Me (feat. Ella Mai),No.6 Collaborations Project,2019-07-12,10,5T03itPFOPGGkvVPvPiyla,spotify:track:5T03itPFOPGGkvVPvPiyla,0.256,0.627,0.594,0.0,0.373,-8.306,0.0479,101.007,0.388,65,197093
-80,Nothing On You (feat. Paulo Londra & Dave),No.6 Collaborations Project,2019-07-12,11,2qRN7PWiHRLprw4FpDeI9N,spotify:track:2qRN7PWiHRLprw4FpDeI9N,0.333,0.747,0.649,0.0,0.172,-6.218,0.218,88.011,0.84,59,200733
-81,I Don't Want Your Money (feat. H.E.R.),No.6 Collaborations Project,2019-07-12,12,3FHXUqaUer9o231Je1zxIN,spotify:track:3FHXUqaUer9o231Je1zxIN,0.31,0.468,0.63,0.0,0.137,-6.536,0.0843,91.419,0.762,54,204506
-82,1000 Nights (feat. Meek Mill & A Boogie Wit da Hoodie),No.6 Collaborations Project,2019-07-12,13,4vIKzWqtn44umal5jXq4wE,spotify:track:4vIKzWqtn44umal5jXq4wE,0.467,0.778,0.589,0.0,0.0902,-5.548,0.269,98.001,0.513,54,212306
-83,Way To Break My Heart (feat. Skrillex),No.6 Collaborations Project,2019-07-12,14,5d1rmWWF1725tnYjq6rMDB,spotify:track:5d1rmWWF1725tnYjq6rMDB,0.11,0.726,0.731,3.45e-06,0.0928,-6.298,0.159,170.125,0.437,55,190293
-84,BLOW (with Chris Stapleton & Bruno Mars),No.6 Collaborations Project,2019-07-12,15,7hvO2qCwJVZxiyoA7c9i5d,spotify:track:7hvO2qCwJVZxiyoA7c9i5d,0.000245,0.631,0.796,0.0108,0.38,-5.35,0.0401,92.47,0.596,59,209120
-85,Eraser,÷ (Deluxe),2017-03-03,1,7oolFzHipTMg2nL7shhdz2,spotify:track:7oolFzHipTMg2nL7shhdz2,0.086,0.64,0.812,0.0,0.0509,-5.647,0.0834,86.013,0.914,60,227426
-86,Castle on the Hill,÷ (Deluxe),2017-03-03,2,6PCUP3dWmTjcTtXY02oFdT,spotify:track:6PCUP3dWmTjcTtXY02oFdT,0.0232,0.461,0.834,1.14e-05,0.14,-4.868,0.0989,135.007,0.471,81,261153
-87,Dive,÷ (Deluxe),2017-03-03,3,51ChrwmUPDJvedPQnIU8Ls,spotify:track:51ChrwmUPDJvedPQnIU8Ls,0.355,0.761,0.386,0.0,0.0953,-6.158,0.0399,134.943,0.526,74,238440
-88,Shape of You,÷ (Deluxe),2017-03-03,4,7qiZfU4dY1lWllzX7mPBI3,spotify:track:7qiZfU4dY1lWllzX7mPBI3,0.581,0.825,0.652,0.0,0.0931,-3.183,0.0802,95.977,0.931,89,233712
-89,Perfect,÷ (Deluxe),2017-03-03,5,0tgVpDi06FyKpA1z0VMD4v,spotify:track:0tgVpDi06FyKpA1z0VMD4v,0.163,0.599,0.448,0.0,0.106,-6.312,0.0232,95.05,0.168,90,263400
-90,Galway Girl,÷ (Deluxe),2017-03-03,6,0afhq8XCExXpqazXczTSve,spotify:track:0afhq8XCExXpqazXczTSve,0.0735,0.624,0.876,0.0,0.327,-3.374,0.1,99.943,0.781,81,170826
-91,Happier,÷ (Deluxe),2017-03-03,7,2RttW7RAu5nOAfq6YFvApB,spotify:track:2RttW7RAu5nOAfq6YFvApB,0.536,0.522,0.385,0.0,0.135,-7.355,0.0288,89.792,0.236,80,207520
-92,New Man,÷ (Deluxe),2017-03-03,8,5HDPtsnyb3maFmPL8LLUTG,spotify:track:5HDPtsnyb3maFmPL8LLUTG,0.0559,0.78,0.745,0.0,0.0595,-3.97,0.145,94.026,0.862,65,189280
-93,Hearts Don't Break Around Here,÷ (Deluxe),2017-03-03,9,2dfHh7ECGxfNqZTQno09Vk,spotify:track:2dfHh7ECGxfNqZTQno09Vk,0.719,0.604,0.366,0.0,0.162,-7.881,0.0267,105.177,0.181,64,248413
-94,What Do I Know?,÷ (Deluxe),2017-03-03,10,2pJZ1v8HezrAoZ0Fhzby92,spotify:track:2pJZ1v8HezrAoZ0Fhzby92,0.251,0.838,0.492,0.0,0.262,-5.69,0.038,115.092,0.895,68,237333
-95,How Would You Feel (Paean),÷ (Deluxe),2017-03-03,11,6PJ8FF6UR8FZXfEvpHkIVN,spotify:track:6PJ8FF6UR8FZXfEvpHkIVN,0.424,0.617,0.439,0.0,0.127,-5.63,0.0269,139.979,0.242,67,280533
-96,Supermarket Flowers,÷ (Deluxe),2017-03-03,12,4VuS959DSpr82t3qBqCrWG,spotify:track:4VuS959DSpr82t3qBqCrWG,0.914,0.589,0.242,0.0,0.0887,-10.517,0.0442,89.749,0.257,76,221106
-97,Barcelona,÷ (Deluxe),2017-03-03,13,3Lfiu5sZ4M4B6JaKMBc0FU,spotify:track:3Lfiu5sZ4M4B6JaKMBc0FU,0.448,0.747,0.76,0.0,0.153,-4.294,0.187,99.975,0.682,66,191146
-98,Bibia Be Ye Ye,÷ (Deluxe),2017-03-03,14,6SznMYPQJHzr3IwsAHLId2,spotify:track:6SznMYPQJHzr3IwsAHLId2,0.52,0.738,0.677,0.0,0.133,-5.121,0.0824,127.067,0.882,63,176746
-99,Nancy Mulligan,÷ (Deluxe),2017-03-03,15,35QZaWQRkmnAVqBF1TLCxQ,spotify:track:35QZaWQRkmnAVqBF1TLCxQ,0.117,0.68,0.852,0.0,0.0866,-4.35,0.0349,101.993,0.858,67,179786
-100,Save Myself,÷ (Deluxe),2017-03-03,16,6TIU9Ehmi6dMzZK73Ym4yj,spotify:track:6TIU9Ehmi6dMzZK73Ym4yj,0.85,0.552,0.29,0.0,0.227,-5.617,0.0448,78.842,0.481,63,247106
-101,One,x (Wembley Edition),2015-11-13,1,5mUBAfEctquPCp3oe8CRZX,spotify:track:5mUBAfEctquPCp3oe8CRZX,0.877,0.464,0.321,0.0,0.0789,-11.12,0.0418,93.528,0.306,44,252760
-102,I'm a Mess,x (Wembley Edition),2015-11-13,2,05AXbdKlVvkT6IJlYAfuap,spotify:track:05AXbdKlVvkT6IJlYAfuap,0.556,0.697,0.377,0.0,0.0999,-7.755,0.0397,138.754,0.336,42,244573
-103,Sing,x (Wembley Edition),2015-11-13,3,5sA4n1wolLZk2YpBLbsCqj,spotify:track:5sA4n1wolLZk2YpBLbsCqj,0.304,0.818,0.67,1.22e-06,0.0601,-4.451,0.0472,119.988,0.939,44,235382
-104,Don't,x (Wembley Edition),2015-11-13,4,5LTzAKRZ2Xct8d6vVrErha,spotify:track:5LTzAKRZ2Xct8d6vVrErha,0.0113,0.806,0.608,0.0,0.635,-7.008,0.0659,95.049,0.849,45,219840
-105,Nina,x (Wembley Edition),2015-11-13,5,3b2b3rMn0LflqsIW0g5lDl,spotify:track:3b2b3rMn0LflqsIW0g5lDl,0.175,0.791,0.669,0.0,0.33,-7.189,0.146,92.013,0.809,38,225533
-106,Photograph,x (Wembley Edition),2015-11-13,6,0ch8PUB8JRTMJqmdmfY46U,spotify:track:0ch8PUB8JRTMJqmdmfY46U,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,53,258986
-107,Bloodstream,x (Wembley Edition),2015-11-13,7,2mHWjchw9pqHBvHh7iKoco,spotify:track:2mHWjchw9pqHBvHh7iKoco,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,42,300253
-108,Tenerife Sea,x (Wembley Edition),2015-11-13,8,5rYipCuUMXmKr5XM3eDC1r,spotify:track:5rYipCuUMXmKr5XM3eDC1r,0.697,0.53,0.346,1.07e-05,0.105,-10.497,0.0376,121.876,0.359,60,241346
-109,Runaway,x (Wembley Edition),2015-11-13,9,1QaVYz0KPmXtdjVcm3P4oj,spotify:track:1QaVYz0KPmXtdjVcm3P4oj,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,39,205133
-110,The Man,x (Wembley Edition),2015-11-13,10,01cCX1iNks6Ob0Ynwwg8tX,spotify:track:01cCX1iNks6Ob0Ynwwg8tX,0.576,0.759,0.725,0.0,0.0771,-7.006,0.158,87.467,0.619,36,250426
-111,Thinking out Loud,x (Wembley Edition),2015-11-13,11,2L6ypr3l5t5mLkY3lXIpZE,spotify:track:2L6ypr3l5t5mLkY3lXIpZE,0.474,0.781,0.445,0.0,0.184,-6.061,0.0295,78.998,0.591,55,281560
-112,Afire Love,x (Wembley Edition),2015-11-13,12,0jnNYYeMqMdreIsN22PzGk,spotify:track:0jnNYYeMqMdreIsN22PzGk,0.464,0.552,0.637,1.63e-05,0.136,-6.568,0.0445,97.97,0.333,40,314280
-113,Take It Back,x (Wembley Edition),2015-11-13,13,3AhWpAMU0lj0CPMZv3Krde,spotify:track:3AhWpAMU0lj0CPMZv3Krde,0.318,0.754,0.613,0.0,0.335,-6.342,0.229,113.196,0.904,36,208400
-114,Shirtsleeves,x (Wembley Edition),2015-11-13,14,5Httl4rILlQs8FednTJ2uE,spotify:track:5Httl4rILlQs8FednTJ2uE,0.319,0.752,0.76,0.0,0.335,-5.34,0.0341,107.034,0.752,35,190226
-115,Even My Dad Does Sometimes,x (Wembley Edition),2015-11-13,15,60k4LTrhZ7xX0tSYZkXsuK,spotify:track:60k4LTrhZ7xX0tSYZkXsuK,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,36,228533
-116,I See Fire,x (Wembley Edition),2015-11-13,16,2q5rFdBjUn0e9EL6mHb4Jy,spotify:track:2q5rFdBjUn0e9EL6mHb4Jy,0.638,0.641,0.176,5.14e-06,0.252,-11.692,0.0349,76.031,0.297,0,299146
-117,English Rose,x (Wembley Edition),2015-11-13,17,3B8BedGdUGT1Ixog6v8ua8,spotify:track:3B8BedGdUGT1Ixog6v8ua8,0.0977,0.579,0.649,0.0,0.125,-6.522,0.0352,114.593,0.184,43,184173
-118,Touch and Go,x (Wembley Edition),2015-11-13,18,4w098dhR8GON00jYL1vCv4,spotify:track:4w098dhR8GON00jYL1vCv4,0.294,0.812,0.542,6.92e-05,0.141,-5.403,0.0444,110.268,0.733,53,240986
-119,New York,x (Wembley Edition),2015-11-13,19,5FBaWYaoA8j260ctveOa4a,spotify:track:5FBaWYaoA8j260ctveOa4a,0.707,0.728,0.461,0.0,0.113,-8.726,0.0395,86.014,0.474,43,235960
-120,Make It Rain,x (Wembley Edition),2015-11-13,20,4rhcqdXTzNX9uZRZybj3UP,spotify:track:4rhcqdXTzNX9uZRZybj3UP,0.791,0.618,0.239,0.0,0.1,-8.371,0.0274,96.846,0.327,53,404480
-121,Parting Glass - Live at Wembley Stadium,x (Wembley Edition),2015-11-13,21,0CjyIDOzzujwovFiCHe1LS,spotify:track:0CjyIDOzzujwovFiCHe1LS,0.598,0.389,0.369,0.0,0.96,-6.886,0.0404,102.625,0.541,41,195967
-122,Small Bump - Live at Wembley Stadium,x (Wembley Edition),2015-11-13,22,1nVe4FCdf6dVBkzAF741IC,spotify:track:1nVe4FCdf6dVBkzAF741IC,0.219,0.69,0.696,0.0,0.958,-7.432,0.183,125.735,0.237,36,302992
-123,Lay It All on Me (feat. Ed Sheeran),x (Wembley Edition),2015-11-13,23,1eIcWCHqpW2qlWwNOH3dL1,spotify:track:1eIcWCHqpW2qlWwNOH3dL1,0.141,0.669,0.747,0.0,0.185,-7.108,0.0428,122.531,0.483,41,242440
-124,"You Need Me, I Don't Need You",5,2014-06-23,1,6x44NmhdsmgRzG07kzqOO6,spotify:track:6x44NmhdsmgRzG07kzqOO6,0.692,0.689,0.563,0.0,0.0579,-5.539,0.275,129.517,0.819,40,245040
-125,So,5,2014-06-23,2,24ha18yq0t7XnZ9EgJ7HYb,spotify:track:24ha18yq0t7XnZ9EgJ7HYb,0.853,0.521,0.133,0.0,0.35,-10.599,0.0431,140.077,0.391,43,268760
-126,Be Like You,5,2014-06-23,3,6ThrnYkLPlKar6dUIggR6Q,spotify:track:6ThrnYkLPlKar6dUIggR6Q,0.715,0.671,0.388,0.0,0.192,-6.516,0.0762,105.869,0.59,42,218373
-127,The City,5,2014-06-23,4,4oCmusomhJaDXUF9OttwQ5,spotify:track:4oCmusomhJaDXUF9OttwQ5,0.74,0.689,0.369,0.0,0.122,-7.183,0.357,102.565,0.701,37,266280
-128,Sunburn,5,2014-06-23,5,0Z0GZkW8QCohqGChLmWixd,spotify:track:0Z0GZkW8QCohqGChLmWixd,0.842,0.533,0.17,5.03e-06,0.113,-11.342,0.0668,116.852,0.33,41,266053
-129,Let It Out,5,2014-06-23,1,4Ur8TgNrZyUuRBWjsQfgGe,spotify:track:4Ur8TgNrZyUuRBWjsQfgGe,0.645,0.731,0.603,0.011,0.147,-7.656,0.0378,96.973,0.619,39,231546
-130,Homeless,5,2014-06-23,2,5YS8NjfOuoFP1vi5wglycc,spotify:track:5YS8NjfOuoFP1vi5wglycc,0.519,0.754,0.636,0.0,0.108,-7.129,0.193,90.001,0.875,38,210746
-131,Little Bird,5,2014-06-23,3,5DizlXTwJjjwxxqGNChcvO,spotify:track:5DizlXTwJjjwxxqGNChcvO,0.569,0.826,0.485,0.0,0.107,-7.424,0.0354,104.011,0.278,40,226066
-132,Sofa,5,2014-06-23,4,2Z7RLfJdXXkXUmvMJxkNJo,spotify:track:2Z7RLfJdXXkXUmvMJxkNJo,0.14,0.646,0.65,9.65e-06,0.0999,-6.491,0.0278,100.05,0.52,37,199133
-133,One Night,5,2014-06-23,5,1IbGB3FLPDJjBX5i3S57rA,spotify:track:1IbGB3FLPDJjBX5i3S57rA,0.379,0.781,0.836,0.0,0.289,-5.496,0.0658,94.989,0.636,38,206440
-134,Firefly,5,2014-06-23,6,7udHOd6OUjUIhSjpTo4cl4,spotify:track:7udHOd6OUjUIhSjpTo4cl4,0.886,0.602,0.31,0.000142,0.105,-11.469,0.0373,159.917,0.36,42,254999
-135,The City - Live at Sticky Studios; Loose Change EP,5,2014-06-23,7,7cCsAsOKvFdOjQHpADku4O,spotify:track:7cCsAsOKvFdOjQHpADku4O,0.507,0.712,0.569,0.0,0.412,-6.032,0.204,105.032,0.837,33,306320
-136,Firefly - Bravado Dubstep Remix,5,2014-06-23,8,0dQ5jI1SGoAX2QT6N95tad,spotify:track:0dQ5jI1SGoAX2QT6N95tad,0.28,0.629,0.663,0.711,0.0811,-10.516,0.0283,139.982,0.49,32,269186
-137,Fall,5,2014-06-23,1,5JTTFF4bKTIqrhRmmOgXXo,spotify:track:5JTTFF4bKTIqrhRmmOgXXo,0.632,0.559,0.283,0.00127,0.126,-9.827,0.0323,82.552,0.188,45,163272
-138,Fire Alarms,5,2014-06-23,2,4I7VRMbaqi6GdSkaSxe1he,spotify:track:4I7VRMbaqi6GdSkaSxe1he,0.772,0.602,0.286,0.0,0.162,-9.886,0.0296,102.009,0.379,40,144013
-139,Where We Land,5,2014-06-23,3,0xaPq2EZ9pQ9vLuxy6MCHH,spotify:track:0xaPq2EZ9pQ9vLuxy6MCHH,0.838,0.68,0.248,4.86e-06,0.0907,-11.592,0.031,119.944,0.275,43,183000
-140,Cold Coffee,5,2014-06-23,4,4THoSHxiabL1rd59iVWu2T,spotify:track:4THoSHxiabL1rd59iVWu2T,0.453,0.544,0.529,0.0,0.131,-6.753,0.0256,92.936,0.403,52,254226
-141,She,5,2014-06-23,5,3ICdPHubhqTJ4Lm9NEb2W3,spotify:track:3ICdPHubhqTJ4Lm9NEb2W3,0.811,0.573,0.344,0.0,0.13,-10.91,0.0361,157.783,0.377,46,244653
-142,The A Team - Live at the Bedford,5,2014-06-23,1,3nwbntyppUfLEMorPB40HN,spotify:track:3nwbntyppUfLEMorPB40HN,0.728,0.402,0.339,0.0,0.833,-9.574,0.0498,83.194,0.496,33,322933
-143,Homeless - Live at the Bedford,5,2014-06-23,2,0ewWskuCnqrTFvMUqtAQwF,spotify:track:0ewWskuCnqrTFvMUqtAQwF,0.62,0.601,0.879,0.0,0.464,-5.215,0.0945,99.377,0.713,31,225013
-144,The City - Live at the Bedford,5,2014-06-23,3,4HQcJua3wHJLvBvc3gKJTr,spotify:track:4HQcJua3wHJLvBvc3gKJTr,0.545,0.602,0.8,0.0,0.656,-5.91,0.0734,109.921,0.81,31,307760
-145,Fall - Live at the Bedford,5,2014-06-23,4,1lG7S133U7vKOXy0n8WeEL,spotify:track:1lG7S133U7vKOXy0n8WeEL,0.807,0.494,0.0964,7.13e-05,0.936,-16.691,0.0532,86.676,0.393,32,151173
-146,Wake Me Up - Live at the Bedford,5,2014-06-23,5,2c3PILT3ocB6B47pNzi9qs,spotify:track:2c3PILT3ocB6B47pNzi9qs,0.792,0.616,0.141,0.0,0.897,-17.161,0.532,107.874,0.361,32,300680
-147,"You Need Me, I Don't Need You - Live at the Bedford",5,2014-06-23,6,2GGOQWJo7FGEQojc7baekK,spotify:track:2GGOQWJo7FGEQojc7baekK,0.48,0.506,0.911,0.0,0.696,-4.779,0.23,105.475,0.781,34,590333
-148,Lately (feat. Devlin),5,2014-06-23,1,5cth8vxCckeYgE10nX58re,spotify:track:5cth8vxCckeYgE10nX58re,0.0928,0.718,0.82,0.0,0.391,-5.552,0.103,90.013,0.329,32,271333
-149,You (feat. Wiley),5,2014-06-23,2,6dSgNLxLDgTaPQlB15yOOK,spotify:track:6dSgNLxLDgTaPQlB15yOOK,0.386,0.799,0.532,0.00017,0.0978,-9.472,0.0707,100.032,0.189,32,201586
-150,Family (feat. P Money),5,2014-06-23,3,77m6ySUV5ZpOdaIsygDYMZ,spotify:track:77m6ySUV5ZpOdaIsygDYMZ,0.515,0.476,0.704,0.0,0.094,-5.411,0.278,140.396,0.297,31,254906
-151,Radio (feat. JME),5,2014-06-23,4,3MUKlVjVJBvPf4flrDq8KB,spotify:track:3MUKlVjVJBvPf4flrDq8KB,0.214,0.693,0.833,0.0,0.117,-5.408,0.263,99.901,0.759,31,222653
-152,Little Lady (feat. Mikill Pane),5,2014-06-23,5,7bXTXa2zmMuRZPCBEWcjHw,spotify:track:7bXTXa2zmMuRZPCBEWcjHw,0.731,0.437,0.5,0.0,0.157,-7.103,0.105,85.293,0.437,33,328653
-153,Drown Me Out (feat. Ghetts) - + Ghetts,5,2014-06-23,6,0dNt7lZks5TVxiGaCIY1yZ,spotify:track:0dNt7lZks5TVxiGaCIY1yZ,0.0282,0.511,0.91,0.0,0.127,-6.186,0.116,140.147,0.426,30,261440
-154,"Nightmares (feat. Random Impulse, Sway & Wretch 32)",5,2014-06-23,7,4SVST4FR6Gj74UJCzCiOSX,spotify:track:4SVST4FR6Gj74UJCzCiOSX,0.101,0.855,0.678,0.00232,0.0964,-6.864,0.052,120.012,0.429,31,243000
-155,Goodbye to You (feat. Dot Rotten),5,2014-06-23,8,1O5u4AShfndSLCnVqlV0h2,spotify:track:1O5u4AShfndSLCnVqlV0h2,0.267,0.64,0.664,0.0,0.329,-7.812,0.152,140.007,0.275,31,330200
-156,One,x (Deluxe Edition),2014-06-21,1,5TvFfDlVoUWZvfqrhTJzD7,spotify:track:5TvFfDlVoUWZvfqrhTJzD7,0.877,0.464,0.321,0.0,0.0789,-11.12,0.0418,93.528,0.306,63,252760
-157,I'm a Mess,x (Deluxe Edition),2014-06-21,2,0xCA70t1ZA4fa9UOE0lIJm,spotify:track:0xCA70t1ZA4fa9UOE0lIJm,0.556,0.697,0.377,0.0,0.0999,-7.755,0.0397,138.754,0.336,65,244573
-158,Sing,x (Deluxe Edition),2014-06-21,3,6K8qKeWo5MsFED7wCR6Kop,spotify:track:6K8qKeWo5MsFED7wCR6Kop,0.304,0.818,0.67,1.22e-06,0.0601,-4.451,0.0472,119.988,0.939,72,235382
-159,Don't,x (Deluxe Edition),2014-06-21,4,1huvTbEYtgltjQRXzrNKGi,spotify:track:1huvTbEYtgltjQRXzrNKGi,0.0113,0.806,0.608,0.0,0.635,-7.008,0.0659,95.049,0.849,74,219840
-160,Nina,x (Deluxe Edition),2014-06-21,5,3GKSfF6c3Rv3a1knSjxnXa,spotify:track:3GKSfF6c3Rv3a1knSjxnXa,0.175,0.791,0.669,0.0,0.33,-7.189,0.146,92.013,0.809,57,225533
-161,Photograph,x (Deluxe Edition),2014-06-21,6,1HNkqx9Ahdgi1Ixy2xkKkL,spotify:track:1HNkqx9Ahdgi1Ixy2xkKkL,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,87,258986
-162,Bloodstream,x (Deluxe Edition),2014-06-21,7,5v4sZRuvWDcisoOk1PFv6T,spotify:track:5v4sZRuvWDcisoOk1PFv6T,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,67,300253
-163,Tenerife Sea,x (Deluxe Edition),2014-06-21,8,1HbcclMpw0q2WDWpdGCKdS,spotify:track:1HbcclMpw0q2WDWpdGCKdS,0.697,0.53,0.346,1.07e-05,0.105,-10.497,0.0376,121.876,0.359,69,241346
-164,Runaway,x (Deluxe Edition),2014-06-21,9,2VmA7bm5ECiYZfw7x4Nzku,spotify:track:2VmA7bm5ECiYZfw7x4Nzku,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,58,205133
-165,The Man,x (Deluxe Edition),2014-06-21,10,1gHF0I223J5pv06SuBcmkz,spotify:track:1gHF0I223J5pv06SuBcmkz,0.576,0.759,0.725,0.0,0.0771,-7.006,0.158,87.467,0.619,54,250426
-166,Thinking out Loud,x (Deluxe Edition),2014-06-21,11,34gCuhDGsG4bRPIf9bb02f,spotify:track:34gCuhDGsG4bRPIf9bb02f,0.474,0.781,0.445,0.0,0.184,-6.061,0.0295,78.998,0.591,85,281560
-167,Afire Love,x (Deluxe Edition),2014-06-21,12,12B0Twa9kRz45Xw2PgXHJm,spotify:track:12B0Twa9kRz45Xw2PgXHJm,0.464,0.552,0.637,1.63e-05,0.136,-6.568,0.0445,97.97,0.333,59,314280
-168,Take It Back,x (Deluxe Edition),2014-06-21,13,2dmOWlEHrP266Qgz6wnUrd,spotify:track:2dmOWlEHrP266Qgz6wnUrd,0.318,0.754,0.613,0.0,0.335,-6.342,0.229,113.196,0.904,54,208400
-169,Shirtsleeves,x (Deluxe Edition),2014-06-21,14,7awwmuGslmuyhnlpFipDqk,spotify:track:7awwmuGslmuyhnlpFipDqk,0.319,0.752,0.76,0.0,0.335,-5.34,0.0341,107.034,0.752,53,190226
-170,Even My Dad Does Sometimes,x (Deluxe Edition),2014-06-21,15,0N5zjRnf8AreOm95iSBXF4,spotify:track:0N5zjRnf8AreOm95iSBXF4,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,55,228533
-171,I See Fire,x (Deluxe Edition),2014-06-21,16,5pY3ovFxbvAg7reGZjJQSp,spotify:track:5pY3ovFxbvAg7reGZjJQSp,0.638,0.641,0.176,5.14e-06,0.252,-11.692,0.0349,76.031,0.297,0,299146
-172,Let It Out,Loose Change,2011-12-09,1,69RasNFxqhiyy75JDHsrIS,spotify:track:69RasNFxqhiyy75JDHsrIS,0.645,0.731,0.603,0.011,0.147,-7.656,0.0378,96.973,0.619,45,231546
-173,Homeless,Loose Change,2011-12-09,2,0jtTK6XjYj2L3Ge6jyK2sr,spotify:track:0jtTK6XjYj2L3Ge6jyK2sr,0.519,0.754,0.636,0.0,0.108,-7.129,0.193,90.001,0.875,39,210746
-174,Little Bird,Loose Change,2011-12-09,3,7sGK98k8lv3hzRznoN909t,spotify:track:7sGK98k8lv3hzRznoN909t,0.569,0.826,0.485,0.0,0.107,-7.424,0.0354,104.011,0.278,40,226066
-175,Sofa,Loose Change,2011-12-09,4,5VAd82Nigp6Qdbl2zln1cl,spotify:track:5VAd82Nigp6Qdbl2zln1cl,0.14,0.646,0.65,9.65e-06,0.0999,-6.491,0.0278,100.05,0.52,38,199133
-176,One Night,Loose Change,2011-12-09,5,0CNrpbpJ9HsFffF9hqWIIe,spotify:track:0CNrpbpJ9HsFffF9hqWIIe,0.379,0.781,0.836,0.0,0.289,-5.496,0.0658,94.989,0.636,44,206440
-177,Firefly,Loose Change,2011-12-09,6,4fZscNFYKoPIDHrgXxdacR,spotify:track:4fZscNFYKoPIDHrgXxdacR,0.886,0.602,0.31,0.000142,0.105,-11.469,0.0373,159.917,0.36,46,254999
-178,The City - Live at Sticky Studios; Loose Change EP,Loose Change,2011-12-09,7,1Fj5Hfda761tgxKbJUlFxN,spotify:track:1Fj5Hfda761tgxKbJUlFxN,0.507,0.712,0.569,0.0,0.412,-6.032,0.204,105.032,0.837,34,306320
-179,Firefly - Bravado Dubstep Remix,Loose Change,2011-12-09,8,1qjnGMSchVVfePsMV0UZ9b,spotify:track:1qjnGMSchVVfePsMV0UZ9b,0.28,0.629,0.663,0.711,0.0811,-10.516,0.0283,139.982,0.49,31,269186
-180,The A Team - Live at the Bedford,Live at the Bedford,2011-12-09,1,6JUGrUnAms0o3uGVIhkAyH,spotify:track:6JUGrUnAms0o3uGVIhkAyH,0.728,0.402,0.339,0.0,0.833,-9.574,0.0498,83.194,0.496,32,322933
-181,Homeless - Live at the Bedford,Live at the Bedford,2011-12-09,2,0T0wYEzpL46dCaTL1DLCyD,spotify:track:0T0wYEzpL46dCaTL1DLCyD,0.62,0.601,0.879,0.0,0.464,-5.215,0.0945,99.377,0.713,30,225013
-182,The City - Live at the Bedford,Live at the Bedford,2011-12-09,3,7JE96R5PJCWQ9Cm3JQXYuH,spotify:track:7JE96R5PJCWQ9Cm3JQXYuH,0.545,0.602,0.8,0.0,0.656,-5.91,0.0734,109.921,0.81,29,307760
-183,Fall - Live at the Bedford,Live at the Bedford,2011-12-09,4,1YM4HlWW3vvrnWdf9N7Xi2,spotify:track:1YM4HlWW3vvrnWdf9N7Xi2,0.807,0.494,0.0964,7.13e-05,0.936,-16.691,0.0532,86.676,0.393,30,151173
-184,Wake Me Up - Live at the Bedford,Live at the Bedford,2011-12-09,5,7GtrkWkk5MxDaIlGOr7UU9,spotify:track:7GtrkWkk5MxDaIlGOr7UU9,0.792,0.616,0.141,0.0,0.897,-17.161,0.532,107.874,0.361,34,300680
-185,"You Need Me, I Don't Need You - Live at the Bedford",Live at the Bedford,2011-12-09,6,5rJDpFuffh8UFEKqvzCAZP,spotify:track:5rJDpFuffh8UFEKqvzCAZP,0.48,0.506,0.911,0.0,0.696,-4.779,0.23,105.475,0.781,34,590333
-186,Lately (feat. Devlin),No.5 Collaborations Project,2011-09-09,1,1iyJwocwqUMwLgmu9O5Y13,spotify:track:1iyJwocwqUMwLgmu9O5Y13,0.0928,0.718,0.82,0.0,0.391,-5.552,0.103,90.013,0.329,37,271333
-187,You (feat. Wiley),No.5 Collaborations Project,2011-09-09,2,7h7KBBdYIzrxOsLfR9aUO7,spotify:track:7h7KBBdYIzrxOsLfR9aUO7,0.386,0.799,0.532,0.00017,0.0978,-9.472,0.0707,100.032,0.189,35,201586
-188,Family (feat. P Money),No.5 Collaborations Project,2011-09-09,3,79d2OA4Sj4nfw0vk8EV82D,spotify:track:79d2OA4Sj4nfw0vk8EV82D,0.515,0.476,0.704,0.0,0.094,-5.411,0.278,140.396,0.297,35,254906
-189,Radio (feat. JME),No.5 Collaborations Project,2011-09-09,4,5KB7EYQuHd0S5WKVWpagYu,spotify:track:5KB7EYQuHd0S5WKVWpagYu,0.214,0.693,0.833,0.0,0.117,-5.408,0.263,99.901,0.759,37,222653
-190,Little Lady (feat. Mikill Pane),No.5 Collaborations Project,2011-09-09,5,5rKb6l02IplvF9I0sJI9Lj,spotify:track:5rKb6l02IplvF9I0sJI9Lj,0.731,0.437,0.5,0.0,0.157,-7.103,0.105,85.293,0.437,42,328653
-191,Drown Me Out (feat. Ghetts) - + Ghetts,No.5 Collaborations Project,2011-09-09,6,0UD8qgp0Fmgh79K3qeTHQh,spotify:track:0UD8qgp0Fmgh79K3qeTHQh,0.0282,0.511,0.91,0.0,0.127,-6.186,0.116,140.147,0.426,32,261440
-192,"Nightmares (feat. Random Impulse, Sway & Wretch 32)",No.5 Collaborations Project,2011-09-09,7,4MKPqVv3FqKCZTcKHfR125,spotify:track:4MKPqVv3FqKCZTcKHfR125,0.101,0.855,0.678,0.00232,0.0964,-6.864,0.052,120.012,0.429,33,243000
-193,Goodbye to You (feat. Dot Rotten),No.5 Collaborations Project,2011-09-09,8,1SdyQYIFM05qkexCFKZxW1,spotify:track:1SdyQYIFM05qkexCFKZxW1,0.267,0.64,0.664,0.0,0.329,-7.812,0.152,140.007,0.275,32,330200
-194,The A Team,+,2011-09-09,1,1XpYodsD36XN7ygcdF7mJJ,spotify:track:1XpYodsD36XN7ygcdF7mJJ,0.669,0.642,0.289,0.0,0.18,-9.918,0.0367,84.996,0.407,69,258373
-195,Drunk,+,2011-09-09,2,4RnCPWlBsY7oUDdyruod7Y,spotify:track:4RnCPWlBsY7oUDdyruod7Y,0.419,0.733,0.652,2.37e-06,0.521,-9.101,0.0696,99.998,0.459,65,200093
-196,U.N.I.,+,2011-09-09,3,5Ukzlujip1Slqka5OY82YS,spotify:track:5Ukzlujip1Slqka5OY82YS,0.323,0.422,0.405,0.0,0.15,-11.126,0.101,74.13,0.578,54,228600
-197,Grade 8,+,2011-09-09,4,0obzwoGjXdORtAwYWZ9s53,spotify:track:0obzwoGjXdORtAwYWZ9s53,0.0446,0.74,0.807,4.02e-05,0.0538,-9.976,0.0363,101.042,0.781,52,179880
-198,Wake Me Up,+,2011-09-09,5,0ygAYQQy7bfDN6gH640bbl,spotify:track:0ygAYQQy7bfDN6gH640bbl,0.902,0.616,0.209,0.0,0.139,-13.43,0.406,86.891,0.336,54,229613
-199,Small Bump,+,2011-09-09,6,4z1O25cq9g2kuJemmUxc21,spotify:track:4z1O25cq9g2kuJemmUxc21,0.689,0.81,0.436,0.000151,0.11,-12.683,0.0717,119.973,0.446,63,259413
-200,This,+,2011-09-09,7,0pJfsPQesJyCnR5XWZyvj9,spotify:track:0pJfsPQesJyCnR5XWZyvj9,0.95,0.588,0.0929,0.00539,0.128,-14.301,0.0443,152.139,0.502,53,195840
-201,The City,+,2011-09-09,8,4ucfQOYOe1Jz5KqCfpGobp,spotify:track:4ucfQOYOe1Jz5KqCfpGobp,0.0415,0.74,0.505,6.82e-05,0.0707,-10.338,0.0674,97.994,0.646,50,234333
-202,Lego House,+,2011-09-09,9,5ubHAQtKuFfiG4FXfLP804,spotify:track:5ubHAQtKuFfiG4FXfLP804,0.562,0.592,0.637,0.0,0.13,-8.48,0.0992,159.701,0.565,75,185093
-203,"You Need Me, I Don't Need You",+,2011-09-09,10,5KL4iZkCTZyXl7KnHgfVDj,spotify:track:5KL4iZkCTZyXl7KnHgfVDj,0.162,0.749,0.837,0.0,0.525,-8.837,0.0512,103.483,0.927,64,220413
-204,Kiss Me,+,2011-09-09,11,0Tel1fmuCxEFV6wBLXsEdk,spotify:track:0Tel1fmuCxEFV6wBLXsEdk,0.64,0.589,0.227,0.00469,0.0248,-16.67,0.0498,74.993,0.182,70,280853
-205,Give Me Love,+,2011-09-09,12,0SuG9kyzGRpDqrCWtgD6Lq,spotify:track:0SuG9kyzGRpDqrCWtgD6Lq,0.694,0.526,0.328,0.0,0.112,-9.864,0.0461,116.068,0.11,72,526386
-206,Autumn Leaves - Deluxe Edition,+,2011-09-09,13,7iBSkXB0pTvZasOLf0Qxk9,spotify:track:7iBSkXB0pTvZasOLf0Qxk9,0.892,0.555,0.257,1.42e-06,0.124,-12.637,0.0299,89.013,0.431,58,200755
-207,Little Bird - Deluxe Edition,+,2011-09-09,14,4bcgRbGeq4IejesjsiHyTH,spotify:track:4bcgRbGeq4IejesjsiHyTH,0.565,0.843,0.425,0.0,0.102,-8.676,0.0352,104.02,0.284,52,224528
-208,Gold Rush - Deluxe Edition,+,2011-09-09,15,4mT5mVFaU7trA3UdbGqfB9,spotify:track:4mT5mVFaU7trA3UdbGqfB9,0.729,0.74,0.248,0.0,0.141,-12.659,0.109,83.786,0.889,51,243162
-209,Sunburn - Deluxe Edition,+,2011-09-09,16,3YPiRYIUFlcQ0aaLGmeswS,spotify:track:3YPiRYIUFlcQ0aaLGmeswS,0.865,0.464,0.098,0.0,0.101,-12.119,0.0376,78.864,0.234,49,275882
+,name,feat,album,release_date,track_number,id,uri,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,valence,popularity,duration_ms
+0,Boat,,-,5/05/2023,1,6jemILri7l5LuPhKs2nuXr,spotify:track:6jemILri7l5LuPhKs2nuXr,0.758,0.47,0.203,2.41E-06,0.312,-8.676,0.0371,153.578,0.325,72,185675
+1,Salt Water,,-,5/05/2023,2,6UIcjH0BzH2MKvToeEYIOZ,spotify:track:6UIcjH0BzH2MKvToeEYIOZ,0.617,0.584,0.374,2.86E-06,0.0694,-9.224,0.0337,147.084,0.279,68,239770
+2,Eyes Closed,,-,5/05/2023,3,3p7XQpdt8Dr6oMXSvRZ9bg,spotify:track:3p7XQpdt8Dr6oMXSvRZ9bg,0.246,0.793,0.52,0,0.0878,-7.457,0.0696,107.014,0.309,86,194848
+3,Life Goes On,,-,5/05/2023,4,74eJR4gwG1ZmG4BFkbrOlA,spotify:track:74eJR4gwG1ZmG4BFkbrOlA,0.813,0.629,0.312,0,0.169,-7.609,0.0318,77.044,0.456,70,210208
+4,Dusty,,-,5/05/2023,5,4u4A4lPpiw54evLxTaLeRJ,spotify:track:4u4A4lPpiw54evLxTaLeRJ,0.226,0.711,0.55,0.00928,0.12,-9.682,0.0332,146.928,0.616,66,222957
+5,End Of Youth,,-,5/05/2023,6,0vber253Le8WWt7gKorVe9,spotify:track:0vber253Le8WWt7gKorVe9,0.488,0.663,0.436,0,0.116,-7.81,0.0359,143.197,0.316,70,231040
+6,Colourblind,,-,5/05/2023,7,290x9rCh2EWcJ9YKpfiI9z,spotify:track:290x9rCh2EWcJ9YKpfiI9z,0.85,0.428,0.296,3.63E-06,0.0767,-8.731,0.0396,169.744,0.156,67,209267
+7,Curtains,,-,5/05/2023,8,6ZZf5a8oiInHDkBe9zXfLP,spotify:track:6ZZf5a8oiInHDkBe9zXfLP,0.0989,0.5,0.757,2.50E-06,0.324,-6.542,0.0522,175.944,0.443,76,224803
+8,Borderline,,-,5/05/2023,9,0bCnvkP7PYCJV64sQLl5mm,spotify:track:0bCnvkP7PYCJV64sQLl5mm,0.941,0.51,0.316,2.50E-05,0.0936,-10.001,0.0289,139.917,0.226,65,237756
+9,Spark,,-,5/05/2023,10,26J3f0d3ZuN7g66xBdey8o,spotify:track:26J3f0d3ZuN7g66xBdey8o,0.776,0.56,0.616,0.000334,0.0901,-7.523,0.032,172.031,0.399,65,214846
+10,Vega,,-,5/05/2023,11,1DSwFkEe28GSFmdIK92OFX,spotify:track:1DSwFkEe28GSFmdIK92OFX,0.803,0.743,0.405,0,0.134,-7.901,0.0416,124.041,0.353,67,178114
+11,Sycamore,,-,5/05/2023,12,3qwxZ8ygOYSWE790KcfgU1,spotify:track:3qwxZ8ygOYSWE790KcfgU1,0.727,0.592,0.32,0,0.259,-8.069,0.0331,134.085,0.35,65,170075
+12,No Strings,,-,5/05/2023,13,09UTOp33EhOSWzvGL0YOws,spotify:track:09UTOp33EhOSWzvGL0YOws,0.829,0.644,0.345,0,0.12,-6.433,0.0268,80.957,0.252,64,174087
+13,The Hills of Aberfeldy,,-,5/05/2023,14,1eYafSv4c2aFNf98hSFHX0,spotify:track:1eYafSv4c2aFNf98hSFHX0,0.872,0.436,0.19,0,0.0971,-7.693,0.0303,79.571,0.326,67,195083
+14,Wildflowers - Bonus Track,,-,5/05/2023,15,75To9uF11PYY0vAkXnDWvW,spotify:track:75To9uF11PYY0vAkXnDWvW,0.86,0.764,0.233,0.00185,0.0939,-9.099,0.0302,131.982,0.155,63,178206
+15,Stoned - Bonus Track,,-,5/05/2023,16,5M12X6gQDoMMqqlRDg5Bfo,spotify:track:5M12X6gQDoMMqqlRDg5Bfo,0.76,0.695,0.322,0,0.0895,-7.145,0.03,119.937,0.4,62,197098
+16,Toughest - Bonus Track,,-,5/05/2023,17,0C1dOJr5ae2tJSUGxMXTcC,spotify:track:0C1dOJr5ae2tJSUGxMXTcC,0.562,0.623,0.547,0,0.129,-7.077,0.0342,133.297,0.484,61,213768
+17,Moving - Bonus Track,,-,5/05/2023,18,0Himk13I9FPFVwSyPhU3WD,spotify:track:0Himk13I9FPFVwSyPhU3WD,0.763,0.611,0.394,0,0.153,-6.786,0.0306,74.998,0.728,61,215247
+18,Tides,,= (Tour Edition),27/05/2022,1,650PApG2YcEgoU7pO4u0Wu,spotify:track:650PApG2YcEgoU7pO4u0Wu,0.0167,0.631,0.825,0,0.122,-3.971,0.0433,129.942,0.427,18,195760
+19,Shivers,,= (Tour Edition),27/05/2022,2,2gT59yH6Tzlsj7CNKkwrCZ,spotify:track:2gT59yH6Tzlsj7CNKkwrCZ,0.281,0.788,0.859,0,0.0424,-2.724,0.0856,141.02,0.822,20,207853
+20,First Times,,= (Tour Edition),27/05/2022,3,3tNCcHNB8D9YnUqOLmvI7t,spotify:track:3tNCcHNB8D9YnUqOLmvI7t,0.84,0.587,0.267,0,0.121,-9.206,0.0349,98.845,0.352,17,185853
+21,Bad Habits,,= (Tour Edition),27/05/2022,4,1Pa75iYnneKHYvDsIIhQ6q,spotify:track:1Pa75iYnneKHYvDsIIhQ6q,0.0451,0.807,0.893,2.79E-05,0.366,-3.745,0.0347,126.011,0.537,18,230746
+22,Overpass Graffiti,,= (Tour Edition),27/05/2022,5,63sg6Dw4AitekQoMwDbNMh,spotify:track:63sg6Dw4AitekQoMwDbNMh,0.00253,0.52,0.849,0,0.119,-3.794,0.186,175.908,0.774,19,236906
+23,The Joker And The Queen,,= (Tour Edition),27/05/2022,6,4wurmsNeLCN2oZfaULo5lQ,spotify:track:4wurmsNeLCN2oZfaULo5lQ,0.952,0.567,0.211,5.24E-05,0.275,-9.975,0.0315,134.019,0.289,16,185586
+24,Leave Your Life,,= (Tour Edition),27/05/2022,7,67L4gUAQwMstid0eqKZZl3,spotify:track:67L4gUAQwMstid0eqKZZl3,0.236,0.578,0.558,0,0.143,-5.438,0.0872,75.087,0.54,15,223866
+25,Collide,,= (Tour Edition),27/05/2022,8,6YJ1nkywJM4gbR6ZBFPRHw,spotify:track:6YJ1nkywJM4gbR6ZBFPRHw,0.113,0.672,0.73,0,0.0612,-4.77,0.0372,123.969,0.559,17,210213
+26,2step,,= (Tour Edition),27/05/2022,9,1XWSfcOq25pnWNDkxK6KRK,spotify:track:1XWSfcOq25pnWNDkxK6KRK,0.169,0.763,0.661,0,0.117,-5.592,0.056,95.002,0.632,19,153626
+27,Stop The Rain,,= (Tour Edition),27/05/2022,10,7gu26lYxdKXtrX1Hty3hFM,spotify:track:7gu26lYxdKXtrX1Hty3hFM,0.0122,0.686,0.765,0,0.127,-4.778,0.118,99.998,0.743,16,203493
+28,Love In Slow Motion,,= (Tour Edition),27/05/2022,11,6xeOcZLOFiPA1PUvldp94x,spotify:track:6xeOcZLOFiPA1PUvldp94x,0.668,0.485,0.54,0,0.0849,-5.4,0.0253,62.631,0.426,15,190933
+29,Visiting Hours,,= (Tour Edition),27/05/2022,12,4aWl7w8flTeLDLR0uaOZFi,spotify:track:4aWl7w8flTeLDLR0uaOZFi,0.77,0.471,0.396,0,0.0729,-6.654,0.0336,149.609,0.263,16,215506
+30,Sandman,,= (Tour Edition),27/05/2022,13,2bEAcfWY8Fs90xyOgDoeZV,spotify:track:2bEAcfWY8Fs90xyOgDoeZV,0.882,0.822,0.3,9.15E-05,0.0665,-8.034,0.0673,125.951,0.734,14,259333
+31,Be Right Now,,= (Tour Edition),27/05/2022,14,4hsoq5mayPou3YNoE5Sgh8,spotify:track:4hsoq5mayPou3YNoE5Sgh8,0.00494,0.501,0.684,0.000478,0.0524,-6.706,0.0566,131.952,0.442,14,211080
+32,Afterglow,,= (Tour Edition),27/05/2022,15,6njJ4ksycB4y35rh8T03Kb,spotify:track:6njJ4ksycB4y35rh8T03Kb,0.698,0.641,0.324,0,0.328,-5.851,0.0299,110.184,0.273,42,185486
+33,One Life,,= (Tour Edition),27/05/2022,16,4RSXGzmHGPsKncVonX7NlX,spotify:track:4RSXGzmHGPsKncVonX7NlX,0.114,0.573,0.593,2.65E-06,0.122,-7.225,0.0299,159.978,0.425,42,231546
+34,Penguins,,= (Tour Edition),27/05/2022,17,5fmXV5ft9Xj3yVdSVbv8Mu,spotify:track:5fmXV5ft9Xj3yVdSVbv8Mu,0.79,0.709,0.324,0,0.1,-10.975,0.0444,99.906,0.47,22,248866
+35,I Will Remember You,,= (Tour Edition),27/05/2022,18,3mlFWcdPrsNmymO94D2TxI,spotify:track:3mlFWcdPrsNmymO94D2TxI,0.404,0.743,0.807,5.49E-06,0.0723,-5.917,0.0538,145.01,0.721,27,214493
+36,Welcome To The World,,= (Tour Edition),27/05/2022,19,2hRSG4zE2iHtYmPqtxmbNv,spotify:track:2hRSG4zE2iHtYmPqtxmbNv,0.818,0.334,0.307,5.55E-05,0.362,-8.522,0.033,169.53,0.426,21,176813
+37,The Joker And The Queen,Taylor Swift,= (Tour Edition),27/05/2022,20,3uKJrBPOLOb9oYcuqADzu0,spotify:track:3uKJrBPOLOb9oYcuqADzu0,0.924,0.528,0.309,2.10E-06,0.282,-7.398,0.0329,133.83,0.307,37,185422
+38,2step,Lil Baby,= (Tour Edition),27/05/2022,21,4uMC2yWq68zqFwp3yd29fu,spotify:track:4uMC2yWq68zqFwp3yd29fu,0.138,0.693,0.643,0,0.108,-5.867,0.0828,95.055,0.477,15,163449
+39,Bad Habits,Bring Me The Horizon,= (Tour Edition),27/05/2022,22,3dw5lPI963l80EzaBoHUkh,spotify:track:3dw5lPI963l80EzaBoHUkh,0.0305,0.59,0.849,0,0.11,-4.691,0.0792,131.018,0.178,33,250763
+40,Peru,,= (Tour Edition),27/05/2022,23,4ZF7ug5UnMKQJrEpS1pItU,spotify:track:4ZF7ug5UnMKQJrEpS1pItU,0.572,0.956,0.417,0.00071,0.0782,-7.892,0.0926,108.015,0.714,16,187111
+41,2step,Leto,= (Tour Edition),27/05/2022,24,1OHr4J5rZIfkqCzMdDGAAO,spotify:track:1OHr4J5rZIfkqCzMdDGAAO,0.273,0.73,0.701,0,0.0657,-5.318,0.0447,94.97,0.522,14,154453
+42,Tides,,=,29/10/2021,1,2JiHR4gCDjXwYVRDmwdk95,spotify:track:2JiHR4gCDjXwYVRDmwdk95,0.0167,0.631,0.825,0,0.122,-3.971,0.0433,129.942,0.427,64,195760
+43,Shivers,,=,29/10/2021,2,50nfwKoDiSYg8zOCREWAm5,spotify:track:50nfwKoDiSYg8zOCREWAm5,0.281,0.788,0.859,0,0.0424,-2.724,0.0856,141.02,0.822,87,207853
+44,First Times,,=,29/10/2021,3,5QYnNhTKsN3kE7OaqILA1U,spotify:track:5QYnNhTKsN3kE7OaqILA1U,0.84,0.587,0.267,0,0.121,-9.206,0.0349,98.845,0.352,68,185853
+45,Bad Habits,,=,29/10/2021,4,3rmo8F54jFF8OgYsqTxm5d,spotify:track:3rmo8F54jFF8OgYsqTxm5d,0.0451,0.807,0.893,2.79E-05,0.366,-3.745,0.0347,126.011,0.537,86,230746
+46,Overpass Graffiti,,=,29/10/2021,5,4btFHqumCO31GksfuBLLv3,spotify:track:4btFHqumCO31GksfuBLLv3,0.00253,0.52,0.849,0,0.119,-3.794,0.186,175.908,0.774,75,236906
+47,The Joker And The Queen,,=,29/10/2021,6,3NuLxTXowTRcguTh9RsPmM,spotify:track:3NuLxTXowTRcguTh9RsPmM,0.952,0.567,0.211,5.24E-05,0.275,-9.975,0.0315,134.019,0.289,59,185586
+48,Leave Your Life,,=,29/10/2021,7,0YbI9lWxUBsCJLb6EBydkr,spotify:track:0YbI9lWxUBsCJLb6EBydkr,0.236,0.578,0.558,0,0.143,-5.438,0.0872,75.087,0.54,60,223866
+49,Collide,,=,29/10/2021,8,5sv0WnUs74Orn6GoPmC5im,spotify:track:5sv0WnUs74Orn6GoPmC5im,0.113,0.672,0.73,0,0.0612,-4.77,0.0372,123.969,0.559,62,210213
+50,2step,,=,29/10/2021,9,2SUxn2O9NHL6GHGQFgwCY0,spotify:track:2SUxn2O9NHL6GHGQFgwCY0,0.169,0.763,0.661,0,0.117,-5.592,0.056,95.002,0.632,72,153626
+51,Stop The Rain,,=,29/10/2021,10,0VuDtcT7H4CAljLZEH021x,spotify:track:0VuDtcT7H4CAljLZEH021x,0.0122,0.686,0.765,0,0.127,-4.778,0.118,99.998,0.743,60,203493
+52,Love In Slow Motion,,=,29/10/2021,11,1i4F583d9v9RabcfOlKKVL,spotify:track:1i4F583d9v9RabcfOlKKVL,0.668,0.485,0.54,0,0.0849,-5.4,0.0253,62.631,0.426,62,190933
+53,Visiting Hours,,=,29/10/2021,12,0rt63HYAAIzUZo5O2D0uA6,spotify:track:0rt63HYAAIzUZo5O2D0uA6,0.77,0.471,0.396,0,0.0729,-6.654,0.0336,149.609,0.263,71,215506
+54,Sandman,,=,29/10/2021,13,2Ldb2ytuC9AxhpAkVEJBI6,spotify:track:2Ldb2ytuC9AxhpAkVEJBI6,0.882,0.822,0.3,9.15E-05,0.0665,-8.034,0.0673,125.951,0.734,58,259333
+55,Be Right Now,,=,29/10/2021,14,3BiiSLo0wyHAY7lpCEO6ge,spotify:track:3BiiSLo0wyHAY7lpCEO6ge,0.00494,0.501,0.684,0.000478,0.0524,-6.706,0.0566,131.952,0.442,57,211080
+56,2step,Lil Baby,2step (The Remixes),29/10/2021,1,1qqSQhDwPXl8WY0Fxx9kIt,spotify:track:1qqSQhDwPXl8WY0Fxx9kIt,0.138,0.693,0.643,0,0.108,-5.867,0.0828,95.055,0.477,60,163449
+57,2step,Ultimo,2step (The Remixes),29/10/2021,2,4EDm3svAC8LREh5b6fHZzt,spotify:track:4EDm3svAC8LREh5b6fHZzt,0.16,0.727,0.69,0,0.137,-5.063,0.0721,94.935,0.685,52,154160
+58,2step,Potter Payper,2step (The Remixes),29/10/2021,3,0uW73walIcF9UfA2G5ZfpF,spotify:track:0uW73walIcF9UfA2G5ZfpF,0.14,0.726,0.671,0,0.139,-5.402,0.161,95.053,0.552,37,153446
+59,2step,Antytila,2step (The Remixes),29/10/2021,4,0EgNmGWjnYm3FMyaOW5xsM,spotify:track:0EgNmGWjnYm3FMyaOW5xsM,0.235,0.506,0.695,0,0.151,-5.185,0.105,93.75,0.599,45,153213
+60,2step,Leto,2step (The Remixes),29/10/2021,5,0Ooo1Wnehm31UPovrjLRWW,spotify:track:0Ooo1Wnehm31UPovrjLRWW,0.273,0.73,0.701,0,0.0657,-5.318,0.0447,94.97,0.522,43,154453
+61,2step,Ellinoora,2step (The Remixes),29/10/2021,6,7nPp9jinMqAmiAnNfYzY7c,spotify:track:7nPp9jinMqAmiAnNfYzY7c,0.167,0.705,0.741,0,0.216,-4.33,0.0683,94.962,0.615,40,153373
+62,2step,1.Cuz,2step (The Remixes),29/10/2021,7,3Clcn0JjqakucsAAAMV646,spotify:track:3Clcn0JjqakucsAAAMV646,0.157,0.674,0.663,0,0.13,-5.084,0.084,94.818,0.617,48,153226
+63,2step,Budjerah,2step (The Remixes),29/10/2021,8,3dvDgPBAxqetLJvDmRDtwC,spotify:track:3dvDgPBAxqetLJvDmRDtwC,0.212,0.727,0.621,0,0.114,-4.784,0.0555,94.958,0.565,45,153426
+64,2step,,2step (The Remixes),29/10/2021,9,5DKhoaXr9zqKis4SY5BiSm,spotify:track:5DKhoaXr9zqKis4SY5BiSm,0.254,0.669,0.916,0.00117,0.356,-4.961,0.038,129.956,0.54,36,205186
+65,2step,Chefin,2step (The Remixes),29/10/2021,10,2t0iRmBWsSwPIv7OY8ypiZ,spotify:track:2t0iRmBWsSwPIv7OY8ypiZ,0.209,0.731,0.642,0,0.242,-5.106,0.0695,94.961,0.504,44,164560
+66,2step,reezy,2step (The Remixes),29/10/2021,11,6Md7OetCK5pP3HzcX0ermc,spotify:track:6Md7OetCK5pP3HzcX0ermc,0.179,0.734,0.68,0,0.169,-5.096,0.058,95.06,0.499,36,153334
+67,2step,Quevedo,2step (The Remixes),29/10/2021,12,0YbUKWAVjJvfOvRpnvNEOz,spotify:track:0YbUKWAVjJvfOvRpnvNEOz,0.171,0.72,0.709,0,0.141,-5.308,0.0827,94.99,0.537,45,153254
+68,2step,Denise Chaila,2step (The Remixes),29/10/2021,13,5nlCMeGjtjeHkUqI43dV93,spotify:track:5nlCMeGjtjeHkUqI43dV93,0.21,0.728,0.69,0,0.113,-4.788,0.084,94.986,0.492,33,153227
+69,2step,Armaan Malik,2step (The Remixes),29/10/2021,14,3Gxo1itE2q8dTrhX7atqCE,spotify:track:3Gxo1itE2q8dTrhX7atqCE,0.18,0.747,0.667,0,0.146,-5.181,0.0566,95,0.508,45,153124
+70,Beautiful People,Khalid,No.6 Collaborations Project,12/07/2019,1,70eFcWOvlMObDhURTqT4Fv,spotify:track:70eFcWOvlMObDhURTqT4Fv,0.124,0.64,0.647,0,0.0801,-8.114,0.186,92.979,0.546,76,197866
+71,South of the Border,Camila Cabello & Cardi B,No.6 Collaborations Project,12/07/2019,2,4vUmTMuQqjdnvlZmAH61Qk,spotify:track:4vUmTMuQqjdnvlZmAH61Qk,0.148,0.857,0.621,0,0.0865,-6.376,0.0825,97.989,0.668,76,204466
+72,Cross Me,Chance the Rapper & PnB Rock,No.6 Collaborations Project,12/07/2019,3,4wuCQX7JvAZLlrcmH4AeZF,spotify:track:4wuCQX7JvAZLlrcmH4AeZF,0.212,0.746,0.787,0,0.0669,-6.373,0.12,95.005,0.607,62,206186
+73,Take Me Back to London,Stormzy,No.6 Collaborations Project,12/07/2019,4,1AI7UPw3fgwAFkvAlZWhE0,spotify:track:1AI7UPw3fgwAFkvAlZWhE0,0.219,0.885,0.762,0,0.162,-5.513,0.216,138.058,0.605,66,189733
+74,Best Part of Me,YEBBA,No.6 Collaborations Project,12/07/2019,5,0VsGaRXR5WAzpu51unJTis,spotify:track:0VsGaRXR5WAzpu51unJTis,0.758,0.565,0.243,8.82E-06,0.285,-8.367,0.0317,81.655,0.239,65,243266
+75,I Don't Care,Justin Bieber,No.6 Collaborations Project,12/07/2019,6,0hVXuCcriWRGvwMV1r5Yn9,spotify:track:0hVXuCcriWRGvwMV1r5Yn9,0.0902,0.798,0.676,0,0.0894,-5.041,0.0442,101.956,0.843,71,219946
+76,Antisocial,Travis Scott,No.6 Collaborations Project,12/07/2019,7,1DhRbox3xkceP64k3JeYfW,spotify:track:1DhRbox3xkceP64k3JeYfW,0.132,0.716,0.823,0,0.361,-5.313,0.0495,151.957,0.91,65,161746
+77,Remember The Name,Eminem & 50 Cent,No.6 Collaborations Project,12/07/2019,8,0AtP8EkGPn6SwxKDaUuXec,spotify:track:0AtP8EkGPn6SwxKDaUuXec,0.135,0.852,0.666,0,0.798,-6.923,0.184,91.046,0.726,69,207760
+78,Feels,Young Thug & J Hus,No.6 Collaborations Project,12/07/2019,9,1Bdptrvb7nQkq8kCw3siE9,spotify:track:1Bdptrvb7nQkq8kCw3siE9,0.112,0.665,0.68,0,0.096,-4.898,0.291,91.667,0.69,53,150786
+79,Put It All on Me,Ella Mai,No.6 Collaborations Project,12/07/2019,10,5T03itPFOPGGkvVPvPiyla,spotify:track:5T03itPFOPGGkvVPvPiyla,0.256,0.627,0.594,0,0.373,-8.306,0.0479,101.007,0.388,65,197093
+80,Nothing On You,Paulo Londra & Dave,No.6 Collaborations Project,12/07/2019,11,2qRN7PWiHRLprw4FpDeI9N,spotify:track:2qRN7PWiHRLprw4FpDeI9N,0.333,0.747,0.649,0,0.172,-6.218,0.218,88.011,0.84,59,200733
+81,I Don't Want Your Money,H.E.R.,No.6 Collaborations Project,12/07/2019,12,3FHXUqaUer9o231Je1zxIN,spotify:track:3FHXUqaUer9o231Je1zxIN,0.31,0.468,0.63,0,0.137,-6.536,0.0843,91.419,0.762,54,204506
+82,1000 Nights,Meek Mill & A Boogie Wit da Hoodie,No.6 Collaborations Project,12/07/2019,13,4vIKzWqtn44umal5jXq4wE,spotify:track:4vIKzWqtn44umal5jXq4wE,0.467,0.778,0.589,0,0.0902,-5.548,0.269,98.001,0.513,54,212306
+83,Way To Break My Heart,Skrillex,No.6 Collaborations Project,12/07/2019,14,5d1rmWWF1725tnYjq6rMDB,spotify:track:5d1rmWWF1725tnYjq6rMDB,0.11,0.726,0.731,3.45E-06,0.0928,-6.298,0.159,170.125,0.437,55,190293
+84,BLOW,Chris Stapleton & Bruno Mars,No.6 Collaborations Project,12/07/2019,15,7hvO2qCwJVZxiyoA7c9i5d,spotify:track:7hvO2qCwJVZxiyoA7c9i5d,0.000245,0.631,0.796,0.0108,0.38,-5.35,0.0401,92.47,0.596,59,209120
+85,Eraser,,/,3/03/2017,1,7oolFzHipTMg2nL7shhdz2,spotify:track:7oolFzHipTMg2nL7shhdz2,0.086,0.64,0.812,0,0.0509,-5.647,0.0834,86.013,0.914,60,227426
+86,Castle on the Hill,,/,3/03/2017,2,6PCUP3dWmTjcTtXY02oFdT,spotify:track:6PCUP3dWmTjcTtXY02oFdT,0.0232,0.461,0.834,1.14E-05,0.14,-4.868,0.0989,135.007,0.471,81,261153
+87,Dive,,/,3/03/2017,3,51ChrwmUPDJvedPQnIU8Ls,spotify:track:51ChrwmUPDJvedPQnIU8Ls,0.355,0.761,0.386,0,0.0953,-6.158,0.0399,134.943,0.526,74,238440
+88,Shape of You,,/,3/03/2017,4,7qiZfU4dY1lWllzX7mPBI3,spotify:track:7qiZfU4dY1lWllzX7mPBI3,0.581,0.825,0.652,0,0.0931,-3.183,0.0802,95.977,0.931,89,233712
+89,Perfect,,/,3/03/2017,5,0tgVpDi06FyKpA1z0VMD4v,spotify:track:0tgVpDi06FyKpA1z0VMD4v,0.163,0.599,0.448,0,0.106,-6.312,0.0232,95.05,0.168,90,263400
+90,Galway Girl,,/,3/03/2017,6,0afhq8XCExXpqazXczTSve,spotify:track:0afhq8XCExXpqazXczTSve,0.0735,0.624,0.876,0,0.327,-3.374,0.1,99.943,0.781,81,170826
+91,Happier,,/,3/03/2017,7,2RttW7RAu5nOAfq6YFvApB,spotify:track:2RttW7RAu5nOAfq6YFvApB,0.536,0.522,0.385,0,0.135,-7.355,0.0288,89.792,0.236,80,207520
+92,New Man,,/,3/03/2017,8,5HDPtsnyb3maFmPL8LLUTG,spotify:track:5HDPtsnyb3maFmPL8LLUTG,0.0559,0.78,0.745,0,0.0595,-3.97,0.145,94.026,0.862,65,189280
+93,Hearts Don't Break Around Here,,/,3/03/2017,9,2dfHh7ECGxfNqZTQno09Vk,spotify:track:2dfHh7ECGxfNqZTQno09Vk,0.719,0.604,0.366,0,0.162,-7.881,0.0267,105.177,0.181,64,248413
+94,What Do I Know?,,/,3/03/2017,10,2pJZ1v8HezrAoZ0Fhzby92,spotify:track:2pJZ1v8HezrAoZ0Fhzby92,0.251,0.838,0.492,0,0.262,-5.69,0.038,115.092,0.895,68,237333
+95,How Would You Feel (Paean),,/,3/03/2017,11,6PJ8FF6UR8FZXfEvpHkIVN,spotify:track:6PJ8FF6UR8FZXfEvpHkIVN,0.424,0.617,0.439,0,0.127,-5.63,0.0269,139.979,0.242,67,280533
+96,Supermarket Flowers,,/,3/03/2017,12,4VuS959DSpr82t3qBqCrWG,spotify:track:4VuS959DSpr82t3qBqCrWG,0.914,0.589,0.242,0,0.0887,-10.517,0.0442,89.749,0.257,76,221106
+97,Barcelona,,/,3/03/2017,13,3Lfiu5sZ4M4B6JaKMBc0FU,spotify:track:3Lfiu5sZ4M4B6JaKMBc0FU,0.448,0.747,0.76,0,0.153,-4.294,0.187,99.975,0.682,66,191146
+98,Bibia Be Ye Ye,,/,3/03/2017,14,6SznMYPQJHzr3IwsAHLId2,spotify:track:6SznMYPQJHzr3IwsAHLId2,0.52,0.738,0.677,0,0.133,-5.121,0.0824,127.067,0.882,63,176746
+99,Nancy Mulligan,,/,3/03/2017,15,35QZaWQRkmnAVqBF1TLCxQ,spotify:track:35QZaWQRkmnAVqBF1TLCxQ,0.117,0.68,0.852,0,0.0866,-4.35,0.0349,101.993,0.858,67,179786
+100,Save Myself,,/,3/03/2017,16,6TIU9Ehmi6dMzZK73Ym4yj,spotify:track:6TIU9Ehmi6dMzZK73Ym4yj,0.85,0.552,0.29,0,0.227,-5.617,0.0448,78.842,0.481,63,247106
+101,One,,x (Wembley Edition),13/11/2015,1,5mUBAfEctquPCp3oe8CRZX,spotify:track:5mUBAfEctquPCp3oe8CRZX,0.877,0.464,0.321,0,0.0789,-11.12,0.0418,93.528,0.306,44,252760
+102,I'm a Mess,,x (Wembley Edition),13/11/2015,2,05AXbdKlVvkT6IJlYAfuap,spotify:track:05AXbdKlVvkT6IJlYAfuap,0.556,0.697,0.377,0,0.0999,-7.755,0.0397,138.754,0.336,42,244573
+103,Sing,,x (Wembley Edition),13/11/2015,3,5sA4n1wolLZk2YpBLbsCqj,spotify:track:5sA4n1wolLZk2YpBLbsCqj,0.304,0.818,0.67,1.22E-06,0.0601,-4.451,0.0472,119.988,0.939,44,235382
+104,Don't,,x (Wembley Edition),13/11/2015,4,5LTzAKRZ2Xct8d6vVrErha,spotify:track:5LTzAKRZ2Xct8d6vVrErha,0.0113,0.806,0.608,0,0.635,-7.008,0.0659,95.049,0.849,45,219840
+105,Nina,,x (Wembley Edition),13/11/2015,5,3b2b3rMn0LflqsIW0g5lDl,spotify:track:3b2b3rMn0LflqsIW0g5lDl,0.175,0.791,0.669,0,0.33,-7.189,0.146,92.013,0.809,38,225533
+106,Photograph,,x (Wembley Edition),13/11/2015,6,0ch8PUB8JRTMJqmdmfY46U,spotify:track:0ch8PUB8JRTMJqmdmfY46U,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,53,258986
+107,Bloodstream,,x (Wembley Edition),13/11/2015,7,2mHWjchw9pqHBvHh7iKoco,spotify:track:2mHWjchw9pqHBvHh7iKoco,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,42,300253
+108,Tenerife Sea,,x (Wembley Edition),13/11/2015,8,5rYipCuUMXmKr5XM3eDC1r,spotify:track:5rYipCuUMXmKr5XM3eDC1r,0.697,0.53,0.346,1.07E-05,0.105,-10.497,0.0376,121.876,0.359,60,241346
+109,Runaway,,x (Wembley Edition),13/11/2015,9,1QaVYz0KPmXtdjVcm3P4oj,spotify:track:1QaVYz0KPmXtdjVcm3P4oj,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,39,205133
+110,The Man,,x (Wembley Edition),13/11/2015,10,01cCX1iNks6Ob0Ynwwg8tX,spotify:track:01cCX1iNks6Ob0Ynwwg8tX,0.576,0.759,0.725,0,0.0771,-7.006,0.158,87.467,0.619,36,250426
+111,Thinking out Loud,,x (Wembley Edition),13/11/2015,11,2L6ypr3l5t5mLkY3lXIpZE,spotify:track:2L6ypr3l5t5mLkY3lXIpZE,0.474,0.781,0.445,0,0.184,-6.061,0.0295,78.998,0.591,55,281560
+112,Afire Love,,x (Wembley Edition),13/11/2015,12,0jnNYYeMqMdreIsN22PzGk,spotify:track:0jnNYYeMqMdreIsN22PzGk,0.464,0.552,0.637,1.63E-05,0.136,-6.568,0.0445,97.97,0.333,40,314280
+113,Take It Back,,x (Wembley Edition),13/11/2015,13,3AhWpAMU0lj0CPMZv3Krde,spotify:track:3AhWpAMU0lj0CPMZv3Krde,0.318,0.754,0.613,0,0.335,-6.342,0.229,113.196,0.904,36,208400
+114,Shirtsleeves,,x (Wembley Edition),13/11/2015,14,5Httl4rILlQs8FednTJ2uE,spotify:track:5Httl4rILlQs8FednTJ2uE,0.319,0.752,0.76,0,0.335,-5.34,0.0341,107.034,0.752,35,190226
+115,Even My Dad Does Sometimes,,x (Wembley Edition),13/11/2015,15,60k4LTrhZ7xX0tSYZkXsuK,spotify:track:60k4LTrhZ7xX0tSYZkXsuK,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,36,228533
+116,I See Fire,,x (Wembley Edition),13/11/2015,16,2q5rFdBjUn0e9EL6mHb4Jy,spotify:track:2q5rFdBjUn0e9EL6mHb4Jy,0.638,0.641,0.176,5.14E-06,0.252,-11.692,0.0349,76.031,0.297,0,299146
+117,English Rose,,x (Wembley Edition),13/11/2015,17,3B8BedGdUGT1Ixog6v8ua8,spotify:track:3B8BedGdUGT1Ixog6v8ua8,0.0977,0.579,0.649,0,0.125,-6.522,0.0352,114.593,0.184,43,184173
+118,Touch and Go,,x (Wembley Edition),13/11/2015,18,4w098dhR8GON00jYL1vCv4,spotify:track:4w098dhR8GON00jYL1vCv4,0.294,0.812,0.542,6.92E-05,0.141,-5.403,0.0444,110.268,0.733,53,240986
+119,New York,,x (Wembley Edition),13/11/2015,19,5FBaWYaoA8j260ctveOa4a,spotify:track:5FBaWYaoA8j260ctveOa4a,0.707,0.728,0.461,0,0.113,-8.726,0.0395,86.014,0.474,43,235960
+120,Make It Rain,,x (Wembley Edition),13/11/2015,20,4rhcqdXTzNX9uZRZybj3UP,spotify:track:4rhcqdXTzNX9uZRZybj3UP,0.791,0.618,0.239,0,0.1,-8.371,0.0274,96.846,0.327,53,404480
+121,Parting Glass - Live at Wembley Stadium,,x (Wembley Edition),13/11/2015,21,0CjyIDOzzujwovFiCHe1LS,spotify:track:0CjyIDOzzujwovFiCHe1LS,0.598,0.389,0.369,0,0.96,-6.886,0.0404,102.625,0.541,41,195967
+122,Small Bump - Live at Wembley Stadium,,x (Wembley Edition),13/11/2015,22,1nVe4FCdf6dVBkzAF741IC,spotify:track:1nVe4FCdf6dVBkzAF741IC,0.219,0.69,0.696,0,0.958,-7.432,0.183,125.735,0.237,36,302992
+124,"You Need Me, I Don't Need You",,5,23/06/2014,1,6x44NmhdsmgRzG07kzqOO6,spotify:track:6x44NmhdsmgRzG07kzqOO6,0.692,0.689,0.563,0,0.0579,-5.539,0.275,129.517,0.819,40,245040
+125,So,,5,23/06/2014,2,24ha18yq0t7XnZ9EgJ7HYb,spotify:track:24ha18yq0t7XnZ9EgJ7HYb,0.853,0.521,0.133,0,0.35,-10.599,0.0431,140.077,0.391,43,268760
+126,Be Like You,,5,23/06/2014,3,6ThrnYkLPlKar6dUIggR6Q,spotify:track:6ThrnYkLPlKar6dUIggR6Q,0.715,0.671,0.388,0,0.192,-6.516,0.0762,105.869,0.59,42,218373
+127,The City,,5,23/06/2014,4,4oCmusomhJaDXUF9OttwQ5,spotify:track:4oCmusomhJaDXUF9OttwQ5,0.74,0.689,0.369,0,0.122,-7.183,0.357,102.565,0.701,37,266280
+128,Sunburn,,5,23/06/2014,5,0Z0GZkW8QCohqGChLmWixd,spotify:track:0Z0GZkW8QCohqGChLmWixd,0.842,0.533,0.17,5.03E-06,0.113,-11.342,0.0668,116.852,0.33,41,266053
+129,Let It Out,,5,23/06/2014,1,4Ur8TgNrZyUuRBWjsQfgGe,spotify:track:4Ur8TgNrZyUuRBWjsQfgGe,0.645,0.731,0.603,0.011,0.147,-7.656,0.0378,96.973,0.619,39,231546
+130,Homeless,,5,23/06/2014,2,5YS8NjfOuoFP1vi5wglycc,spotify:track:5YS8NjfOuoFP1vi5wglycc,0.519,0.754,0.636,0,0.108,-7.129,0.193,90.001,0.875,38,210746
+131,Little Bird,,5,23/06/2014,3,5DizlXTwJjjwxxqGNChcvO,spotify:track:5DizlXTwJjjwxxqGNChcvO,0.569,0.826,0.485,0,0.107,-7.424,0.0354,104.011,0.278,40,226066
+132,Sofa,,5,23/06/2014,4,2Z7RLfJdXXkXUmvMJxkNJo,spotify:track:2Z7RLfJdXXkXUmvMJxkNJo,0.14,0.646,0.65,9.65E-06,0.0999,-6.491,0.0278,100.05,0.52,37,199133
+133,One Night,,5,23/06/2014,5,1IbGB3FLPDJjBX5i3S57rA,spotify:track:1IbGB3FLPDJjBX5i3S57rA,0.379,0.781,0.836,0,0.289,-5.496,0.0658,94.989,0.636,38,206440
+134,Firefly,,5,23/06/2014,6,7udHOd6OUjUIhSjpTo4cl4,spotify:track:7udHOd6OUjUIhSjpTo4cl4,0.886,0.602,0.31,0.000142,0.105,-11.469,0.0373,159.917,0.36,42,254999
+135,The City - Live at Sticky Studios; Loose Change EP,,5,23/06/2014,7,7cCsAsOKvFdOjQHpADku4O,spotify:track:7cCsAsOKvFdOjQHpADku4O,0.507,0.712,0.569,0,0.412,-6.032,0.204,105.032,0.837,33,306320
+136,Firefly - Bravado Dubstep Remix,,5,23/06/2014,8,0dQ5jI1SGoAX2QT6N95tad,spotify:track:0dQ5jI1SGoAX2QT6N95tad,0.28,0.629,0.663,0.711,0.0811,-10.516,0.0283,139.982,0.49,32,269186
+137,Fall,,5,23/06/2014,1,5JTTFF4bKTIqrhRmmOgXXo,spotify:track:5JTTFF4bKTIqrhRmmOgXXo,0.632,0.559,0.283,0.00127,0.126,-9.827,0.0323,82.552,0.188,45,163272
+138,Fire Alarms,,5,23/06/2014,2,4I7VRMbaqi6GdSkaSxe1he,spotify:track:4I7VRMbaqi6GdSkaSxe1he,0.772,0.602,0.286,0,0.162,-9.886,0.0296,102.009,0.379,40,144013
+139,Where We Land,,5,23/06/2014,3,0xaPq2EZ9pQ9vLuxy6MCHH,spotify:track:0xaPq2EZ9pQ9vLuxy6MCHH,0.838,0.68,0.248,4.86E-06,0.0907,-11.592,0.031,119.944,0.275,43,183000
+140,Cold Coffee,,5,23/06/2014,4,4THoSHxiabL1rd59iVWu2T,spotify:track:4THoSHxiabL1rd59iVWu2T,0.453,0.544,0.529,0,0.131,-6.753,0.0256,92.936,0.403,52,254226
+141,She,,5,23/06/2014,5,3ICdPHubhqTJ4Lm9NEb2W3,spotify:track:3ICdPHubhqTJ4Lm9NEb2W3,0.811,0.573,0.344,0,0.13,-10.91,0.0361,157.783,0.377,46,244653
+142,The A Team - Live at the Bedford,,5,23/06/2014,1,3nwbntyppUfLEMorPB40HN,spotify:track:3nwbntyppUfLEMorPB40HN,0.728,0.402,0.339,0,0.833,-9.574,0.0498,83.194,0.496,33,322933
+143,Homeless - Live at the Bedford,,5,23/06/2014,2,0ewWskuCnqrTFvMUqtAQwF,spotify:track:0ewWskuCnqrTFvMUqtAQwF,0.62,0.601,0.879,0,0.464,-5.215,0.0945,99.377,0.713,31,225013
+144,The City - Live at the Bedford,,5,23/06/2014,3,4HQcJua3wHJLvBvc3gKJTr,spotify:track:4HQcJua3wHJLvBvc3gKJTr,0.545,0.602,0.8,0,0.656,-5.91,0.0734,109.921,0.81,31,307760
+145,Fall - Live at the Bedford,,5,23/06/2014,4,1lG7S133U7vKOXy0n8WeEL,spotify:track:1lG7S133U7vKOXy0n8WeEL,0.807,0.494,0.0964,7.13E-05,0.936,-16.691,0.0532,86.676,0.393,32,151173
+146,Wake Me Up - Live at the Bedford,,5,23/06/2014,5,2c3PILT3ocB6B47pNzi9qs,spotify:track:2c3PILT3ocB6B47pNzi9qs,0.792,0.616,0.141,0,0.897,-17.161,0.532,107.874,0.361,32,300680
+147,"You Need Me, I Don't Need You - Live at the Bedford",,5,23/06/2014,6,2GGOQWJo7FGEQojc7baekK,spotify:track:2GGOQWJo7FGEQojc7baekK,0.48,0.506,0.911,0,0.696,-4.779,0.23,105.475,0.781,34,590333
+148,Lately (feat. Devlin),Devlin,5,23/06/2014,1,5cth8vxCckeYgE10nX58re,spotify:track:5cth8vxCckeYgE10nX58re,0.0928,0.718,0.82,0,0.391,-5.552,0.103,90.013,0.329,32,271333
+149,You (feat. Wiley),Wiley,5,23/06/2014,2,6dSgNLxLDgTaPQlB15yOOK,spotify:track:6dSgNLxLDgTaPQlB15yOOK,0.386,0.799,0.532,0.00017,0.0978,-9.472,0.0707,100.032,0.189,32,201586
+150,Family (feat. P Money),P Money,5,23/06/2014,3,77m6ySUV5ZpOdaIsygDYMZ,spotify:track:77m6ySUV5ZpOdaIsygDYMZ,0.515,0.476,0.704,0,0.094,-5.411,0.278,140.396,0.297,31,254906
+151,Radio (feat. JME),JME,5,23/06/2014,4,3MUKlVjVJBvPf4flrDq8KB,spotify:track:3MUKlVjVJBvPf4flrDq8KB,0.214,0.693,0.833,0,0.117,-5.408,0.263,99.901,0.759,31,222653
+152,Little Lady (feat. Mikill Pane),Mikill Pane,5,23/06/2014,5,7bXTXa2zmMuRZPCBEWcjHw,spotify:track:7bXTXa2zmMuRZPCBEWcjHw,0.731,0.437,0.5,0,0.157,-7.103,0.105,85.293,0.437,33,328653
+153,Drown Me Out (feat. Ghetts) - + Ghetts,Ghetts,5,23/06/2014,6,0dNt7lZks5TVxiGaCIY1yZ,spotify:track:0dNt7lZks5TVxiGaCIY1yZ,0.0282,0.511,0.91,0,0.127,-6.186,0.116,140.147,0.426,30,261440
+154,"Nightmares (feat. Random Impulse, Sway & Wretch 32)","Random Impulse, Sway & Wretch 32",5,23/06/2014,7,4SVST4FR6Gj74UJCzCiOSX,spotify:track:4SVST4FR6Gj74UJCzCiOSX,0.101,0.855,0.678,0.00232,0.0964,-6.864,0.052,120.012,0.429,31,243000
+155,Goodbye to You (feat. Dot Rotten),Dot Rotten,5,23/06/2014,8,1O5u4AShfndSLCnVqlV0h2,spotify:track:1O5u4AShfndSLCnVqlV0h2,0.267,0.64,0.664,0,0.329,-7.812,0.152,140.007,0.275,31,330200
+156,One,,x,21/06/2014,1,5TvFfDlVoUWZvfqrhTJzD7,spotify:track:5TvFfDlVoUWZvfqrhTJzD7,0.877,0.464,0.321,0,0.0789,-11.12,0.0418,93.528,0.306,63,252760
+157,I'm a Mess,,x,21/06/2014,2,0xCA70t1ZA4fa9UOE0lIJm,spotify:track:0xCA70t1ZA4fa9UOE0lIJm,0.556,0.697,0.377,0,0.0999,-7.755,0.0397,138.754,0.336,65,244573
+158,Sing,,x,21/06/2014,3,6K8qKeWo5MsFED7wCR6Kop,spotify:track:6K8qKeWo5MsFED7wCR6Kop,0.304,0.818,0.67,1.22E-06,0.0601,-4.451,0.0472,119.988,0.939,72,235382
+159,Don't,,x,21/06/2014,4,1huvTbEYtgltjQRXzrNKGi,spotify:track:1huvTbEYtgltjQRXzrNKGi,0.0113,0.806,0.608,0,0.635,-7.008,0.0659,95.049,0.849,74,219840
+160,Nina,,x,21/06/2014,5,3GKSfF6c3Rv3a1knSjxnXa,spotify:track:3GKSfF6c3Rv3a1knSjxnXa,0.175,0.791,0.669,0,0.33,-7.189,0.146,92.013,0.809,57,225533
+161,Photograph,,x,21/06/2014,6,1HNkqx9Ahdgi1Ixy2xkKkL,spotify:track:1HNkqx9Ahdgi1Ixy2xkKkL,0.607,0.614,0.379,0.000464,0.0986,-10.48,0.0476,107.989,0.201,87,258986
+162,Bloodstream,,x,21/06/2014,7,5v4sZRuvWDcisoOk1PFv6T,spotify:track:5v4sZRuvWDcisoOk1PFv6T,0.529,0.66,0.316,0.000294,0.104,-11.567,0.0364,91.207,0.543,67,300253
+163,Tenerife Sea,,x,21/06/2014,8,1HbcclMpw0q2WDWpdGCKdS,spotify:track:1HbcclMpw0q2WDWpdGCKdS,0.697,0.53,0.346,1.07E-05,0.105,-10.497,0.0376,121.876,0.359,69,241346
+164,Runaway,,x,21/06/2014,9,2VmA7bm5ECiYZfw7x4Nzku,spotify:track:2VmA7bm5ECiYZfw7x4Nzku,0.024,0.767,0.449,0.000299,0.151,-7.158,0.0364,95.03,0.908,58,205133
+165,The Man,,x,21/06/2014,10,1gHF0I223J5pv06SuBcmkz,spotify:track:1gHF0I223J5pv06SuBcmkz,0.576,0.759,0.725,0,0.0771,-7.006,0.158,87.467,0.619,54,250426
+166,Thinking out Loud,,x,21/06/2014,11,34gCuhDGsG4bRPIf9bb02f,spotify:track:34gCuhDGsG4bRPIf9bb02f,0.474,0.781,0.445,0,0.184,-6.061,0.0295,78.998,0.591,85,281560
+167,Afire Love,,x,21/06/2014,12,12B0Twa9kRz45Xw2PgXHJm,spotify:track:12B0Twa9kRz45Xw2PgXHJm,0.464,0.552,0.637,1.63E-05,0.136,-6.568,0.0445,97.97,0.333,59,314280
+168,Take It Back,,x,21/06/2014,13,2dmOWlEHrP266Qgz6wnUrd,spotify:track:2dmOWlEHrP266Qgz6wnUrd,0.318,0.754,0.613,0,0.335,-6.342,0.229,113.196,0.904,54,208400
+169,Shirtsleeves,,x,21/06/2014,14,7awwmuGslmuyhnlpFipDqk,spotify:track:7awwmuGslmuyhnlpFipDqk,0.319,0.752,0.76,0,0.335,-5.34,0.0341,107.034,0.752,53,190226
+170,Even My Dad Does Sometimes,,x,21/06/2014,15,0N5zjRnf8AreOm95iSBXF4,spotify:track:0N5zjRnf8AreOm95iSBXF4,0.756,0.58,0.318,0.000171,0.117,-8.926,0.0279,129.757,0.295,55,228533
+171,I See Fire,,x,21/06/2014,16,5pY3ovFxbvAg7reGZjJQSp,spotify:track:5pY3ovFxbvAg7reGZjJQSp,0.638,0.641,0.176,5.14E-06,0.252,-11.692,0.0349,76.031,0.297,0,299146
+172,Let It Out,,Loose Change,9/12/2011,1,69RasNFxqhiyy75JDHsrIS,spotify:track:69RasNFxqhiyy75JDHsrIS,0.645,0.731,0.603,0.011,0.147,-7.656,0.0378,96.973,0.619,45,231546
+173,Homeless,,Loose Change,9/12/2011,2,0jtTK6XjYj2L3Ge6jyK2sr,spotify:track:0jtTK6XjYj2L3Ge6jyK2sr,0.519,0.754,0.636,0,0.108,-7.129,0.193,90.001,0.875,39,210746
+174,Little Bird,,Loose Change,9/12/2011,3,7sGK98k8lv3hzRznoN909t,spotify:track:7sGK98k8lv3hzRznoN909t,0.569,0.826,0.485,0,0.107,-7.424,0.0354,104.011,0.278,40,226066
+175,Sofa,,Loose Change,9/12/2011,4,5VAd82Nigp6Qdbl2zln1cl,spotify:track:5VAd82Nigp6Qdbl2zln1cl,0.14,0.646,0.65,9.65E-06,0.0999,-6.491,0.0278,100.05,0.52,38,199133
+176,One Night,,Loose Change,9/12/2011,5,0CNrpbpJ9HsFffF9hqWIIe,spotify:track:0CNrpbpJ9HsFffF9hqWIIe,0.379,0.781,0.836,0,0.289,-5.496,0.0658,94.989,0.636,44,206440
+177,Firefly,,Loose Change,9/12/2011,6,4fZscNFYKoPIDHrgXxdacR,spotify:track:4fZscNFYKoPIDHrgXxdacR,0.886,0.602,0.31,0.000142,0.105,-11.469,0.0373,159.917,0.36,46,254999
+178,The City - Live at Sticky Studios; Loose Change EP,,Loose Change,9/12/2011,7,1Fj5Hfda761tgxKbJUlFxN,spotify:track:1Fj5Hfda761tgxKbJUlFxN,0.507,0.712,0.569,0,0.412,-6.032,0.204,105.032,0.837,34,306320
+179,Firefly - Bravado Dubstep Remix,,Loose Change,9/12/2011,8,1qjnGMSchVVfePsMV0UZ9b,spotify:track:1qjnGMSchVVfePsMV0UZ9b,0.28,0.629,0.663,0.711,0.0811,-10.516,0.0283,139.982,0.49,31,269186
+180,The A Team - Live at the Bedford,,Live at the Bedford,9/12/2011,1,6JUGrUnAms0o3uGVIhkAyH,spotify:track:6JUGrUnAms0o3uGVIhkAyH,0.728,0.402,0.339,0,0.833,-9.574,0.0498,83.194,0.496,32,322933
+181,Homeless - Live at the Bedford,,Live at the Bedford,9/12/2011,2,0T0wYEzpL46dCaTL1DLCyD,spotify:track:0T0wYEzpL46dCaTL1DLCyD,0.62,0.601,0.879,0,0.464,-5.215,0.0945,99.377,0.713,30,225013
+182,The City - Live at the Bedford,,Live at the Bedford,9/12/2011,3,7JE96R5PJCWQ9Cm3JQXYuH,spotify:track:7JE96R5PJCWQ9Cm3JQXYuH,0.545,0.602,0.8,0,0.656,-5.91,0.0734,109.921,0.81,29,307760
+183,Fall - Live at the Bedford,,Live at the Bedford,9/12/2011,4,1YM4HlWW3vvrnWdf9N7Xi2,spotify:track:1YM4HlWW3vvrnWdf9N7Xi2,0.807,0.494,0.0964,7.13E-05,0.936,-16.691,0.0532,86.676,0.393,30,151173
+184,Wake Me Up - Live at the Bedford,,Live at the Bedford,9/12/2011,5,7GtrkWkk5MxDaIlGOr7UU9,spotify:track:7GtrkWkk5MxDaIlGOr7UU9,0.792,0.616,0.141,0,0.897,-17.161,0.532,107.874,0.361,34,300680
+185,"You Need Me, I Don't Need You - Live at the Bedford",,Live at the Bedford,9/12/2011,6,5rJDpFuffh8UFEKqvzCAZP,spotify:track:5rJDpFuffh8UFEKqvzCAZP,0.48,0.506,0.911,0,0.696,-4.779,0.23,105.475,0.781,34,590333
+186,Lately,,No.5 Collaborations Project,9/09/2011,1,1iyJwocwqUMwLgmu9O5Y13,spotify:track:1iyJwocwqUMwLgmu9O5Y13,0.0928,0.718,0.82,0,0.391,-5.552,0.103,90.013,0.329,37,271333
+187,You,,No.5 Collaborations Project,9/09/2011,2,7h7KBBdYIzrxOsLfR9aUO7,spotify:track:7h7KBBdYIzrxOsLfR9aUO7,0.386,0.799,0.532,0.00017,0.0978,-9.472,0.0707,100.032,0.189,35,201586
+188,Family,,No.5 Collaborations Project,9/09/2011,3,79d2OA4Sj4nfw0vk8EV82D,spotify:track:79d2OA4Sj4nfw0vk8EV82D,0.515,0.476,0.704,0,0.094,-5.411,0.278,140.396,0.297,35,254906
+189,Radi,,No.5 Collaborations Project,9/09/2011,4,5KB7EYQuHd0S5WKVWpagYu,spotify:track:5KB7EYQuHd0S5WKVWpagYu,0.214,0.693,0.833,0,0.117,-5.408,0.263,99.901,0.759,37,222653
+190,Little Lady,,No.5 Collaborations Project,9/09/2011,5,5rKb6l02IplvF9I0sJI9Lj,spotify:track:5rKb6l02IplvF9I0sJI9Lj,0.731,0.437,0.5,0,0.157,-7.103,0.105,85.293,0.437,42,328653
+191,Drown Me Out,,No.5 Collaborations Project,9/09/2011,6,0UD8qgp0Fmgh79K3qeTHQh,spotify:track:0UD8qgp0Fmgh79K3qeTHQh,0.0282,0.511,0.91,0,0.127,-6.186,0.116,140.147,0.426,32,261440
+192,Nightmares,,No.5 Collaborations Project,9/09/2011,7,4MKPqVv3FqKCZTcKHfR125,spotify:track:4MKPqVv3FqKCZTcKHfR125,0.101,0.855,0.678,0.00232,0.0964,-6.864,0.052,120.012,0.429,33,243000
+193,Goodbye to You,,No.5 Collaborations Project,9/09/2011,8,1SdyQYIFM05qkexCFKZxW1,spotify:track:1SdyQYIFM05qkexCFKZxW1,0.267,0.64,0.664,0,0.329,-7.812,0.152,140.007,0.275,32,330200
+194,The A Team,,+,9/09/2011,1,1XpYodsD36XN7ygcdF7mJJ,spotify:track:1XpYodsD36XN7ygcdF7mJJ,0.669,0.642,0.289,0,0.18,-9.918,0.0367,84.996,0.407,69,258373
+195,Drunk,,+,9/09/2011,2,4RnCPWlBsY7oUDdyruod7Y,spotify:track:4RnCPWlBsY7oUDdyruod7Y,0.419,0.733,0.652,2.37E-06,0.521,-9.101,0.0696,99.998,0.459,65,200093
+196,U.N.I.,,+,9/09/2011,3,5Ukzlujip1Slqka5OY82YS,spotify:track:5Ukzlujip1Slqka5OY82YS,0.323,0.422,0.405,0,0.15,-11.126,0.101,74.13,0.578,54,228600
+197,Grade 8,,+,9/09/2011,4,0obzwoGjXdORtAwYWZ9s53,spotify:track:0obzwoGjXdORtAwYWZ9s53,0.0446,0.74,0.807,4.02E-05,0.0538,-9.976,0.0363,101.042,0.781,52,179880
+198,Wake Me Up,,+,9/09/2011,5,0ygAYQQy7bfDN6gH640bbl,spotify:track:0ygAYQQy7bfDN6gH640bbl,0.902,0.616,0.209,0,0.139,-13.43,0.406,86.891,0.336,54,229613
+199,Small Bump,,+,9/09/2011,6,4z1O25cq9g2kuJemmUxc21,spotify:track:4z1O25cq9g2kuJemmUxc21,0.689,0.81,0.436,0.000151,0.11,-12.683,0.0717,119.973,0.446,63,259413
+200,This,,+,9/09/2011,7,0pJfsPQesJyCnR5XWZyvj9,spotify:track:0pJfsPQesJyCnR5XWZyvj9,0.95,0.588,0.0929,0.00539,0.128,-14.301,0.0443,152.139,0.502,53,195840
+201,The City,,+,9/09/2011,8,4ucfQOYOe1Jz5KqCfpGobp,spotify:track:4ucfQOYOe1Jz5KqCfpGobp,0.0415,0.74,0.505,6.82E-05,0.0707,-10.338,0.0674,97.994,0.646,50,234333
+202,Lego House,,+,9/09/2011,9,5ubHAQtKuFfiG4FXfLP804,spotify:track:5ubHAQtKuFfiG4FXfLP804,0.562,0.592,0.637,0,0.13,-8.48,0.0992,159.701,0.565,75,185093
+203,"You Need Me, I Don't Need You",,+,9/09/2011,10,5KL4iZkCTZyXl7KnHgfVDj,spotify:track:5KL4iZkCTZyXl7KnHgfVDj,0.162,0.749,0.837,0,0.525,-8.837,0.0512,103.483,0.927,64,220413
+204,Kiss Me,,+,9/09/2011,11,0Tel1fmuCxEFV6wBLXsEdk,spotify:track:0Tel1fmuCxEFV6wBLXsEdk,0.64,0.589,0.227,0.00469,0.0248,-16.67,0.0498,74.993,0.182,70,280853
+205,Give Me Love,,+,9/09/2011,12,0SuG9kyzGRpDqrCWtgD6Lq,spotify:track:0SuG9kyzGRpDqrCWtgD6Lq,0.694,0.526,0.328,0,0.112,-9.864,0.0461,116.068,0.11,72,526386
+206,Autumn Leaves - Deluxe Edition,,+,9/09/2011,13,7iBSkXB0pTvZasOLf0Qxk9,spotify:track:7iBSkXB0pTvZasOLf0Qxk9,0.892,0.555,0.257,1.42E-06,0.124,-12.637,0.0299,89.013,0.431,58,200755
+207,Little Bird - Deluxe Edition,,+,9/09/2011,14,4bcgRbGeq4IejesjsiHyTH,spotify:track:4bcgRbGeq4IejesjsiHyTH,0.565,0.843,0.425,0,0.102,-8.676,0.0352,104.02,0.284,52,224528
+208,Gold Rush - Deluxe Edition,,+,9/09/2011,15,4mT5mVFaU7trA3UdbGqfB9,spotify:track:4mT5mVFaU7trA3UdbGqfB9,0.729,0.74,0.248,0,0.141,-12.659,0.109,83.786,0.889,51,243162
+209,Sunburn - Deluxe Edition,,+,9/09/2011,16,3YPiRYIUFlcQ0aaLGmeswS,spotify:track:3YPiRYIUFlcQ0aaLGmeswS,0.865,0.464,0.098,0,0.101,-12.119,0.0376,78.864,0.234,49,275882
