@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 900,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
+  "transform": [
+    {
+      "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
+      "as": "album_name"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "album_name",
+      "title": "Album",
+      "type": "ordinal",
+      "sort": ["+", "×", "÷", "No. 6 Collaborations Album", "="], 
+      "axis": {
+        "labelFontSize": 13,
+        "titleFontSize": 16
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "boxplot", "extent": "min-max", "size": 50},
+      "encoding": {
+        "x": {
+          "field": "popularity", 
+          "title": "Popularity",
+          "type": "quantitative",
+          "scale": {"zero": false}, 
+          "axis": {
+            "labelFontSize": 13,
+            "titleFontSize": 16
+          }
+        }
+      }
+    },{
+      "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/setlist_data.csv"},
+      "transform": [
+        {
+          "lookup": "Song",
+          "from": {
+            "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
+            "key": "name",
+            "fields": ["popularity", "release_date"]
+          }
+        },{
+          "calculate": "datum.Album == 'plus' ? '+': datum.Album == 'equals' ? '=' : datum.Album == 'plus' ? '+' : datum.Album == 'divide' ? '÷' : datum.Album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
+          "as": "album_name"
+        }
+      ],
+      "mark": {"type": "point", "shape": "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z", "color": "black"},
+      "encoding": {
+        "x": {"field": "popularity", "type": "quantitative"},
+        "tooltip": [
+          {"field": "album_name", "title": "Album", "type": "ordinal"},
+          {"field": "Song", "type": "ordinal"},
+          {"field": "popularity", "title": "Popularity", "type": "quantitative"},
+          {"field": "release_date", "title": "Release Date"}
+        ]
+      }
+    }
+  ]
+    
+}
