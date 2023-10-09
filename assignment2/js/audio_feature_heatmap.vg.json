@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 900,
+  "height": 250,
+  "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/setlist_data.csv"},
+  "transform": [
+    {
+      "lookup": "Song",
+      "from": {
+        "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
+        "key": "name",
+        "fields": ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "speechiness", "valence"]
+      }
+    },
+    {
+      "fold": ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "loudness", "speechiness", "valence"],
+      "as": ["Audio Feature", "Value"]
+    }
+  ],
+  "mark": "rect",
+  "encoding": {
+    "x": {
+      "field": "Song", 
+      "type": "nominal", 
+      "sort": null,
+      "axis": {
+        "labelAngle": -40,
+        "labelFontSize": 13,
+        "labelLimit": 200,
+        "titleFontSize": 16
+      }
+      },
+    "y": {
+      "field": "Audio Feature",
+      "type": "nominal", 
+      "axis": {
+        "labelFontSize": 13,
+        "labelLimit": 200,
+        "titleFontSize": 16
+      }
+    },
+    "color": {
+      "aggregate": "mean", 
+      "field": "Value", 
+      "type": "quantitative",
+      "legend": {
+        "labelFontSize": 12,
+        "titleFontSize": 11
+      }
+    },
+    "tooltip": [
+      {"field": "Song", "type": "nominal"},
+      {"field": "Order", "title": "Order Performed","type": "ordinal"},
+      {"field": "Audio Feature", "type": "nominal"},
+      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Value"}
+    ]
+  }
+}
