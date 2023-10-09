@@ -88,7 +88,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": 55,
+        "dx": 65,
         "dy": -10
       },
       "encoding": {
@@ -164,7 +164,7 @@
       "mark": {
         "type": "text",
         "align": "left",
-        "dx": 255,
+        "dx": 325,
         "dy": -10
       },
       "encoding": {
