@@ -33,7 +33,7 @@
             "field": "key", 
             "type": "nominal", 
             "legend": null,
-            "scale": {"range": ["red"]}},
+            "scale": {"range": ["#EC3F2F"]}},
           "order": {"field": "value", "type": "quantitative", "sort": "descending"}
         }
       },

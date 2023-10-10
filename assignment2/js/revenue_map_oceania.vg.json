@@ -52,7 +52,7 @@
             "mark": 
             {
                 "type": "circle", 
-                "color": "red"
+                "color": "#EC3F2F"
             },
             "encoding": 
             {
