@@ -21,9 +21,11 @@
 .description-right {
     padding-left: 20px;
     text-align: justify;
+    background-color: white;
 }
 
 .description-left {
     padding-right: 20px;
     text-align: justify;
+    background-color: white;
 }
