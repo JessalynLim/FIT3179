@@ -47,7 +47,8 @@
       "legend": {
         "labelFontSize": 12,
         "titleFontSize": 11
-      }
+      },
+      "scale": {"scheme": "reds"}
     },
     "tooltip": [
       {"field": "Song", "type": "nominal"},

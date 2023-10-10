@@ -51,7 +51,7 @@
           "field": "Opening_Act_Num", 
           "title": "Opener Order", 
           "type": "ordinal", 
-          "scale": {"range": ["#03254c", "#187bcd", "#8fd3fe"]}},
+          "scale": {"scheme": "reds"}},
         "tooltip": [
           {"field": "Opening_Act", "title": "Artist", "type": "nominal"},
           {"field": "Opening_Act", "aggregate": "count", "title": "Number of Concerts per Opener Order"},
@@ -127,44 +127,6 @@
         "type": "text",
         "align": "left",
         "dx": 15,
-        "dy": -10
-      },
-      "encoding": {
-        "x": {"field": "Number of Concerts", "type": "quantitative"},
-        "y": {"field": "Opening_Act", "type": "nominal"},
-        "text": {"field": "text_annotation"}
-      }
-    },
-    {
-      "transform": [
-        {"filter": "datum.Opening_Act_Num == 3"},
-        {
-          "filter": "Opening_Order_Selection == null || datum.Opening_Act_Num == Opening_Order_Selection"
-        },
-        {
-          "aggregate": [
-            {"op": "count", "field": "Opening_Act", "as": "Number of Concerts"}
-          ],
-          "groupby": ["Opening_Act"]
-        },
-        {
-          "window": [{"op": "rank", "as": "ranking"}],
-          "sort": [{"field": "Number of Concerts", "order": "descending"}]
-        },
-        {"filter": "datum.ranking == 1"},
-        {
-          "calculate": "'Most number of;concerts as 3rd;opening act: ' + datum['Number of Concerts']",
-          "as": "text_annotation_raw"
-        },
-        {
-          "calculate": "split(datum.text_annotation_raw, ';')",
-          "as": "text_annotation"
-        }
-      ],
-      "mark": {
-        "type": "text",
-        "align": "left",
-        "dx": 325,
         "dy": -10
       },
       "encoding": {

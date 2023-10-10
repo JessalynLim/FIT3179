@@ -23,7 +23,11 @@
   },
   "layer": [
     {
-      "mark": {"type": "boxplot", "extent": "min-max", "size": 50},
+      "mark": {
+        "type": "boxplot", 
+        "extent": "min-max", 
+        "size": 50,
+        "color": "#FCB49A"},
       "encoding": {
         "x": {
           "field": "popularity", 
@@ -44,14 +48,17 @@
           "from": {
             "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
             "key": "name",
-            "fields": ["popularity", "release_date"]
+            "fields": ["album", "popularity", "release_date"]
           }
         },{
-          "calculate": "datum.Album == 'plus' ? '+': datum.Album == 'equals' ? '=' : datum.Album == 'plus' ? '+' : datum.Album == 'divide' ? '÷' : datum.Album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
+          "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
           "as": "album_name"
         }
       ],
-      "mark": {"type": "point", "shape": "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z", "color": "black"},
+      "mark": {
+        "type": "point", 
+        "shape": "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z", 
+        "color": "#B21218"},
       "encoding": {
         "x": {"field": "popularity", "type": "quantitative"},
         "tooltip": [
