@@ -9,7 +9,7 @@
         {
           "vconcat": [
             {
-              "width": 350,
+              "width": 375,
               "height": 150,
               "title": "Revenue",
               "mark": {"type": "line", "point": true},
@@ -35,7 +35,7 @@
                   "window": [{"op": "sum", "field": "Revenue", "as": "Cumulative Revenue"}],
                   "frame": [null, 0]
                 }],
-              "width": 350,
+              "width": 375,
               "height": 150,
               "title": "Cumulative Revenue",
               "mark": {"type": "line", "point": true},
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "width": 800,
+      "width": 850,
       "height": 60,
       "mark": {"type": "bar", "color": "black"},
       "title": "Use this chart to filter the concerts based on time.",
