@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+<<<<<<< Updated upstream
   "width": 900,
   "height": 400,
   "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
@@ -65,3 +66,50 @@
   ]
     
 }
+=======
+  "description": "A vertical box plot showing median, min, and max body mass of penguins.",
+  "layer": [
+    {
+       "data": {"url": "data/penguins.json"},
+        "mark": {
+            "type": "boxplot",
+            "extent": "min-max"
+        },
+        "encoding": {
+            "y": {"field": "Species", "type": "nominal"},
+            "color": {"field": "Species", "type": "nominal", "legend": null},
+            "x": {
+            "field": "Body Mass (g)",
+            "type": "quantitative",
+            "scale": {"zero": false}
+            }
+        } 
+    },
+    {
+        "data": {
+            "values": [{
+            "Species": "Adelie",
+            "outliers": []
+            },{
+            "Species": "Chinstrap",
+            "outliers": [2700,4800]
+            },{
+            "Species": "Gentoo",
+            "outliers": [5000]
+            }]
+        },
+        "encoding": {"y": {"field": "Species", "type": "nominal", "title": null}},
+        "layer": [
+            {
+            "transform": [{"flatten": ["outliers"]}],
+            "mark": {"type": "point", "shape": "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z", "color": "black"},
+            "encoding": {
+                "x": {"field": "outliers", "type": "quantitative"}
+            }
+            }
+        ]
+    }
+  ]
+  
+}
+>>>>>>> Stashed changes

@@ -33,18 +33,39 @@
 
         <h2>Revenue</h2>
         <div class="pure-g">
-            <div class="pure-u-1-1">
+            <div class="pure-u-1-2">
                 <div id="map_eu" class="vis-container"></div>
             </div>
-        </div>
-        <div class="pure-g">
-            <div class="pure-u-1-1">
+            <div class="pure-u-1-2">
                 <div id="map_oc" class="vis-container"></div>
             </div>
         </div>
         <div class="pure-g">
-            <div class="pure-u-1-1">
+            <div class="pure-u-1-2">
                 <div id="map_na" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-2">
+                <div class="description description-right">
+                    <h3>Explain maps</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac
+                        feugiat
+                        sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac
+                        feugiat
+                        sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac
+                        feugiat
+                        sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -67,12 +88,13 @@
 
             <div class="pure-u-1-4">
                 <div class="description description-right">
-                <h3>Explain donut charts</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat
-                    sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.
-                </p>
+                    <h3>Explain donut charts</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac
+                        feugiat
+                        sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.
+                    </p>
                 </div>
             </div>
         </div>
@@ -99,6 +121,73 @@
         <!-- end pure grid group -->
         <br>
 
+        <h2>Setlist</h2>
+        <h3>Album Origin</h3>
+
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-2">
+                <div id="tree" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-2">
+                <div class="description description-right">
+                    <h3>Explain donut charts</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac
+                        feugiat
+                        sed. Egestas purus viverra accumsan in nisl. Egestas purus viverra accumsan in nisl.
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    INSERT PICTURE HERE
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    <p>
+                        .
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- end pure grid group -->
+
+        <h3>Audio Features</h3>
+
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="heatmap" class="vis-container"></div>
+            </div>
+        </div>
+        <!-- end pure grid group -->
+
     </div>
 
 
@@ -107,28 +196,35 @@
 
 
         var specVis2 = "js/revenue_attendance_line.vg.json";
-        vegaEmbed('#line', specVis2, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#line', specVis2, { "actions": false }).then(function (result) { }).catch(console.error);
 
         var specVis3 = "js/opening_acts_bar.vg.json";
-        vegaEmbed('#bar', specVis3, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#bar', specVis3, { "actions": false }).then(function (result) { }).catch(console.error);
 
         var specVis4 = "js/attendance_donut_northamerica.vg.json";
-        vegaEmbed('#donut_na', specVis4, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#donut_na', specVis4, { "actions": false }).then(function (result) { }).catch(console.error);
 
         var specVis5 = "js/attendance_donut_europe.vg.json";
-        vegaEmbed('#donut_eu', specVis5, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#donut_eu', specVis5, { "actions": false }).then(function (result) { }).catch(console.error);
 
         var specVis6 = "js/attendance_donut_oceania.vg.json";
-        vegaEmbed('#donut_oc', specVis6, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#donut_oc', specVis6, { "actions": false }).then(function (result) { }).catch(console.error);
 
         var specVis7 = "js/revenue_map_europe.vg.json";
-        vegaEmbed('#map_eu', specVis7, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#map_eu', specVis7, { "actions": false }).then(function (result) { }).catch(console.error);
 
         var specVis8 = "js/revenue_map_oceania.vg.json";
-        vegaEmbed('#map_oc', specVis8, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#map_oc', specVis8, { "actions": false }).then(function (result) { }).catch(console.error);
 
         var specVis9 = "js/revenue_map_northamerica.vg.json";
-        vegaEmbed('#map_na', specVis9, {"actions": false}).then(function(result) {}).catch(console.error);
+        vegaEmbed('#map_na', specVis9, { "actions": false }).then(function (result) { }).catch(console.error);
+
+        var specVis10 = "js/setlist_tree.vg.json";
+        vegaEmbed('#tree', specVis10, { "actions": false }).then(function (result) { }).catch(console.error);
+
+        var specVis11 = "js/audio_feature_heatmap.vg.json";
+        vegaEmbed('#heatmap', specVis11, { "actions": false }).then(function (result) { }).catch(console.error);
+
 
     </script>
 </body>

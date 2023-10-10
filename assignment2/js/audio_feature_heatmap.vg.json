@@ -43,6 +43,7 @@
       "aggregate": "mean", 
       "field": "Value", 
       "type": "quantitative",
+      "title": "Average Value",
       "legend": {
         "labelFontSize": 12,
         "titleFontSize": 11
@@ -52,7 +53,7 @@
       {"field": "Song", "type": "nominal"},
       {"field": "Order", "title": "Order Performed","type": "ordinal"},
       {"field": "Audio Feature", "type": "nominal"},
-      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Value"}
+      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Average Value"}
     ]
   }
 }
