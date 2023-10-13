@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "repeat": {
+        "column": ["Duration (min)", "Tempo (BPM)", "Loudness (dB)"]
+      },
+    "params": [{
+      "name": "setlist",  
+      "select": {"type": "point", "fields": ["Setlist"]},
+      "bind": "legend"
+    }],
+    "spec": {
+      "width": 205,
+      "height": 205,
+      "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
+      "transform": [
+        {
+          "lookup": "name",
+          "from": {
+            "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/setlist_data.csv"},
+            "key": "Song",
+            "fields": ["Order"]
+          },
+          "as": "Setlist"
+        },
+        {
+          "calculate": "datum.Setlist === null ? 'not setlist' : 'setlist'",
+          "as": "Setlist"
+        },
+        {
+          "calculate": "datum.duration_ms/60000" , "as": "Duration (min)"
+        },{
+          "calculate": "datum.tempo", "as": "Tempo (BPM)"
+        },{
+          "calculate": "datum.popularity", "as": "Popularity"
+        },{
+          "calculate": "datum.loudness", "as": "Loudness (dB)"
+        },{
+          "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
+          "as": "album_name"
+        }
+      ],
+      "mark": "point",
+      "encoding": {
+        "x": {"field": {"repeat": "column"}, "type": "quantitative"},
+        "y": {
+          "field": "Popularity",
+          "type": "quantitative"
+        },
+        "color": {"field": "Setlist"},
+        "opacity": {
+          "condition": {"param": "setlist", "value": 1},
+          "value": 0.2
+        }
+      }
+    }
+  }
+  
