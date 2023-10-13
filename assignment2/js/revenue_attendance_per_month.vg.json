@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 340,
+  "height": 250,
+  "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_date.csv"},
+  "transform": [{"calculate": "month(datum.Date)+1", "as": "Month"}],
+  "layer": [{
+    "params": [
+      {
+        "name": "Date",
+        "value": 1,
+        "select": {
+          "type": "point", 
+          "fields": ["Month"]
+        },
+        "bind": {"input": "range", "min": 1, "max": 12, "step": 1, "name": "Select a month"}
+      }
+    ],  
+    "mark": "circle",
+    "encoding": {
+      "x": {"field": "Attendance", "type": "quantitative"},
+      "y": {"field": "Revenue", "type": "quantitative"},
+      "color": {
+        "condition": {"param": "Date", "field": "Leg", "type": "nominal"},
+        "value": "grey"
+      }
+    }
+  }, {
+    "transform": [{"filter": {"param": "Date"}}],
+    "mark": "circle",
+    "encoding": {
+      "x": {"field": "Attendance", "type": "quantitative"},
+      "y": {"field": "Revenue", "type": "quantitative", "title": "Revenue ($)"},
+      "color": {"field": "Leg", "type": "nominal"},
+      "size": {"value": 100}
+    }
+  }]
+}
