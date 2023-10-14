@@ -23,7 +23,16 @@
       "color": {
         "condition": {"param": "Date", "field": "Leg", "type": "nominal"},
         "value": "grey"
-      }
+      },
+      "size": {"value": 75},
+      "tooltip": [
+                  {"field": "Date", "type": "temporal"},
+                  {"field": "Attendance", "type": "quantitative", "format": ","},
+                  {"field": "Capacity", "type": "quantitative", "format": ","},
+                  {"field": "City", "type": "nominal"},
+                  {"field": "Country", "type": "nominal"},
+                  {"field": "Venue", "type": "nominal"}
+                ]
     }
   }, {
     "transform": [{"filter": {"param": "Date"}}],
@@ -31,8 +40,12 @@
     "encoding": {
       "x": {"field": "Attendance", "type": "quantitative"},
       "y": {"field": "Revenue", "type": "quantitative", "title": "Revenue ($)"},
-      "color": {"field": "Leg", "type": "nominal"},
-      "size": {"value": 100}
+      "color": {
+        "field": "Leg", 
+        "type": "nominal",
+        "scale": {"range": ["#B21218", "#4C89D0", "#FBCE51"]}
+      },
+      "size": {"value": 200}
     }
   }]
 }
