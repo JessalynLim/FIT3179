@@ -13,7 +13,7 @@
           "type": "point", 
           "fields": ["Month"]
         },
-        "bind": {"input": "range", "min": 1, "max": 12, "step": 1, "name": "Select a month"}
+        "bind": {"input": "range", "min": 1, "max": 12, "step": 1, "name": "Select a month:  "}
       }
     ],  
     "mark": "circle",
@@ -27,6 +27,7 @@
       "size": {"value": 75},
       "tooltip": [
                   {"field": "Date", "type": "temporal"},
+                  {"field": "Revenue", "type": "quantitative", "format": "$,"},
                   {"field": "Attendance", "type": "quantitative", "format": ","},
                   {"field": "Capacity", "type": "quantitative", "format": ","},
                   {"field": "City", "type": "nominal"},
