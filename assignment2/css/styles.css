@@ -15,18 +15,6 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.hr3 {
-    border: 0;
-    height: 2px;
-    background-image: linear-gradient(to right, transparent, #DDD, transparent);
-    padding-top: 5px;
-}
-
-.description-middle {
-    text-align: justify;
-    background-color: white;
-}
-
 .description-right {
     padding-left: 20px;
     text-align: justify;
