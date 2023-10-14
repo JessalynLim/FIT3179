@@ -15,6 +15,10 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .description-right {
     padding-left: 20px;
     text-align: justify;
