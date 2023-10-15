@@ -41,15 +41,27 @@
     ],
     "mark": {"type": "square"},
     "encoding": {
-      "x": {"field": {"repeat": "column"}, "type": "quantitative"},
+      "x": {
+        "field": {"repeat": "column"}, 
+        "type": "quantitative",
+        "axis": {
+          "labelFontSize": 13,
+          "titleFontSize": 13
+        }
+      },
       "y": {
         "field": "Popularity",
-        "type": "quantitative"
+        "type": "quantitative",
+        "axis": {
+          "labelFontSize": 13,
+          "titleFontSize": 13
+        }
       },
       "color": {
         "field": "Setlist", 
         "scale": {"range": ["#B21218", "#4C89D0"]},
-        "title": "Select the songs: "
+        "title": "Select the songs: ",
+        "legend": {"labelFontSize": 12, "titleFontSize": 12}  
       },
       "opacity": {
         "condition": {"param": "setlist", "value": 1},

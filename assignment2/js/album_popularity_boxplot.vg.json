@@ -17,7 +17,7 @@
       "sort": ["+", "×", "÷", "No. 6 Collaborations Album", "="], 
       "axis": {
         "labelFontSize": 13,
-        "titleFontSize": 16
+        "titleFontSize": 13
       }
     }
   },
@@ -36,7 +36,7 @@
           "scale": {"zero": false}, 
           "axis": {
             "labelFontSize": 13,
-            "titleFontSize": 16
+            "titleFontSize": 13
           }
         }
       }

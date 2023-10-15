@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 340,
+  "width": 330,
   "height": 250,
   "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/tour_data_by_date.csv"},
   "transform": [{"calculate": "month(datum.Date)+1", "as": "Month"}],
@@ -18,8 +18,16 @@
     ],  
     "mark": "circle",
     "encoding": {
-      "x": {"field": "Attendance", "type": "quantitative"},
-      "y": {"field": "Revenue", "type": "quantitative"},
+      "x": {"field": "Attendance", "type": "quantitative",
+      "axis": {
+        "labelFontSize": 13,
+        "titleFontSize": 13
+      }},
+      "y": {"field": "Revenue", "type": "quantitative",
+      "axis": {
+        "labelFontSize": 13,
+        "titleFontSize": 13
+      }},
       "color": {
         "condition": {"param": "Date", "field": "Leg", "type": "nominal"},
         "value": "grey"
@@ -44,7 +52,8 @@
       "color": {
         "field": "Leg", 
         "type": "nominal",
-        "scale": {"range": ["#B21218", "#4C89D0", "#FBCE51"]}
+        "scale": {"range": ["#B21218", "#4C89D0", "#FBCE51"]},
+        "legend": {"labelFontSize": 12, "titleFontSize": 12}  
       },
       "size": {"value": 200}
     }

@@ -58,7 +58,7 @@
         "labelAngle": -40,
         "labelFontSize": 13,
         "labelLimit": 200,
-        "titleFontSize": 16
+        "titleFontSize": 13
       }
     },
     "y": {
@@ -67,7 +67,7 @@
       "axis": {
         "labelFontSize": 13,
         "labelLimit": 200,
-        "titleFontSize": 16
+        "titleFontSize": 13
       }
     },
     "color": {

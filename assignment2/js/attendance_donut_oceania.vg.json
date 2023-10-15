@@ -24,7 +24,7 @@
   ],
       "width": 245,
       "height": 250,
-      "title": "Oceania",
+      "title": {"text": "Leg 2: Oceania", "fontSize": 16},
       "layer": [{
         "mark": {"type": "arc", "innerRadius": 50},
         "encoding": {
@@ -38,7 +38,10 @@
         }
       },
       {
-        "mark": {"type": "text"},
+        "mark": {
+          "type": "text",
+          "fontSize": 15
+        },
         "encoding": {
           "text": {"field": "Proportion", "type": "quantitative", "format": ".0%"}
         }

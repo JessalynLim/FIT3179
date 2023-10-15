@@ -45,13 +45,32 @@
       ],
       "mark": "bar",
       "encoding": {
-        "y": {"field": "Opening_Act", "title": "Artist", "type": "nominal"},
-        "x": {"aggregate": "count", "title": "Number of Concerts", "scale": {"domain": [0, 70]}, "type": "quantitative"},
+        "y": {
+          "field": "Opening_Act", 
+          "title": "Artist", 
+          "type": "nominal",
+          "axis": {
+            "labelFontSize": 13,
+            "titleFontSize": 13
+          }
+        },
+        "x": {
+          "aggregate": "count", 
+          "title": "Number of Concerts", 
+          "scale": {"domain": [0, 70]}, 
+          "type": "quantitative",
+          "axis": {
+            "labelFontSize": 13,
+            "titleFontSize": 13
+          }
+        },
         "color": {
           "field": "Opening_Act_Num", 
           "title": "Opener Order", 
           "type": "ordinal", 
-          "scale": {"scheme": "reds"}},
+          "scale": {"scheme": "reds"},
+          "legend": {"labelFontSize": 12, "titleFontSize": 12}  
+        },
         "tooltip": [
           {"field": "Opening_Act", "title": "Artist", "type": "nominal"},
           {"field": "Opening_Act", "aggregate": "count", "title": "Concerts per Opener Order"},
@@ -89,7 +108,8 @@
         "type": "text",
         "align": "left",
         "dx": 65,
-        "dy": -10
+        "dy": -10,
+        "fontSize": 12
       },
       "encoding": {
         "x": {"field": "Number of Concerts", "type": "quantitative"},
@@ -127,7 +147,8 @@
         "type": "text",
         "align": "left",
         "dx": 15,
-        "dy": -10
+        "dy": -10,
+        "fontSize": 12
       },
       "encoding": {
         "x": {"field": "Number of Concerts", "type": "quantitative"},

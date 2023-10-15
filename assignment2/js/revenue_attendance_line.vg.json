@@ -9,7 +9,7 @@
         {
           "vconcat": [
             {
-              "width": 415,
+              "width": 400,
               "height": 150,
               "title": "Revenue",
               "mark": {
@@ -19,12 +19,22 @@
                 },
                 "color": "#B21218"},
               "encoding": {
-                "x": {"field": "Date",
-                "type": "temporal",
-                "timeUnit": "yearmonthdate",
-                "title": "Date",
-                "scale": {"domain": {"param": "time_brush"}}},
-                "y": {"field": "Revenue", "type": "quantitative", "title": "Revenue ($)"},
+                "x": {
+                  "field": "Date",
+                  "type": "temporal",
+                  "timeUnit": "yearmonthdate",
+                  "title": "Date",
+                  "scale": {"domain": {"param": "time_brush"}},
+                  "axis": {
+                    "labelFontSize": 13,
+                    "titleFontSize": 13
+                  }
+                },
+                "y": {"field": "Revenue", "type": "quantitative", "title": "Revenue ($)",
+                "axis": {
+                  "labelFontSize": 13,
+                  "titleFontSize": 13
+                }},
                 "tooltip": [
                   {"field": "Date", "type": "temporal"},
                   {"field": "Revenue", "type": "quantitative", "format": "$,"},
@@ -40,7 +50,7 @@
                   "window": [{"op": "sum", "field": "Revenue", "as": "Cumulative Revenue"}],
                   "frame": [null, 0]
                 }],
-              "width": 415,
+              "width": 400,
               "height": 150,
               "title": "Cumulative Revenue",
               "mark": {
@@ -59,7 +69,9 @@
                     "field": "Cumulative Revenue", 
                     "type": "quantitative",
                     "axis": {
-                      "labelAngle": -30
+                      "labelAngle": -30,
+                      "labelFontSize": 13,
+                      "titleFontSize": 13
                     },
                     "title": "Cumulative Revenue ($)"
                   },
@@ -85,7 +97,7 @@
                 "as": ["Audience", "Amount"]
               }
             ],
-            "width": 375,
+            "width": 350,
             "height": 150,
             "title": "Attendance & Capacity",
             "mark": {"type": "line", "point": true},
@@ -94,9 +106,21 @@
                 "type": "temporal",
                 "timeUnit": "yearmonthdate",
                 "title": "Date",
-                "scale": {"domain": {"param": "time_brush"}}},
-                "y": {"field": "Amount", "type": "quantitative", "title": "Number of People"},
-                "color": {"field": "Audience", "scale": {"range": ["#B21218", "#4C89D0"]}},
+                "scale": {"domain": {"param": "time_brush"}},
+                "axis": {
+                  "labelFontSize": 13,
+                  "titleFontSize": 13
+                }},
+                "y": {"field": "Amount", "type": "quantitative", "title": "Number of People",
+                "axis": {
+                  "labelFontSize": 13,
+                  "titleFontSize": 13
+                }},
+                "color": {
+                  "field": "Audience", 
+                  "scale": {"range": ["#B21218", "#4C89D0"]},
+                  "legend": {"labelFontSize": 12, "titleFontSize": 12}  
+                },
                 "tooltip": [
                   {"field": "Date", "type": "temporal"},
                   {"field": "Attendance", "type": "quantitative", "format": ","},
@@ -128,7 +152,7 @@
                 "as": "Audience"
               }
             ],
-            "width": 375,
+            "width": 350,
             "height": 150,
             "title": "Cumultative Attendance & Capacity",
             "mark": {"type": "line", "point": true},
@@ -137,16 +161,25 @@
                 "type": "temporal",
                 "timeUnit": "yearmonthdate",
                 "title": "Date",
-                "scale": {"domain": {"param": "time_brush"}}},
+                "scale": {"domain": {"param": "time_brush"}},
+                "axis": {
+                  "labelFontSize": 13,
+                  "titleFontSize": 13
+                }},
                 "y": {
                   "field": "Amount", 
                   "type": "quantitative", 
                   "title": "Number of People",
                   "axis": {
-                    "labelAngle": -30
+                    "labelAngle": -30,
+                      "labelFontSize": 13,
+                      "titleFontSize": 13
                   }
                 },
-                "color": {"field": "Audience", "scale": {"range": ["#B21218", "#4C89D0"]}},
+                "color": {"field": "Audience", 
+                "scale": {"range": ["#B21218", "#4C89D0"]},
+                "legend": {"labelFontSize": 12, "titleFontSize": 12}  
+              },
                 "tooltip": [
                   {"field": "Date", "type": "temporal"},
                   {"field": "Cumulative Attendance", "type": "quantitative", "format": ","},
@@ -180,7 +213,11 @@
           "field": "Date",
           "type": "temporal",
           "timeUnit": "yearmonthdate",
-          "title": "Date"
+          "title": "Date",
+          "axis": {
+            "labelFontSize": 13,
+            "titleFontSize": 13
+          }
         },
         "tooltip": [
           {"field": "Date", "timeUnit": "yearmonthdate", "title": "Date"}

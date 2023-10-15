@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 500,
     "height": 300,
-    "title": "Leg 3: North America",
+    "title": {"text": "Leg 3: North America", "fontSize": 16},
     "view": {"stroke": "transparent"},
     "layer": [
         {
