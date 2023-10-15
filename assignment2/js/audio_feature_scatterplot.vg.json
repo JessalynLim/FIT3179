@@ -46,7 +46,11 @@
         "field": "Popularity",
         "type": "quantitative"
       },
-      "color": {"field": "Setlist", "scale": {"range": ["#B21218", "#4C89D0"]}},
+      "color": {
+        "field": "Setlist", 
+        "scale": {"range": ["#B21218", "#4C89D0"]},
+        "title": "Select the songs: "
+      },
       "opacity": {
         "condition": {"param": "setlist", "value": 1},
         "value": 0.2
