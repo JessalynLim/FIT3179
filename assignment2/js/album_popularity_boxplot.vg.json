@@ -1,74 +1,92 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
-  "height": 400,
-  "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
+  "height": 250,
+  "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/setlist_data.csv"},
   "transform": [
     {
-      "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
-      "as": "album_name"
-    }
-  ],
-  "encoding": {
-    "y": {
-      "field": "album_name",
-      "title": "Album",
-      "type": "ordinal",
-      "sort": ["+", "×", "÷", "No. 6 Collaborations Album", "="], 
-      "axis": {
-        "labelFontSize": 13,
-        "titleFontSize": 16
-      }
-    }
-  },
-  "layer": [
-    {
-      "mark": {
-        "type": "boxplot", 
-        "extent": "min-max", 
-        "size": 50,
-        "color": "#FCB49A"},
-      "encoding": {
-        "x": {
-          "field": "popularity", 
-          "title": "Popularity",
-          "type": "quantitative",
-          "scale": {"zero": false}, 
-          "axis": {
-            "labelFontSize": 13,
-            "titleFontSize": 16
-          }
-        }
+      "lookup": "Song",
+      "from": {
+        "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
+        "key": "name",
+        "fields": ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "speechiness", "valence", "album"]
       }
     },{
-      "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/setlist_data.csv"},
-      "transform": [
-        {
-          "lookup": "Song",
-          "from": {
-            "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
-            "key": "name",
-            "fields": ["album", "popularity", "release_date"]
-          }
-        },{
           "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
           "as": "album_name"
-        }
-      ],
-      "mark": {
-        "type": "point", 
-        "shape": "M0,.5L.6,.8L.5,.1L1,-.3L.3,-.4L0,-1L-.3,-.4L-1,-.3L-.5,.1L-.6,.8L0,.5Z", 
-        "color": "#B21218"},
-      "encoding": {
-        "x": {"field": "popularity", "type": "quantitative"},
-        "tooltip": [
-          {"field": "album_name", "title": "Album", "type": "ordinal"},
-          {"field": "Song", "type": "ordinal"},
-          {"field": "popularity", "title": "Popularity", "type": "quantitative"},
-          {"field": "release_date", "title": "Release Date"}
-        ]
+        },
+    {
+      "fold": ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "loudness", "speechiness", "valence"],
+      "as": ["Audio Feature", "Value"]
+    },
+    {
+      "filter": "album_select == null || datum.album_name == album_select"
+    }
+  ],
+  "params": [
+    {
+      "name": "album_select",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "+",
+          "×",
+          "÷",
+          "No. 6 Collaborations Album",
+          "="
+        ],
+        "labels": [
+          "Show all",
+          "+",
+          "×",
+          "÷",
+          "No. 6 Collaborations Album",
+          "="
+        ],
+        "name": "Select an album:  "
       }
     }
-  ]
-    
+  ],
+  "mark": "rect",
+  "encoding": {
+    "x": {
+      "field": "Song", 
+      "type": "nominal", 
+      "sort": null,
+      "axis": {
+        "labelAngle": -40,
+        "labelFontSize": 13,
+        "labelLimit": 200,
+        "titleFontSize": 16
+      }
+    },
+    "y": {
+      "field": "Audio Feature",
+      "type": "nominal", 
+      "axis": {
+        "labelFontSize": 13,
+        "labelLimit": 200,
+        "titleFontSize": 16
+      }
+    },
+    "color": {
+      "aggregate": "mean", 
+      "field": "Value", 
+      "type": "quantitative",
+      "title": "Value",
+      "legend": {
+        "labelFontSize": 12,
+        "titleFontSize": 11
+      },
+      "scale": {"scheme": "reds"}
+    },
+    "tooltip": [
+      {"field": "Song", "type": "nominal"},
+      {"field": "Order", "title": "Order Performed","type": "ordinal"},
+      {"field": "Audio Feature", "type": "nominal"},
+      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Value"},
+      {"field": "album_name", "title": "Album", "type": "nominal"}
+    ]
+  }
 }
