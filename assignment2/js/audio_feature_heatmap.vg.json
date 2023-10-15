@@ -9,12 +9,43 @@
       "from": {
         "data": {"url": "https://raw.githubusercontent.com/JessalynLim/FIT3179/main/assignment2/data/ed_sheeran_spotify.csv"},
         "key": "name",
-        "fields": ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "speechiness", "valence"]
+        "fields": ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "speechiness", "valence", "album"]
       }
-    },
+    },{
+          "calculate": "datum.album == 'plus' ? '+': datum.album == 'equals' ? '=' : datum.album == 'plus' ? '+' : datum.album == 'divide' ? '÷' : datum.album == 'multiply' ? '×' : ('No. 6 Collaborations Album')",
+          "as": "album_name"
+        },
     {
       "fold": ["acousticness", "danceability", "energy", "instrumentalness", "liveness", "loudness", "speechiness", "valence"],
       "as": ["Audio Feature", "Value"]
+    },
+    {
+      "filter": "album_select == null || datum.album_name == album_select"
+    }
+  ],
+  "params": [
+    {
+      "name": "album_select",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "+",
+          "×",
+          "÷",
+          "No. 6 Collaborations Album",
+          "="
+        ],
+        "labels": [
+          "Show all",
+          "+",
+          "×",
+          "÷",
+          "No. 6 Collaborations Album",
+          "="
+        ],
+        "name": "Select an album:  "
+      }
     }
   ],
   "mark": "rect",
@@ -29,7 +60,7 @@
         "labelLimit": 200,
         "titleFontSize": 16
       }
-      },
+    },
     "y": {
       "field": "Audio Feature",
       "type": "nominal", 
@@ -43,7 +74,7 @@
       "aggregate": "mean", 
       "field": "Value", 
       "type": "quantitative",
-      "title": "Average Value",
+      "title": "Value",
       "legend": {
         "labelFontSize": 12,
         "titleFontSize": 11
@@ -54,7 +85,8 @@
       {"field": "Song", "type": "nominal"},
       {"field": "Order", "title": "Order Performed","type": "ordinal"},
       {"field": "Audio Feature", "type": "nominal"},
-      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Value"}
+      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Value"},
+      {"field": "album_name", "title": "Album", "type": "nominal"}
     ]
   }
 }
