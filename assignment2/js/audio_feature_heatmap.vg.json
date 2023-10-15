@@ -54,7 +54,7 @@
       {"field": "Song", "type": "nominal"},
       {"field": "Order", "title": "Order Performed","type": "ordinal"},
       {"field": "Audio Feature", "type": "nominal"},
-      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Average Value"}
+      {"aggregate": "mean", "field": "Value", "type": "quantitative", "title": "Value"}
     ]
   }
 }

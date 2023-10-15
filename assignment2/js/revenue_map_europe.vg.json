@@ -69,7 +69,7 @@
                     {"field": "Country", "type": "nominal"},
                     {"field": "Venue", "type": "nominal"},
                     {"field": "Revenue_per_concert", "type": "quantitative", "format": "$,.0f", "title": "Revenue per concert"},
-                    {"field": "Revenue", "type": "quantitative", "format": "$,"},
+                    {"field": "Revenue", "type": "quantitative", "format": "$,", "title": "Revenue per location"},
                     {"field": "Number_of_shows", "type": "quantitative", "title": "Number of concerts"}
                 ]
             }
